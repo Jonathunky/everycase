@@ -1,17 +1,13 @@
 {
-    "index": "Introduction",
-    "another": "Another Page",
-    "advanced": "Advanced (A Folder)",
-    "Early 2023": "Early 2023",
-    "Late 2022": "Late 2022",
-    "about": {
-        "title": "About",
-        "type": "page"
-    },
-    "contact": {
-        "title": "Contact ↗",
-        "type": "page",
-        "href": "https://twitter.com/shuding_",
-        "newWindow": true
-    }
+  "index": "Homie page",
+  "Early 2023": "Early 2023",
+  "Late 2022": "Late 2022",
+  "Early 2022": "Early 2022",
+  "Late 2021": "Late 2021",
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://twitter.com/shuding_",
+    "newWindow": true
+  }
 }

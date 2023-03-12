@@ -7,7 +7,7 @@ Olive
 Sky
 Iris
 
-iPhone 14 
+iPhone 14
 iPhone 14 Plus
 iPhone 14 Pro
 iPhone 14 Pro Max
