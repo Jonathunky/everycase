@@ -3,5 +3,6 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'none',
   arrowParens: 'avoid',
-  plugins: [require('prettier-plugin-tailwindcss')]
+  plugins: [require('prettier-plugin-tailwindcss')],
+  distDir: 'docs/.next'
 }
