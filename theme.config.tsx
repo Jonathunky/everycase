@@ -15,6 +15,13 @@ const config: DocsThemeConfig = {
   },
   sidebar: {
     defaultMenuCollapseLevel: 1
+  },
+  gitTimestamp: false,
+  faviconGlyph: '🤙🏻',
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – CaseStack'
+    }
   }
 }
 

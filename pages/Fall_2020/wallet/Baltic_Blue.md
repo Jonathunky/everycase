@@ -1,2 +1,0 @@
-# Baltic Blue
-

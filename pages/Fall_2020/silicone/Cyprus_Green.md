@@ -1,2 +1,0 @@
-# Cyprus Green
-
