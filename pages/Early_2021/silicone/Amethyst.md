@@ -1,2 +1,2 @@
-# iPhone 12 series | Leather Case with MagSafe – Amethyst
+# iPhone 12 series | Silicone Case with MagSafe – Amethyst
 

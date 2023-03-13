@@ -1,2 +1,2 @@
-# iPhone 12 series | Leather Case with MagSafe – Sunflower
+# iPhone 12 series | Silicone Case with MagSafe – Sunflower
 
