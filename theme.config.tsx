@@ -23,11 +23,19 @@ const config: DocsThemeConfig = {
       titleTemplate: '%s – CaseStack'
     }
   },
-  //editLink: false,
-  toc: false,
+  toc: {
+    float: true
+  },
+  head: function Head() {
+    return (
+      <>
+        <meta name="robots" content="noindex" />
+      </>
+    );
+  },
   search: {
     placeholder: "Search..."
-  }
+  },
 }
 
 export default config
