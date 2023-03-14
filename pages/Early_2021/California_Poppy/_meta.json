@@ -1,3 +1,6 @@
 {
-    "iphone_2020_leather": "iPhone 12 series Leather Case with MagSafe"
+    "iphone_2020_leather": {
+        "title": "iPhone 12 series Leather Case with MagSafe",
+        "href": "Early_2021/iphone-drop.md"
+    }
 }

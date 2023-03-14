@@ -1,4 +1,10 @@
 {
-    "iphone_xs_leather": "iPhone Xs / Xs Max Leather Case",
-    "iphone_xs_folio": "iPhone Xs / Xs Max Leather Folio"
+    "iphone_xs_leather": {
+        "title": "iPhone Xs / Xs Max Leather Case",
+        "href": "Early_2019/iphone-drop.md"
+    },
+    "iphone_xs_folio": {
+        "title": "iPhone Xs / Xs Max Leather Folio",
+        "href": "Early_2019/iphone-drop.md"
+    }
 }

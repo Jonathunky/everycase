@@ -1,7 +1,7 @@
 {
     "Black": "Black",
     "Saddle_Brown": "Saddle Brown",
-    "PRODUCT_RED": "PRODUCT (RED)",
+    "PRODUCT_RED": "(PRODUCT) RED",
     "Blue": "Blue",
     "California_Poppy": "California Poppy",
     "Baltic_Blue": "Baltic Blue",
@@ -11,12 +11,5 @@
     "Cyprus_Green": "Cyprus Green",
     "Kumquat": "Kumquat",
     "Plum": "Plum",
-    "Clear": "Clear",
-    "hidden": {
-        "display": "hidden"
-    },
-    "shown": {
-        "title": "Shown",
-        "href": "/Late_2020/hidden"
-    }
+    "Clear": "Clear"
 }

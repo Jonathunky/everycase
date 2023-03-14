@@ -1,6 +1,7 @@
 import json
 import os
 
+
 def normalize_filename(filename):
 	# Remove any braces
 	filename = filename.replace('(', '').replace(')', '')
@@ -32,7 +33,7 @@ colors = {  # let's use colors as a baseline! I'm a fucking genius!!! Hell yes!
 		"Saddle Brown": ["iphone_xs_leather"],
 		"Black": ["iphone_xs_leather", "iphone_xs_folio", "iphone_xs_silicone", "iphone_xs_battery",
 							"iphone_xr_battery"],
-		"PRODUCT (RED)": ["iphone_xs_leather", "iphone_xs_folio", "iphone_xs_silicone"],
+		"(PRODUCT) RED": ["iphone_xs_leather", "iphone_xs_folio", "iphone_xs_silicone"],
 		"Nectarine": ["iphone_xs_silicone"],
 		"Lavender Gray": ["iphone_xs_silicone"],
 		"Blue Horizon": ["iphone_xs_silicone"],
@@ -58,7 +59,7 @@ colors = {  # let's use colors as a baseline! I'm a fucking genius!!! Hell yes!
 		"Midnight Blue": ["iphone_2019_leather", "iphone_2019_silicone"],
 		"Saddle Brown": ["iphone_2019_leather"],
 		"Black": ["iphone_2019_leather", "iphone_11_silicone", "iphone_11_battery"],
-		"Product Red": ["iphone_2019_leather", "iphone_2019_silicone"],
+		"(PRODUCT) RED": ["iphone_2019_leather", "iphone_2019_silicone"],
 		"Clementine": ["iphone_2019_silicone"],
 		"Pine Green": ["iphone_2019_silicone"],
 		"Alaskan Blue": ["iphone_2019_silicone"],
@@ -76,11 +77,11 @@ colors = {  # let's use colors as a baseline! I'm a fucking genius!!! Hell yes!
 	},
 	"Late 2020": {
 		"Black": ["iphone_2020_leather", "iphone_2020_silicone"],
-		"Saddle Brown": ["iphone_2020_leather", "iphone_2020_sleeve", "iphone_wallet"],
-		"PRODUCT (RED)": ["iphone_2020_leather", "iphone_2020_sleeve", "iphone_2020_silicone"],
+		"Saddle Brown": ["iphone_2020_leather", "iphone_2020_sleeve", "magsafe_wallet"],
+		"(PRODUCT) RED": ["iphone_2020_leather", "iphone_2020_sleeve", "iphone_2020_silicone"],
 		"Blue": ["iphone_2020_leather"],
-		"California Poppy": ["iphone_2020_leather", "iphone_wallet"],
-		"Baltic Blue": ["iphone_2020_sleeve", "iphone_wallet"],
+		"California Poppy": ["iphone_2020_leather", "magsafe_wallet"],
+		"Baltic Blue": ["iphone_2020_sleeve", "magsafe_wallet"],
 		"Pink Citrus": ["iphone_2020_sleeve", "iphone_2020_silicone"],
 		"White": ["iphone_2020_silicone"],
 		"Deep Navy": ["iphone_2020_silicone"],
@@ -107,87 +108,42 @@ colors = {  # let's use colors as a baseline! I'm a fucking genius!!! Hell yes!
 }
 
 models = {
-	"iphone_x_folio": {
-		"name": "iPhone X Leather Folio"
-	},
-	"iphone_2017_leather": {
-		"name": "iPhone X / 8 / 8 Plus Leather Case"
-	},
-	"iphone_2017_silicone": {
-		"name": "iPhone X / 8 / 8 Plus Silicone Case"
-	},
-	"ipad_pro_105_leather": {
-		"name": "iPad Pro 10.5-inch Leather Cover"
-	},
-	"ipad_pro_105_sleeve": {
-		"name": "iPad Pro 10.5-inch Leather Sleeve"
-	},
-	"ipad_pro_105_silicone": {
-		"name": "iPad Pro 10.5-inch Smart Cover"
-	},
-	"iphone_xs_leather": {
-		"name": "iPhone Xs / Xs Max Leather Case"
-	},
-	"iphone_xs_folio": {
-		"name": "iPhone Xs / Xs Max Leather Folio"
-	},
-	"iphone_xs_silicone": {
-		"name": "iPhone Xs / Xs Max Silicone Case"
-	},
-	"iphone_xr": {
-		"name": "iPhone Xr Clear Case"
-	},
-	"iphone_xs_battery": {
-		"name": "iPhone Xs / Xs Max Battery Case"
-	},
-	"iphone_xr_battery": {
-		"name": "iPhone Xr Battery Case"
-	},
-	"iphone_2019_leather": {
-		"name": "iPhone 11 Pro / Max Leather Case"
-	},
-	"iphone_2019_folio": {
-		"name": "iPhone 11 Pro / Max Leather Folio"
-	},
-	"iphone_2019_silicone": {
-		"name": "iPhone 11 Pro / Max Silicone Case"
-	},
-	"iphone_11_silicone": {
-		"name": "iPhone 11 / Pro / Max Silicone Case"
-	},
-	"iphone_2019_battery": {
-		"name": "iPhone 11 Pro / Max Smart Battery Case"
-	},
-	"iphone_11_battery": {
-		"name": "iPhone 11 / Pro / Max Smart Battery Case"
-	},
-	"iphone_2019_clear": {
-		"name": "iPhone 11 / Pro / Max Clear Case"
-	},
-	"iphone_2020_leather": {
-		"name": "iPhone 12 series Leather Case with MagSafe"
-	},
-	"iphone_2020_sleeve": {
-		"name": "iPhone 12 series Leather Sleeve with MagSafe"
-	},
-	"iphone_2020_silicone": {
-		"name": "iPhone 12 series Silicone Case with MagSafe"
-	},
-	"iphone_2020_clear": {
-		"name": "iPhone 12 series Clear Case with MagSafe"
-	},
-	"iphone_wallet": {
-		"name": "iPhone Leather Wallet with MagSafe"
-	},
-	"iphone_wallet_findmy": {
-		"name": "iPhone Leather Wallet with MagSafe"
-	}
+	"iphone_x_folio": "iPhone X Leather Folio",
+	"iphone_2017_leather": "iPhone X / 8 / 8 Plus Leather Case",
+	"iphone_2017_silicone": "iPhone X / 8 / 8 Plus Silicone Case",
+
+	"ipad_pro_105_leather": "iPad Pro 10.5-inch Leather Cover",
+	"ipad_pro_105_sleeve": "iPad Pro 10.5-inch Leather Sleeve",
+	"ipad_pro_105_silicone": "iPad Pro 10.5-inch Smart Cover",
+
+	"iphone_xs_leather": "iPhone Xs / Xs Max Leather Case",
+	"iphone_xs_folio": "iPhone Xs / Xs Max Leather Folio",
+	"iphone_xs_silicone": "iPhone Xs / Xs Max Silicone Case",
+	"iphone_xr": "iPhone Xr Clear Case",
+	"iphone_xs_battery": "iPhone Xs / Xs Max Battery Case",
+	"iphone_xr_battery": "iPhone Xr Battery Case",
+
+	"iphone_2019_leather": "iPhone 11 Pro / Max Leather Case",
+	"iphone_2019_folio": "iPhone 11 Pro / Max Leather Folio",
+	"iphone_2019_silicone": "iPhone 11 Pro / Max Silicone Case",
+	"iphone_11_silicone": "iPhone 11 / Pro / Max Silicone Case",
+	"iphone_2019_battery": "iPhone 11 Pro / Max Smart Battery Case",
+	"iphone_11_battery": "iPhone 11 / Pro / Max Smart Battery Case",
+	"iphone_2019_clear": "iPhone 11 / Pro / Max Clear Case",
+
+	"iphone_2020_leather": "iPhone 12 series Leather Case with MagSafe",
+	"iphone_2020_sleeve": "iPhone 12 series Leather Sleeve with MagSafe",
+	"iphone_2020_silicone": "iPhone 12 series Silicone Case with MagSafe",
+	"iphone_2020_clear": "iPhone 12 series Clear Case with MagSafe",
+
+	"magsafe_wallet": "iPhone Leather Wallet with MagSafe",
+	"magsafe_wallet_findmy": "iPhone Leather Wallet with MagSafe"
 }
 
-# Early2018 | dict with colors
+# Year / Color / Device
 for drop, drop_data in colors.items():
-	os.makedirs(normalize_filename(drop), exist_ok=True)  # create folders such as Early 2018
-	markdown_folders = {}
+	os.makedirs(normalize_filename(drop), exist_ok=True)  # create Year folder
+	color_folders = {}
 
 	# color | released things
 	for color, things in drop_data.items():
@@ -195,26 +151,37 @@ for drop, drop_data in colors.items():
 		# create folder for each color
 		dir = normalize_filename(drop + "/" + color)
 		os.makedirs(dir, exist_ok=True)
+		color_folders[normalize_filename(color)] = color
 
-		# JSON generation
-		markdown_folders[normalize_filename(color)] = color
-		markdown_files = {}
+		# now inside of that folder let's create a json
+		jsonchik = {}
+		for model in things:
+			array = dict(title=models[model], href=normalize_filename(drop + "/" + model.split('_')[0] + "-drop.md"))
+			jsonchik[model] = array
+			open(os.path.join(normalize_filename(drop + "/" + model.split('_')[0] + "-drop.md")), "a")
+		# print(json.dumps(jsonchik, indent=4))
+
+		with open(os.path.join(normalize_filename(drop + "/" + color), "_meta.json"), "w") as color_file:
+			color_file.write(json.dumps(jsonchik, indent=4))
+
+	with open(os.path.join(normalize_filename(drop + "/"), "_meta.json"), "w") as drop_file:
+		drop_file.write(json.dumps(color_folders, indent=4))
+		'''
+				# JSON generation
+		color_folders[normalize_filename(color)] = color
+		device_files = {}
 
 		# create markdown file for each model
 		for model in things:
+			device_files[normalize_filename(model)] = models[model]
 			filename = os.path.join(dir, normalize_filename(model) + ".md")
 			if os.path.exists(filename):
 				with open(filename, "r+") as color_file:
 					color_file.seek(0)
-					color_file.write("# " + models.items()[model] + " – " + color + "\n")
+					color_file.write("# " + models[model] + " – " + color + "\n")
 			else:
 				with open(filename, "w") as color_file:
 					color_file.write("# " + models[model] + " – " + color + "\n ")
-			markdown_files[normalize_filename(model)] = models[model]
 
-		with open(os.path.join(normalize_filename(drop + "/" + color), "_meta.json"), "w") as color_file:
-			color_file.write(json.dumps(markdown_files, indent=4))
 
-	with open(os.path.join(normalize_filename(drop + "/"), "_meta.json"), "w") as color_file:
-		color_file.write(json.dumps(markdown_folders, indent=4))
-
+'''

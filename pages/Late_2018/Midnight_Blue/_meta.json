@@ -1,4 +1,10 @@
 {
-    "iphone_xs_leather": "iPhone Xs / Xs Max Leather Case",
-    "iphone_xs_silicone": "iPhone Xs / Xs Max Silicone Case"
+    "iphone_xs_leather": {
+        "title": "iPhone Xs / Xs Max Leather Case",
+        "href": "Late_2018/iphone-drop.md"
+    },
+    "iphone_xs_silicone": {
+        "title": "iPhone Xs / Xs Max Silicone Case",
+        "href": "Late_2018/iphone-drop.md"
+    }
 }

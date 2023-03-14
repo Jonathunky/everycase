@@ -1,4 +1,10 @@
 {
-    "iphone_xs_battery": "iPhone Xs / Xs Max Battery Case",
-    "iphone_xr_battery": "iPhone Xr Battery Case"
+    "iphone_xs_battery": {
+        "title": "iPhone Xs / Xs Max Battery Case",
+        "href": "Early_2019/iphone-drop.md"
+    },
+    "iphone_xr_battery": {
+        "title": "iPhone Xr Battery Case",
+        "href": "Early_2019/iphone-drop.md"
+    }
 }

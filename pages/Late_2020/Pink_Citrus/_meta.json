@@ -1,4 +1,10 @@
 {
-    "iphone_2020_sleeve": "iPhone 12 series Leather Sleeve with MagSafe",
-    "iphone_2020_silicone": "iPhone 12 series Silicone Case with MagSafe"
+    "iphone_2020_sleeve": {
+        "title": "iPhone 12 series Leather Sleeve with MagSafe",
+        "href": "Late_2020/iphone-drop.md"
+    },
+    "iphone_2020_silicone": {
+        "title": "iPhone 12 series Silicone Case with MagSafe",
+        "href": "Late_2020/iphone-drop.md"
+    }
 }

@@ -1,4 +1,10 @@
 {
-    "iphone_2020_sleeve": "iPhone 12 series Leather Sleeve with MagSafe",
-    "iphone_wallet": "iPhone Leather Wallet with MagSafe"
+    "iphone_2020_sleeve": {
+        "title": "iPhone 12 series Leather Sleeve with MagSafe",
+        "href": "Late_2020/iphone-drop.md"
+    },
+    "magsafe_wallet": {
+        "title": "iPhone Leather Wallet with MagSafe",
+        "href": "Late_2020/magsafe-drop.md"
+    }
 }

@@ -1,4 +1,10 @@
 {
-    "iphone_2019_leather": "iPhone 11 Pro / Max Leather Case",
-    "iphone_2019_silicone": "iPhone 11 Pro / Max Silicone Case"
+    "iphone_2019_leather": {
+        "title": "iPhone 11 Pro / Max Leather Case",
+        "href": "Late_2019/iphone-drop.md"
+    },
+    "iphone_2019_silicone": {
+        "title": "iPhone 11 Pro / Max Silicone Case",
+        "href": "Late_2019/iphone-drop.md"
+    }
 }
