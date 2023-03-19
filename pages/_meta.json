@@ -1,4 +1,9 @@
 {
+    "*": {
+        "theme": {
+            "pagination": false
+        }
+    },
     "index": {
         "title": "🏡 Home",
         "theme": {
@@ -55,7 +60,9 @@
     "Late_2015": "Late 2015",
     "Late_2014": "2014",
     "2013_late": "2013",
-    "2013_before": "2012 and before",
+    "2013_before": {
+        "title": "2012 and before"
+    },
     "sep4": {
         "type": "separator"
     },

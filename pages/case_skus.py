@@ -3,8 +3,8 @@ year_2004 = {
 }
 
 year_2010 = {
-	"MC361ZM/B": ["iPad Case", "Black"], #april?
-	"MC668ZM/B": ["iPhone 4 Bumper", "White"], #june?
+	"MC361ZM/B": ["iPad Case", "Black"],  # april?
+	"MC668ZM/B": ["iPhone 4 Bumper", "White"],  # june?
 	"MC669ZM/B": ["iPhone 4 Bumper", "Pink"],
 	"MC670ZM/B": ["iPhone 4 Bumper", "Blue"],
 	"MC671ZM/B": ["iPhone 4 Bumper", "Green"],
@@ -71,13 +71,6 @@ year_2013 = {
 	"MF063LL/A": ["iPad Mini Smart Cover", "Yellow"],
 	"MF394LL/A": ["iPad Mini Smart Cover", "Red"],
 
-	"ME706LL/A": ["iPad Mini Smart Case", "Brown"],
-	"ME707LL/A": ["iPad Mini Smart Case", "Beige"],
-	"ME708LL/A": ["iPad Mini Smart Case", "Yellow"],
-	"ME709LL/A": ["iPad Mini Smart Case", "Blue"],
-	"ME710LL/A": ["iPad Mini Smart Case", "Black"],
-	"ME711LL/A": ["iPad Mini Smart Case", "Red"],
-
 	"MF053LL/A": ["iPad Air Smart Cover", "Black"],
 	"MF054LL/A": ["iPad Air Smart Cover", "Blue"],
 	"MF055LL/A": ["iPad Air Smart Cover", "Pink"],
@@ -85,8 +78,15 @@ year_2013 = {
 	"MF057LL/A": ["iPad Air Smart Cover", "Yellow"],
 	"MF058LL/A": ["iPad Air Smart Cover", "Red"],
 
+	"ME706LL/A": ["iPad Mini Smart Case", "Brown"],
+	"ME707LL/A": ["iPad Mini Smart Case", "Beige"],
+	"ME708LL/A": ["iPad Mini Smart Case", "Yellow"],
+	"ME709LL/A": ["iPad Mini Smart Case", "Blue"],
+	"ME710LL/A": ["iPad Mini Smart Case", "Black"],
+	"ME711LL/A": ["iPad Mini Smart Case", "Red"],
+
 	"MF047LL/A": ["iPad Air Smart Case", "Brown"],
-	"MF048LL/A": ["iPad Air Smart Case", "Beige"],
+	"MF048LL/A": ["iPad Air] Smart Case", "Beige"],
 	"MF049LL/A": ["iPad Air Smart Case", "Yellow"],
 	"MF050LL/A": ["iPad Air Smart Case", "Blue"],
 	"MF051LL/A": ["iPad Air Smart Case", "Black"],
@@ -112,80 +112,80 @@ year_2014 = {
 }
 
 Autumn_2014 = {
-		"MGQF2ZM/A": ["iPhone 6 Silicone Case", "Black"],
-		"MGQG2ZM/A": ["iPhone 6 Silicone Case", "White"],
-		"MGQH2ZM/A": ["iPhone 6 Silicone Case", "(PRODUCT)RED"],
-		"MGQJ2ZM/A": ["iPhone 6 Silicone Case", "Blue"],
-		"MGXT2ZM/A": ["iPhone 6 Silicone Case", "Pink"],
-		"MGXU2ZM/A": ["iPhone 6 Silicone Case", "Green"],
+	"MGQF2ZM/A": ["iPhone 6 Silicone Case", "Black"],
+	"MGQG2ZM/A": ["iPhone 6 Silicone Case", "White"],
+	"MGQH2ZM/A": ["iPhone 6 Silicone Case", "(PRODUCT)RED"],
+	"MGQJ2ZM/A": ["iPhone 6 Silicone Case", "Blue"],
+	"MGXT2ZM/A": ["iPhone 6 Silicone Case", "Pink"],
+	"MGXU2ZM/A": ["iPhone 6 Silicone Case", "Green"],
 
-		"MGR92ZM/A": ["iPhone 6 Plus Silicone Case", "Black"],
-		"MGRF2ZM/A": ["iPhone 6 Plus Silicone Case", "White"],
-		"MGRG2ZM/A": ["iPhone 6 Plus Silicone Case", "(PRODUCT)RED"],
-		"MGRH2ZM/A": ["iPhone 6 Plus Silicone Case", "Blue"],
-		"MGXW2ZM/A": ["iPhone 6 Plus Silicone Case", "Pink"],
-		"MGXX2ZM/A": ["iPhone 6 Plus Silicone Case", "Green"],
+	"MGR92ZM/A": ["iPhone 6 Plus Silicone Case", "Black"],
+	"MGRF2ZM/A": ["iPhone 6 Plus Silicone Case", "White"],
+	"MGRG2ZM/A": ["iPhone 6 Plus Silicone Case", "(PRODUCT)RED"],
+	"MGRH2ZM/A": ["iPhone 6 Plus Silicone Case", "Blue"],
+	"MGXW2ZM/A": ["iPhone 6 Plus Silicone Case", "Pink"],
+	"MGXX2ZM/A": ["iPhone 6 Plus Silicone Case", "Green"],
 
-		"MGR22ZM/A": ["iPhone 6 Leather Case", "Olive Brown"],
-		"MGR32ZM/A": ["iPhone 6 Leather Case", "Midnight Blue"],
-		"MGR52ZM/A": ["iPhone 6 Leather Case", "Soft Pink"],
-		"MGR62ZM/A": ["iPhone 6 Leather Case", "Black"],
-		"MGR82ZM/A": ["iPhone 6 Leather Case", "(PRODUCT)RED"],
+	"MGR22ZM/A": ["iPhone 6 Leather Case", "Olive Brown"],
+	"MGR32ZM/A": ["iPhone 6 Leather Case", "Midnight Blue"],
+	"MGR52ZM/A": ["iPhone 6 Leather Case", "Soft Pink"],
+	"MGR62ZM/A": ["iPhone 6 Leather Case", "Black"],
+	"MGR82ZM/A": ["iPhone 6 Leather Case", "(PRODUCT)RED"],
 
-		"MGQR2ZM/A": ["iPhone 6 Plus Leather Case", "Olive Brown"],
-		"MGQV2ZM/A": ["iPhone 6 Plus Leather Case", "Midnight Blue"],
-		"MGQW2ZM/A": ["iPhone 6 Plus Leather Case", "Soft Pink"],
-		"MGQX2ZM/A": ["iPhone 6 Plus Leather Case", "Black"],
-		"MGQY2ZM/A": ["iPhone 6 Plus Leather Case", "(PRODUCT)RED"],
+	"MGQR2ZM/A": ["iPhone 6 Plus Leather Case", "Olive Brown"],
+	"MGQV2ZM/A": ["iPhone 6 Plus Leather Case", "Midnight Blue"],
+	"MGQW2ZM/A": ["iPhone 6 Plus Leather Case", "Soft Pink"],
+	"MGQX2ZM/A": ["iPhone 6 Plus Leather Case", "Black"],
+	"MGQY2ZM/A": ["iPhone 6 Plus Leather Case", "(PRODUCT)RED"],
 
-		"MGMN2ZM/A": ["iPad mini Smart Case", "Olive Brown"],
-		"MGMW2ZM/A": ["iPad mini Smart Case", "Midnight Blue"],
-		"MGN32ZM/A": ["iPad mini Smart Case", "Soft Pink"],
-		"MGN62ZM/A": ["iPad mini Smart Case", "Black"],
-		"MGND2ZM/A": ["iPad mini Smart Case", "(PRODUCT)RED"],
+	"MGMN2ZM/A": ["iPad mini Smart Case", "Olive Brown"],
+	"MGMW2ZM/A": ["iPad mini Smart Case", "Midnight Blue"],
+	"MGN32ZM/A": ["iPad mini Smart Case", "Soft Pink"],
+	"MGN62ZM/A": ["iPad mini Smart Case", "Black"],
+	"MGND2ZM/A": ["iPad mini Smart Case", "(PRODUCT)RED"],
 
-		"MGNC2ZM/A": ["iPad mini Smart Cover", "Black"],
-		"MGNK2ZM/A": ["iPad mini Smart Cover", "White"],
-		"MGNL2ZM/A": ["iPad mini Smart Cover", "(PRODUCT)RED"],
-		"MGNM2ZM/A": ["iPad mini Smart Cover", "Blue"],
-		"MGNN2ZM/A": ["iPad mini Smart Cover", "Pink"],
-		"MGNQ2ZM/A": ["iPad mini Smart Cover", "Green"],
-		"MGNT2ZM/A": ["iPad mini Smart Cover", "Yellow"],
+	"MGNC2ZM/A": ["iPad mini Smart Cover", "Black"],
+	"MGNK2ZM/A": ["iPad mini Smart Cover", "White"],
+	"MGNL2ZM/A": ["iPad mini Smart Cover", "(PRODUCT)RED"],
+	"MGNM2ZM/A": ["iPad mini Smart Cover", "Blue"],
+	"MGNN2ZM/A": ["iPad mini Smart Cover", "Pink"],
+	"MGNQ2ZM/A": ["iPad mini Smart Cover", "Green"],
+	"MGNT2ZM/A": ["iPad mini Smart Cover", "Yellow"],
 
-		"MGTM2ZM/A": ["iPad Air Smart Cover", "Black"], # air 1 & 2
-		"MGTN2ZM/A": ["iPad Air Smart Cover", "White"],
-		"MGTP2ZM/A": ["iPad Air Smart Cover", "(PRODUCT)RED"],
-		"MGTQ2ZM/A": ["iPad Air Smart Cover", "Blue"],
-		"MGXK2ZM/A": ["iPad Air Smart Cover", "Pink"],
-		"MGXL2ZM/A": ["iPad Air Smart Cover", "Green"],
-		"MGXN2ZM/A": ["iPad Air Smart Cover", "Yellow"],
+	"MGTM2ZM/A": ["iPad Air Smart Cover", "Black"],  # air 1 & 2
+	"MGTN2ZM/A": ["iPad Air Smart Cover", "White"],
+	"MGTP2ZM/A": ["iPad Air Smart Cover", "(PRODUCT)RED"],
+	"MGTQ2ZM/A": ["iPad Air Smart Cover", "Blue"],
+	"MGXK2ZM/A": ["iPad Air Smart Cover", "Pink"],
+	"MGXL2ZM/A": ["iPad Air Smart Cover", "Green"],
+	"MGXN2ZM/A": ["iPad Air Smart Cover", "Yellow"],
 
-		"MGTR2ZM/A": ["iPad Air 2 Smart Case", "Olive Brown"],
-		"MGTT2ZM/A": ["iPad Air 2 Smart Case", "Midnight Blue"],
-		"MGTU2ZM/A": ["iPad Air 2 Smart Case", "Soft Pink"],
-		"MGTV2ZM/A": ["iPad Air 2 Smart Case", "Black"],
-		"MGTW2ZM/A": ["iPad Air 2 Smart Case", "(PRODUCT)RED"]
+	"MGTR2ZM/A": ["iPad Air 2 Smart Case", "Olive Brown"],
+	"MGTT2ZM/A": ["iPad Air 2 Smart Case", "Midnight Blue"],
+	"MGTU2ZM/A": ["iPad Air 2 Smart Case", "Soft Pink"],
+	"MGTV2ZM/A": ["iPad Air 2 Smart Case", "Black"],
+	"MGTW2ZM/A": ["iPad Air 2 Smart Case", "(PRODUCT)RED"]
 }
 
 Autumn_2015 = {
 	"MKXX2ZM/A": ["iPhone 6s Leather Case", "(PRODUCT)RED"],
-	"MKXG2ZM/A": ["iPhone 6s Plus Leather Case", "(PRODUCT)RED"], #both released a bit later in 2015
-	
+	"MKXG2ZM/A": ["iPhone 6s Plus Leather Case", "(PRODUCT)RED"],  # both released a bit later in 2015
+
 	"MGQM2LL/A": ["iPhone 6s Smart Battery Case", "White"],
-	"MGQL2LL/A": ["iPhone 6s Smart Battery Case", "Charcoal Gray"], #first ever
-	
+	"MGQL2LL/A": ["iPhone 6s Smart Battery Case", "Charcoal Gray"],  # first ever
+
 	"MKXW2ZM/A": ["iPhone 6s Leather Case", "Black"],
 	"MKXR2ZM/A": ["iPhone 6s Leather Case", "Brown"],
 	"MKXU2ZM/A": ["iPhone 6s Leather Case", "Midnight Blue"],
 	"MKXV2ZM/A": ["iPhone 6s Leather Case", "Rose Gray"],
 	"MKXT2ZM/A": ["iPhone 6s Leather Case", "Saddle Brown"],
-	
+
 	"MKXF2ZM/A": ["iPhone 6s Plus Leather Case", "Black"],
 	"MKX92ZM/A": ["iPhone 6s Plus Leather Case", "Brown"],
 	"MKXD2ZM/A": ["iPhone 6s Plus Leather Case", "Midnight Blue"],
 	"MKXE2ZM/A": ["iPhone 6s Plus Leather Case", "Rose Gray"],
 	"MKXC2ZM/A": ["iPhone 6s Plus Leather Case", "Saddle Brown"],
-	
+
 	"MLD22ZM/A": ["iPhone 6s Plus Silicone Case", "Antique White"],
 	"MKXP2ZM/A": ["iPhone 6s Plus Silicone Case", "Blue"],
 	"MKXJ2ZM/A": ["iPhone 6s Plus Silicone Case", "Charcoal Gray"],
@@ -210,27 +210,27 @@ Autumn_2015 = {
 	"MLCW2ZM/A": ["iPhone 6s Silicone Case", "Turquoise"],
 	"MKY12ZM/A": ["iPhone 6s Silicone Case", "White"],
 
-		"MLD32ZM/A": ["iPad mini 4 Silicone Case", "Blue"],
-		"MKLK2ZM/A": ["iPad mini 4 Silicone Case", "Charcoal Gray"],
-		"MLD62ZM/A": ["iPad mini 4 Silicone Case", "Lavender"],
-		"MKLM2ZM/A": ["iPad mini 4 Silicone Case", "Midnight Blue"],
-		"MLD42ZM/A": ["iPad mini 4 Silicone Case", "Orange"],
-		"MLD52ZM/A": ["iPad mini 4 Silicone Case", "Pink"],
-		"MKLN2ZM/A": ["iPad mini 4 Silicone Case", "(PRODUCT)RED"],
-		"MKLP2ZM/A": ["iPad mini 4 Silicone Case", "Stone"],
-		"MLD72ZM/A": ["iPad mini 4 Silicone Case", "Turquoise"],
-		"MKLL2ZM/A": ["iPad mini 4 Silicone Case", "White"],
+	"MLD32ZM/A": ["iPad mini 4 Silicone Case", "Blue"],
+	"MKLK2ZM/A": ["iPad mini 4 Silicone Case", "Charcoal Gray"],
+	"MLD62ZM/A": ["iPad mini 4 Silicone Case", "Lavender"],
+	"MKLM2ZM/A": ["iPad mini 4 Silicone Case", "Midnight Blue"],
+	"MLD42ZM/A": ["iPad mini 4 Silicone Case", "Orange"],
+	"MLD52ZM/A": ["iPad mini 4 Silicone Case", "Pink"],
+	"MKLN2ZM/A": ["iPad mini 4 Silicone Case", "(PRODUCT)RED"],
+	"MKLP2ZM/A": ["iPad mini 4 Silicone Case", "Stone"],
+	"MLD72ZM/A": ["iPad mini 4 Silicone Case", "Turquoise"],
+	"MKLL2ZM/A": ["iPad mini 4 Silicone Case", "White"],
 
-		"MKM12ZM/A": ["iPad mini 4 Smart Cover", "Blue"],
-		"MKLV2ZM/A": ["iPad mini 4 Smart Cover", "Charcoal Gray"],
-		"MKM42ZM/A": ["iPad mini 4 Smart Cover", "Lavender"],
-		"MKLX2ZM/A": ["iPad mini 4 Smart Cover", "Midnight Blue"],
-		"MKM22ZM/A": ["iPad mini 4 Smart Cover", "Orange"],
-		"MKM32ZM/A": ["iPad mini 4 Smart Cover", "Pink"],
-		"MKLY2ZM/A": ["iPad mini 4 Smart Cover", "(PRODUCT)RED"],
-		"MKM02ZM/A": ["iPad mini 4 Smart Cover", "Stone"],
-		"MKM52ZM/A": ["iPad mini 4 Smart Cover", "Turquoise"],
-		"MKLW2ZM/A": ["iPad mini 4 Smart Cover", "White"],
+	"MKM12ZM/A": ["iPad mini 4 Smart Cover", "Blue"],
+	"MKLV2ZM/A": ["iPad mini 4 Smart Cover", "Charcoal Gray"],
+	"MKM42ZM/A": ["iPad mini 4 Smart Cover", "Lavender"],
+	"MKLX2ZM/A": ["iPad mini 4 Smart Cover", "Midnight Blue"],
+	"MKM22ZM/A": ["iPad mini 4 Smart Cover", "Orange"],
+	"MKM32ZM/A": ["iPad mini 4 Smart Cover", "Pink"],
+	"MKLY2ZM/A": ["iPad mini 4 Smart Cover", "(PRODUCT)RED"],
+	"MKM02ZM/A": ["iPad mini 4 Smart Cover", "Stone"],
+	"MKM52ZM/A": ["iPad mini 4 Smart Cover", "Turquoise"],
+	"MKLW2ZM/A": ["iPad mini 4 Smart Cover", "White"],
 
 }
 
@@ -257,7 +257,7 @@ kinda_2016_but_in_2015_colors = {
 	"MM2A2AM/A": ["Smart Cover for 9.7-inch iPad Pro", "White"],
 }
 
-early_2016 = { #first ever spring drop!
+early_2016 = {  # first ever spring drop!
 	"MM3L2ZM/A": ["iPad mini 4 Silicone Case", "Light Pink"],
 	"MMM42ZM/A": ["iPad mini 4 Silicone Case", "Lilac"],
 	"MMJY2ZM/A": ["iPad mini 4 Silicone Case", "Mint"],
@@ -334,8 +334,8 @@ Autumn_2016 = {
 	"MN002LL/A": ["iPhone 7 Smart Battery Case", "Black"],
 	"MN012LL/A": ["iPhone 7 Smart Battery Case", "White"],
 
-	"MN022LL/A": ["iPhone 7 Smart Battery Case", "(PRODUCT)RED"], # at a bit later date
-	"MNYV2ZM/A": ["iPhone SE Leather Case", "(PRODUCT)RED"], #at a bit later date
+	"MN022LL/A": ["iPhone 7 Smart Battery Case", "(PRODUCT)RED"],  # at a bit later date
+	"MNYV2ZM/A": ["iPhone SE Leather Case", "(PRODUCT)RED"],  # at a bit later date
 
 	"MMYK2ZM/A": ["iPhone 7 Plus Leather Case", "(PRODUCT)RED"],
 	"MMYJ2ZM/A": ["iPhone 7 Plus Leather Case", "Black"],
@@ -411,7 +411,7 @@ wwdc_2017 = {
 	"MPUD2ZM/A": ["Leather Smart Cover for 10.5-inch iPad Pro", "Black"],
 	"MPUA2ZM/A": ["Leather Smart Cover for 10.5-inch iPad Pro", "Midnight Blue"],
 	"MPU92ZM/A": ["Leather Smart Cover for 10.5-inch iPad Pro", "Saddle Brown"],
-	"MPU82ZM/A": ["Leather Smart Cover for 10.5-inch iPad Pro", "Taupe"], # yes really lol
+	"MPU82ZM/A": ["Leather Smart Cover for 10.5-inch iPad Pro", "Taupe"],  # yes really lol
 
 	"MQ082ZM/A": ["Smart Cover for 10.5-inch iPad Pro", "Charcoal Gray"],
 	"MQ4U2ZM/A": ["Smart Cover for 10.5-inch iPad Pro", "Flamingo"],
@@ -429,7 +429,7 @@ wwdc_2017 = {
 	"MPV22ZM/A": ["Leather Smart Cover for 12.9-inch iPad Pro", "Midnight Blue"],
 	"MPV12ZM/A": ["Leather Smart Cover for 12.9-inch iPad Pro", "Saddle Brown"],
 
-	#SKUs are different from the 2015 ones!
+	# SKUs are different from the 2015 ones!
 	"MQ0G2ZM/A": ["Smart Cover for 12.9-inch iPad Pro", "Charcoal Gray"],
 	"MQ0H2ZM/A": ["Smart Cover for 12.9-inch iPad Pro", "White"],
 
@@ -486,7 +486,7 @@ Autumn_2017 = {
 	"MQTA2ZM/A": ["iPhone X Leather Case", "Saddle Brown"],
 	"MQT92ZM/A": ["iPhone X Leather Case", "Taupe"],
 
-	"MQRV2ZM/A": ["iPhone X Leather Folio", "Black"],#TODO there are more!!
+	"MQRV2ZM/A": ["iPhone X Leather Folio", "Black"],  # TODO there are more!!
 
 	"MQT52ZM/A": ["iPhone X Silicone Case", "(PRODUCT)RED"],
 	"MQT12ZM/A": ["iPhone X Silicone Case", "Black"],
@@ -556,3 +556,62 @@ wwdc_2018 = {
 	"MRRC2ZM/A": ["iPhone X Silicone Case", "Peach"],
 	"MRRD2ZM/A": ["iPhone X Silicone Case", "Sky Blue"],
 }
+
+import os
+import json
+
+
+def normalize_device_name(device_name):
+	return device_name.replace(" ", "_").replace("(", "").replace(")", "").replace("/", "_").lower()
+
+
+def create_markdown_file(folder_name, case_type, devices_data):
+	normalized_name = normalize_device_name(case_type)
+	file_name = f"{folder_name}/{normalized_name}.md"
+
+	with open(file_name, "w") as file:
+		file.write(f"# {case_type}\n\n")
+		file.write("| Device | " + " | ".join(devices_data[0]['colors']) + " |\n")
+		file.write("|--------|" + "|".join(["-----"] * len(devices_data[0]['colors'])) + "|\n")
+		for device_data in devices_data:
+			device_name = device_data['device']
+			color_to_sku = device_data['color_to_sku']
+			file.write(f"| {device_name} | " + " | ".join([color_to_sku[color] for color in device_data['colors']]) + " |\n")
+
+	return file_name
+
+
+def generate_markdown_files(data, folder_name):
+	devices = {}
+	metadata = {}
+	for sku, (device_name, color) in data.items():
+		case_type = " ".join(device_name.split()[-2:])
+		if case_type not in devices:
+			devices[case_type] = {}
+		if device_name not in devices[case_type]:
+			devices[case_type][device_name] = []
+		devices[case_type][device_name].append((sku, color))
+
+	if not os.path.exists(folder_name):
+		os.makedirs(folder_name)
+
+	for case_type, device_data in devices.items():
+		combined_data = []
+		for device_name, color_data in device_data.items():
+			unique_colors = list(set(color for _, color in color_data))
+			unique_colors.sort()
+			color_to_sku = {color: "" for color in unique_colors}
+			for sku, color in color_data:
+				color_to_sku[color] = sku
+
+			combined_data.append({'device': device_name, 'colors': unique_colors, 'color_to_sku': color_to_sku})
+
+		md_file_name = create_markdown_file(folder_name, case_type, combined_data)
+		normalized_name = normalize_device_name(case_type)
+		metadata[normalized_name] = case_type
+
+	with open(f"{folder_name}/_meta.json", "w") as meta_file:
+		json.dump(metadata, meta_file, indent=4)
+
+
+generate_markdown_files(Autumn_2014, "Autumn_2014")
