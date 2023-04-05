@@ -246,22 +246,6 @@ Autumn_2015 = {
     "MLJK2ZM/A": ["iPad Pro Smart Cover", "White"]
 }
 
-kinda_2016_but_in_2015_colors = {
-    "MM222AM/A": ["iPad Pro 9.7″ Silicone Case", "(PRODUCT)RED"],
-    "MM1Y2AM/A": ["iPad Pro 9.7″ Silicone Case", "Charcoal Grey"],
-    "MM272AM/A": ["iPad Pro 9.7″ Silicone Case", "Lavender"],
-    "MM212AM/A": ["iPad Pro 9.7″ Silicone Case", "Midnight Blue"],
-    "MM232AM/A": ["iPad Pro 9.7″ Silicone Case", "Stone"],
-    "MM202AM/A": ["iPad Pro 9.7″ Silicone Case", "White"],
-
-    "MM2D2AM/A": ["iPad Pro 9.7″ Smart Cover", "(PRODUCT)RED"],
-    "MM292AM/A": ["iPad Pro 9.7″ Smart Cover", "Charcoal Grey"],
-    "MM2J2AM/A": ["iPad Pro 9.7″ Smart Cover", "Lavender"],
-    "MM2C2AM/A": ["iPad Pro 9.7″ Smart Cover", "Midnight Blue"],
-    "MM2E2AM/A": ["iPad Pro 9.7″ Smart Cover", "Stone"],
-    "MM2A2AM/A": ["iPad Pro 9.7″ Smart Cover", "White"],
-}
-
 early_2016 = {  # first ever spring drop!
     
     "MMM22ZM/A": ["iPhone 6s Leather Case", "Marigold"],
@@ -316,6 +300,20 @@ early_2016 = {  # first ever spring drop!
     "MMG62AM/A": ["iPad Pro 9.7″ Smart Cover", "Mint"],
     "MM2G2AM/A": ["iPad Pro 9.7″ Smart Cover", "Royal Blue"],
     "MM2K2AM/A": ["iPad Pro 9.7″ Smart Cover", "Yellow"],
+
+    "MM222AM/A": ["iPad Pro 9.7″ Silicone Case", "(PRODUCT)RED"],
+    "MM1Y2AM/A": ["iPad Pro 9.7″ Silicone Case", "Charcoal Grey"],
+    "MM272AM/A": ["iPad Pro 9.7″ Silicone Case", "Lavender"],
+    "MM212AM/A": ["iPad Pro 9.7″ Silicone Case", "Midnight Blue"],
+    "MM232AM/A": ["iPad Pro 9.7″ Silicone Case", "Stone"],
+    "MM202AM/A": ["iPad Pro 9.7″ Silicone Case", "White"],
+
+    "MM2D2AM/A": ["iPad Pro 9.7″ Smart Cover", "(PRODUCT)RED"],
+    "MM292AM/A": ["iPad Pro 9.7″ Smart Cover", "Charcoal Grey"],
+    "MM2J2AM/A": ["iPad Pro 9.7″ Smart Cover", "Lavender"],
+    "MM2C2AM/A": ["iPad Pro 9.7″ Smart Cover", "Midnight Blue"],
+    "MM2E2AM/A": ["iPad Pro 9.7″ Smart Cover", "Stone"],
+    "MM2A2AM/A": ["iPad Pro 9.7″ Smart Cover", "White"],
 
 }
 
@@ -422,6 +420,8 @@ wwdc_2017 = {
     "MPU92ZM/A": ["Leather Smart Cover for 10.5-inch iPad Pro", "Saddle Brown"],
     # yes really lol
     "MPU82ZM/A": ["Leather Smart Cover for 10.5-inch iPad Pro", "Taupe"],
+    # also fits iPad Air 3, obv
+
 
     "MQ082ZM/A": ["Smart Cover for 10.5-inch iPad Pro", "Charcoal Gray"],
     "MQ4U2ZM/A": ["Smart Cover for 10.5-inch iPad Pro", "Flamingo"],
@@ -568,6 +568,9 @@ wwdc_2018 = {
     "MRRD2ZM/A": ["iPhone X Silicone Case", "Sky Blue"],
 }
 
+import os
+import json
+
 
 def normalize_device_name(device_name):
     return device_name.replace(" ", "_").replace("(", "").replace(")", "").replace("/", "_").replace("|", "_").lower()
@@ -583,15 +586,14 @@ def create_markdown_file(folder_name, file_title, page_title, devices_data):
 
     with open(file_name, "w") as file:
         file.write(f"# {page_title}\n\n")
+        file.write("## Order numbers\n\n")
+        sorted_colors = sorted(devices_data[0]['colors'], key=custom_sort_key)
+        file.write("| Model | " + " | ".join(sorted_colors) + " |\n")
+        file.write("|-------|" + "|".join(["-----"] * len(sorted_colors)) + "|\n")
         for device_data in devices_data:
             device_name = device_data['device']
-            file.write(f"## {device_name}\n\n")
-            sorted_colors = sorted(device_data['colors'], key=custom_sort_key)
-            file.write("| " + " | ".join(sorted_colors) + " |\n")
-            file.write("|" + "|".join(["-----"] * len(sorted_colors)) + "|\n")
             color_to_sku = device_data['color_to_sku']
-            file.write("| " + " | ".join([color_to_sku[color]
-                       for color in sorted_colors]) + " |\n\n")
+            file.write(f"| {device_name} | " + " | ".join([color_to_sku.get(color, "") for color in sorted_colors]) + " |\n")
 
     return file_name
 
@@ -615,20 +617,19 @@ def generate_markdown_files(data, folder_name):
 
     for file_title, device_data in devices.items():
         combined_data = []
+        all_colors = set()
         for device_name, color_data in device_data.items():
             unique_colors = list(set(color for _, color in color_data))
-            unique_colors.sort(key=custom_sort_key)
+            all_colors.update(unique_colors)
             color_to_sku = {color: "" for color in unique_colors}
             for sku, color in color_data:
                 color_to_sku[color] = sku
 
-            combined_data.append(
-                {'device': device_name, 'case_type': " ".join(device_name.split()[-2:]), 'colors': unique_colors,
-                 'color_to_sku': color_to_sku})
+            combined_data.append({'device': device_name, 'colors': list(all_colors), 'color_to_sku': color_to_sku})
 
-        page_title = f"{combined_data[0]['case_type']} for {device_name.split()[0]}"
-        md_file_name = create_markdown_file(
-            folder_name, file_title, page_title, combined_data)
+        case_type = " ".join(device_name.split()[-2:])
+        page_title = f"{case_type} for {device_name.split()[0]}"
+        md_file_name = create_markdown_file(folder_name, file_title, page_title, combined_data)
         normalized_name = normalize_device_name(file_title)
         metadata[normalized_name] = file_title
 
@@ -636,6 +637,25 @@ def generate_markdown_files(data, folder_name):
         json.dump(metadata, meta_file, indent=4)
 
 
-# generate_markdown_files(early_2017, "Early_2017")
-generate_markdown_files(Autumn_2016, "Late_2016")
+# generate_markdown_files(Autumn_2015, "Last_2015")
 
+generate_markdown_files(Spring_2011, "test_2011_1")
+generate_markdown_files(Autumn_2011, "test_2011_2")
+generate_markdown_files(Spring_2012, "test_2012_1")
+generate_markdown_files(Autumn_2012, "test_2012_2")
+
+generate_markdown_files(year_2013, "Late_2013")
+generate_markdown_files(Autumn_2014, "Late_2014")
+
+generate_markdown_files(Autumn_2014, "Late_2014")
+generate_markdown_files(Autumn_2015, "Late_2015")
+
+generate_markdown_files(early_2016, "Early_2016")
+generate_markdown_files(Autumn_2016, "Late_2016")
+generate_markdown_files(early_2017, "Early_2017")
+generate_markdown_files(Autumn_2017, "Late_2017")
+generate_markdown_files(spring_2018, "Early_2018")
+
+#wwdc_2017, Autumn_2017
+spring_2018
+wwdc_2018

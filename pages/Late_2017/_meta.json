@@ -1,19 +1,8 @@
 {
-    "Cosmos_Blue": "Cosmos Blue",
-    "iphone_drop": {
-        "title": "iPhone Case Drop",
-        "display": "hidden",
-        "theme": {
-            "pagination": false
-        }
-    },
-    "Saddle_Brown": "Saddle Brown",
-    "Taupe": "Taupe",
-    "Black": "Black",
-    "Midnight_Blue": "Midnight Blue",
-    "PRODUCTRED": "(PRODUCT)RED",
-    "Pink_Sand": "Pink Sand",
-    "White": "White",
-    "Yellow": "Yellow",
-    "Blue_Cobalt": "Blue Cobalt"
+    "iphone___leather_case": "iPhone | Leather Case",
+    "iphone___silicone_case": "iPhone | Silicone Case",
+    "iphone___leather_folio": "iPhone | Leather Folio",
+    "leather___ipad_pro": "Leather | iPad Pro",
+    "smart___ipad_pro": "Smart | iPad Pro",
+    "leather___12-inch_macbook": "Leather | 12-inch MacBook"
 }

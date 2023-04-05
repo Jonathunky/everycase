@@ -1,8 +1,7 @@
 # Battery Case for iPhone
 
-## iPhone 7 Smart Battery Case
+## Order numbers
 
-| Black | (PRODUCT)RED | White |
-|-----|-----|-----|
-| MN002LL/A | MN022LL/A | MN012LL/A |
-
+| Model | Black | (PRODUCT)RED | White |
+|-------|-----|-----|-----|
+| iPhone 7 Smart Battery Case | MN002LL/A | MN022LL/A | MN012LL/A |

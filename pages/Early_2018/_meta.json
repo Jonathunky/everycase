@@ -1,16 +1,7 @@
 {
-    "Electric_Blue": "Electric Blue",
-    "iphone_drop": {
-        "title": "iPhone Case Drop",
-        "display": "hidden",
-        "theme": {
-            "pagination": false
-        }
-    },
-    "Soft_Pink": "Soft Pink",
-    "Spring_Yellow": "Spring Yellow",
-    "Bright_Orange": "Bright Orange",
-    "Red_Raspberry": "Red Raspberry",
-    "Lemonade": "Lemonade",
-    "Denim_Blue": "Denim Blue"
+    "iphone___leather_case": "iPhone | Leather Case",
+    "iphone___silicone_case": "iPhone | Silicone Case",
+    "iphone___leather_folio": "iPhone | Leather Folio",
+    "leather___ipad_pro": "Leather | iPad Pro",
+    "smart___ipad_pro": "Smart | iPad Pro"
 }
