@@ -1,26 +1,6 @@
 {
-    "PRODUCTRED": "(PRODUCT)RED",
-    "iphone_drop": {
-        "title": "iPhone Case Drop",
-        "display": "hidden",
-        "theme": {
-            "pagination": false
-        }
-    },
-    "ipad_drop": {
-        "title": "iPad Case Drop",
-        "display": "hidden",
-        "theme": {
-            "pagination": false
-        }
-    },
-    "Black": "Black",
-    "Midnight_Blue": "Midnight Blue",
-    "Olive_Brown": "Olive Brown",
-    "Soft_Pink": "Soft Pink",
-    "Blue": "Blue",
-    "Pink": "Pink",
-    "Green": "Green",
-    "White": "White",
-    "Yellow": "Yellow"
+    "iphone___silicone_case": "iPhone | Silicone Case",
+    "iphone___leather_case": "iPhone | Leather Case",
+    "ipad___smart_case": "iPad | Smart Case",
+    "ipad___smart_cover": "iPad | Smart Cover"
 }
