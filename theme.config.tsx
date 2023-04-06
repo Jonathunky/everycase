@@ -37,7 +37,7 @@ const config: DocsThemeConfig = {
     defaultMenuCollapseLevel: 1,
     toggleButton: true
   },
-  gitTimestamp: false,
+  gitTimestamp: () => <></>,
   primaryHue: 320,
   useNextSeoProps() {
     const { asPath } = useRouter()
