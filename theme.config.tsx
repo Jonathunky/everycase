@@ -1,5 +1,7 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { useConfig } from 'nextra-theme-docs'
+import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
   logo: (
@@ -32,23 +34,32 @@ const config: DocsThemeConfig = {
     component: undefined
   },
   sidebar: {
-    defaultMenuCollapseLevel: 1
+    defaultMenuCollapseLevel: 1,
+    toggleButton: true
   },
   gitTimestamp: false,
   primaryHue: 320,
   useNextSeoProps() {
-    return {
-      titleTemplate: '%s – EveryCase'
+    const { asPath } = useRouter()
+    if (asPath !== '/') {
+      return {
+        titleTemplate: '%s – EveryCase'
+      }
     }
   },
   toc: {
     float: true
   },
   head: function Head() {
+    const { title } = useConfig()
+
     return (
       <>
         <meta name="robots" content="noindex" />
-        <meta property="og:title" content="EveryCase" />
+        <meta
+          name="og:title"
+          content={title ? title + ' – EveryCase' : 'EveryCase'}
+        />
         <meta property="og:description" content="The website about Apple cases" />
         <style>
           {`

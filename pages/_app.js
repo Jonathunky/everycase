@@ -1,0 +1,7 @@
+import "/styles/video-container.css";
+import "nextra-theme-docs/style.css";
+import "styles/global.css";
+
+export default function Nextra({ Component, pageProps }) {
+	return <Component {...pageProps} />;
+}

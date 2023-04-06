@@ -7,8 +7,6 @@ Here's the part about Smart Covers in AnandTech review: https://www.anandtech.co
 
 Apple offered two types of Smart Covers: Polyurethane covers for $39.00, and for those seeking a touch of luxury, leather covers were available for a nice premium of $69.00. Both types were compatible with the iPad 2, "the new iPad", and iPad 4.
 
-These Smart Covers are compatible with iPad 2, 'the new iPad', and iPad 4. 
-
 ## Original Lineup
 ### iPad Smart Cover
 | Blue | Gray | Green | Orange | Pink |
