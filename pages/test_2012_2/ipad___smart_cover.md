@@ -1,6 +1,6 @@
 # Smart Cover for iPad
 
-## Order numbers
+## Part numbers
 
 | Model | Blue | Dark Gray | Green | Light Gray | Pink | Red |
 |-------|-----|-----|-----|-----|-----|-----|

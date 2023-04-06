@@ -1,6 +1,6 @@
 # Smart Case for iPad
 
-## Order numbers
+## Part numbers
 
 | Model | Beige | Black | Blue | Brown | Red | Yellow |
 |-------|-----|-----|-----|-----|-----|-----|

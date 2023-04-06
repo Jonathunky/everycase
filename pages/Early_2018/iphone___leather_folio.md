@@ -1,6 +1,6 @@
 # Leather Folio for iPhone
 
-## Order numbers
+## Part numbers
 
 | Model | Electric Blue | (PRODUCT)RED | Soft Pink |
 |-------|-----|-----|-----|

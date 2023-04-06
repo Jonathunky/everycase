@@ -1,6 +1,6 @@
 # Silicone Case for iPhone
 
-## Order numbers
+## Part numbers
 
 | Model | Azure | Camellia | Pebble |
 |-------|-----|-----|-----|

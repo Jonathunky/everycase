@@ -1,6 +1,6 @@
 # 12-inch MacBook for Leather
 
-## Order numbers
+## Part numbers
 
 | Model | Midnight Blue | Saddle Brown |
 |-------|-----|-----|

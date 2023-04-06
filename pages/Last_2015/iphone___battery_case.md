@@ -1,6 +1,6 @@
 # Battery Case for iPhone
 
-## Order numbers
+## Part numbers
 
 | Model | Charcoal Gray | White |
 |-------|-----|-----|

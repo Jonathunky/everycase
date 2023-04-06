@@ -1,6 +1,6 @@
 # Silicone Case for iPhone
 
-## Order numbers
+## Part numbers
 
 | Model | Apricot | Lavender | Light Pink | Mint | Royal Blue | Yellow |
 |-------|-----|-----|-----|-----|-----|-----|

@@ -1,6 +1,6 @@
 # Smart Case for iPad
 
-## Order numbers
+## Part numbers
 
 | Model | Black | Midnight Blue | Olive Brown | (PRODUCT)RED | Soft Pink |
 |-------|-----|-----|-----|-----|-----|

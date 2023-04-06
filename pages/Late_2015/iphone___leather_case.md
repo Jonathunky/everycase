@@ -1,6 +1,6 @@
 # Leather Case for iPhone
 
-## Order numbers
+## Part numbers
 
 | Model | Black | Brown | Midnight Blue | (PRODUCT)RED | Rose Gray | Saddle Brown |
 |-------|-----|-----|-----|-----|-----|-----|

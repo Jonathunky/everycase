@@ -1,6 +1,6 @@
 # Silicone Case for iPhone
 
-## Order numbers
+## Part numbers
 
 | Model | Denim Blue | Lemonade | Red Raspberry |
 |-------|-----|-----|-----|

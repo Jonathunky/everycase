@@ -1,6 +1,6 @@
 # Smart Cover for iPad
 
-## Order numbers
+## Part numbers
 
 | Model | Charcoal Gray | Midnight Blue | Pink Sand | (PRODUCT)RED | White |
 |-------|-----|-----|-----|-----|-----|

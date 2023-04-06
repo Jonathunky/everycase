@@ -1,6 +1,6 @@
 # 5c Case for iPhone
 
-## Order numbers
+## Part numbers
 
 | Model | Black | Blue | Green | Pink | White | Yellow |
 |-------|-----|-----|-----|-----|-----|-----|

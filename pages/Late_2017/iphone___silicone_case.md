@@ -1,6 +1,6 @@
 # Silicone Case for iPhone
 
-## Order numbers
+## Part numbers
 
 | Model | Black | Midnight Blue | Pink Sand | (PRODUCT)RED | White |
 |-------|-----|-----|-----|-----|-----|

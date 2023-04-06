@@ -1,6 +1,6 @@
 # Touch Loop for iPod
 
-## Order numbers
+## Part numbers
 
 | Model | Black | Blue | Pink | Red | Yellow |
 |-------|-----|-----|-----|-----|-----|

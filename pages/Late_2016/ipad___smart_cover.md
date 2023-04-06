@@ -1,6 +1,6 @@
 # Smart Cover for iPad
 
-## Order numbers
+## Part numbers
 
 | Model | Cocoa | Ocean Blue | Pink Sand | Sea Blue |
 |-------|-----|-----|-----|-----|

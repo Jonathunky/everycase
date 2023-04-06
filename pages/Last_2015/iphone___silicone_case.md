@@ -1,6 +1,6 @@
 # Silicone Case for iPhone
 
-## Order numbers
+## Part numbers
 
 | Model | Antique White | Blue | Charcoal Gray | Lavender | Midnight Blue | Orange | Pink | (PRODUCT)RED | Stone | Turquoise | White |
 |-------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|

@@ -1,6 +1,6 @@
 # iPad Pro for Smart
 
-## Order numbers
+## Part numbers
 
 | Model | Lemonade | Raspberry |
 |-------|-----|-----|

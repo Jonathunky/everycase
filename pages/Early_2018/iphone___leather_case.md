@@ -1,6 +1,6 @@
 # Leather Case for iPhone
 
-## Order numbers
+## Part numbers
 
 | Model | Bright Orange | Electric Blue | Soft Pink | Spring Yellow |
 |-------|-----|-----|-----|-----|

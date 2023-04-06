@@ -1,6 +1,6 @@
 # iPad Pro for Leather
 
-## Order numbers
+## Part numbers
 
 | Model | Electric Blue | Soft Pink |
 |-------|-----|-----|
