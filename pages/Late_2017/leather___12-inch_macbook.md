@@ -1,7 +1,8 @@
-# 12-inch MacBook for Leather
+# 12-inch MacBooks for Leather
 
-## Part numbers
+### Leather Sleeve for 12-inch MacBook
 
-| Model | Midnight Blue | Saddle Brown |
-|-------|-----|-----|
-| Leather Sleeve for 12-inch MacBook | MQG02ZM/A | MQG12ZM/A |
+| Midnight Blue | Saddle Brown |
+|-----|-----|
+| MQG02ZM/A | MQG12ZM/A |
+

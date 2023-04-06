@@ -1,7 +1,8 @@
-# Leather Folio for iPhone
+# Leather Folios for iPhone
 
-## Part numbers
+### iPhone X Leather Folio
 
-| Model | Black |
-|-------|-----|
-| iPhone X Leather Folio | MQRV2ZM/A |
+| Black |
+|-----|
+| MQRV2ZM/A |
+

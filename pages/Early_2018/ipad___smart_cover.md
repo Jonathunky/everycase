@@ -1,7 +1,8 @@
-# Smart Cover for iPad
+# Smart Covers for iPad
 
-## Part numbers
+### iPad Pro 10.5″ Leather Smart Cover
 
-| Model | Electric Blue | Soft Pink |
-|-------|-----|-----|
-| iPad Pro 10.5″ Leather Smart Cover | MRFJ2ZM/A | MRFK2ZM/A |
+| Electric Blue | Soft Pink |
+|-----|-----|
+| MRFJ2ZM/A | MRFK2ZM/A |
+

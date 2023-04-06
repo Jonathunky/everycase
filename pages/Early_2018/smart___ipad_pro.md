@@ -1,7 +1,8 @@
-# iPad Pro for Smart
+# iPad Pros for Smart
 
-## Part numbers
+### Smart Cover for 10.5‐inch iPad Pro
 
-| Model | Lemonade | Raspberry |
-|-------|-----|-----|
-| Smart Cover for 10.5‐inch iPad Pro | MRFG2ZM/A | MRFF2ZM/A |
+| Lemonade | Raspberry |
+|-----|-----|
+| MRFG2ZM/A | MRFF2ZM/A |
+

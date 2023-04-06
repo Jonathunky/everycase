@@ -1,7 +1,8 @@
-# Pencil Case for Apple
+# Pencil Cases for Apple
 
-## Part numbers
+### Apple Pencil Case
 
-| Model | Black | Midnight Blue | Saddle Brown | Taupe |
-|-------|-----|-----|-----|-----|
-| Apple Pencil Case | MQ0X2ZM/A | MQ0W2ZM/A | MQ0V2ZM/A | MPQL2ZM/A |
+| Black | Midnight Blue | Saddle Brown | Taupe |
+|-----|-----|-----|-----|
+| MQ0X2ZM/A | MQ0W2ZM/A | MQ0V2ZM/A | MPQL2ZM/A |
+

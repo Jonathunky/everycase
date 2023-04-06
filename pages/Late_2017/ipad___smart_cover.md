@@ -1,8 +1,14 @@
-# Smart Cover for iPad
+# Smart Covers for iPad
 
-## Part numbers
+### iPad Pro 10.5″ Leather Smart Cover
 
-| Model | (PRODUCT)RED |
-|-------|-----|
-| iPad Pro 10.5″ Leather Smart Cover | MR5G2ZM/A |
-| iPad Pro 10.5″ Smart Cover | MR592ZM/A |
+| (PRODUCT)RED |
+|-----|
+| MR5G2ZM/A |
+
+### iPad Pro 10.5″ Smart Cover
+
+| (PRODUCT)RED |
+|-----|
+| MR592ZM/A |
+

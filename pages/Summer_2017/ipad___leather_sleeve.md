@@ -1,8 +1,14 @@
-# Leather Sleeve for iPad
+# Leather Sleeves for iPad
 
-## Part numbers
+### iPad Pro 10.5″ Leather Sleeve
 
-| Model | Black | Midnight Blue | Saddle Brown | Taupe |
-|-------|-----|-----|-----|-----|
-| iPad Pro 10.5″ Leather Sleeve | MPU62ZM/A | MPU22ZM/A | MPU12ZM/A | MPU02ZM/A |
-| iPad Pro 12.9″ Leather Sleeve | MQ0U2ZM/A | MQ0T2ZM/A | MQ0Q2ZM/A |  |
+| Black | Midnight Blue | Saddle Brown | Taupe |
+|-----|-----|-----|-----|
+| MPU62ZM/A | MPU22ZM/A | MPU12ZM/A | MPU02ZM/A |
+
+### iPad Pro 12.9″ Leather Sleeve
+
+| Black | Midnight Blue | Saddle Brown |
+|-----|-----|-----|
+| MQ0U2ZM/A | MQ0T2ZM/A | MQ0Q2ZM/A |
+

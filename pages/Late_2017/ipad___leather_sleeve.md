@@ -1,7 +1,8 @@
-# Leather Sleeve for iPad
+# Leather Sleeves for iPad
 
-## Part numbers
+### iPad Pro 10.5″ Leather Sleeve
 
-| Model | (PRODUCT)RED |
-|-------|-----|
-| iPad Pro 10.5″ Leather Sleeve | MR5L2ZM/A |
+| (PRODUCT)RED |
+|-----|
+| MR5L2ZM/A |
+

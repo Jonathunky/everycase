@@ -1,8 +1,14 @@
-# Smart Cover for iPad
+# Smart Covers for iPad
 
-## Part numbers
+### iPad Air Smart Cover
 
-| Model | Black | Blue | Green | Pink | (PRODUCT)RED | White | Yellow |
-|-------|-----|-----|-----|-----|-----|-----|-----|
-| iPad Air Smart Cover | MGTM2ZM/A | MGTQ2ZM/A | MGXL2ZM/A | MGXK2ZM/A | MGTP2ZM/A | MGTN2ZM/A | MGXN2ZM/A |
-| iPad mini Smart Cover | MGNC2ZM/A | MGNM2ZM/A | MGNQ2ZM/A | MGNN2ZM/A | MGNL2ZM/A | MGNK2ZM/A | MGNT2ZM/A |
+| Black | Blue | Green | Pink | (PRODUCT)RED | White | Yellow |
+|-----|-----|-----|-----|-----|-----|-----|
+| MGTM2ZM/A | MGTQ2ZM/A | MGXL2ZM/A | MGXK2ZM/A | MGTP2ZM/A | MGTN2ZM/A | MGXN2ZM/A |
+
+### iPad mini Smart Cover
+
+| Black | Blue | Green | Pink | (PRODUCT)RED | White | Yellow |
+|-----|-----|-----|-----|-----|-----|-----|
+| MGNC2ZM/A | MGNM2ZM/A | MGNQ2ZM/A | MGNN2ZM/A | MGNL2ZM/A | MGNK2ZM/A | MGNT2ZM/A |
+

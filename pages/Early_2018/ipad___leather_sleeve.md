@@ -1,7 +1,8 @@
-# Leather Sleeve for iPad
+# Leather Sleeves for iPad
 
-## Part numbers
+### iPad Pro 10.5″ Leather Sleeve 
 
-| Model | Electric Blue | Soft Pink |
-|-------|-----|-----|
-| iPad Pro 10.5″ Leather Sleeve  | MRFL2ZM/A | MRFM2ZM/A |
+| Electric Blue | Soft Pink |
+|-----|-----|
+| MRFL2ZM/A | MRFM2ZM/A |
+

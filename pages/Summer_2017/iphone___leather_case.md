@@ -1,8 +1,14 @@
-# Leather Case for iPhone
+# Leather Cases for iPhone
 
-## Part numbers
+### iPhone 7 Leather Case
 
-| Model | Geranium | Sunflower |
-|-------|-----|-----|
-| iPhone 7 Leather Case | MQ5F2ZM/A | MQ5G2ZM/A |
-| iPhone 7 Plus Leather Case | MQ5H2ZM/A | MQ5J2ZM/A |
+| Geranium | Sunflower |
+|-----|-----|
+| MQ5F2ZM/A | MQ5G2ZM/A |
+
+### iPhone 7 Plus Leather Case
+
+| Geranium | Sunflower |
+|-----|-----|
+| MQ5H2ZM/A | MQ5J2ZM/A |
+

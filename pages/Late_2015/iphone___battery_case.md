@@ -1,7 +1,8 @@
-# Battery Case for iPhone
+# Battery Cases for iPhone
 
-## Part numbers
+### iPhone 6s Smart Battery Case
 
-| Model | Charcoal Gray | White |
-|-------|-----|-----|
-| iPhone 6s Smart Battery Case | MGQL2LL/A | MGQM2LL/A |
+| Charcoal Gray | White |
+|-----|-----|
+| MGQL2LL/A | MGQM2LL/A |
+

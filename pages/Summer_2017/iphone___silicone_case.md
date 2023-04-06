@@ -1,8 +1,14 @@
-# Silicone Case for iPhone
+# Silicone Cases for iPhone
 
-## Part numbers
+### iPhone 7 Silicone Case
 
-| Model | Flamingo | Mist Blue | Pollen |
-|-------|-----|-----|-----|
-| iPhone 7 Silicone Case | MQ592ZM/A | MQ582ZM/A | MQ5A2ZM/A |
-| iPhone 7 Plus Silicone Case | MQ5D2ZM/A | MQ5C2ZM/A | MQ5E2ZM/A |
+| Flamingo | Mist Blue | Pollen |
+|-----|-----|-----|
+| MQ592ZM/A | MQ582ZM/A | MQ5A2ZM/A |
+
+### iPhone 7 Plus Silicone Case
+
+| Flamingo | Mist Blue | Pollen |
+|-----|-----|-----|
+| MQ5D2ZM/A | MQ5C2ZM/A | MQ5E2ZM/A |
+
