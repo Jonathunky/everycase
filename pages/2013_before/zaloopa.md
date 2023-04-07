@@ -4,7 +4,7 @@ On October 11, 2012, Apple released the iPod touch (5th generation, A1421) in 32
 
 Among other things, Apple saw the iPod touch, with its all-new 5-megapixel camera module, as a potential replacement for "point-and-shoot" digital cameras (remember those?), which often featured a wrist strap. Apple decided to incorporate one into the iPod touch, but in their signature over-engineered style. Thus, The Loop was born.
 
-![Pink iPod touch 5 with loop connected](public/assets/2012_loop.webp)
+![Pink iPod touch 5 with loop connected](/public/assets/2012_loop.webp)
 
 Oh, and did you know that it earned the [Red Dot Design Award](https://www.red-dot.org/project/ipod-touch-loop-7740)?
 
@@ -25,6 +25,6 @@ Oh, and did you know that it earned the [Red Dot Design Award](https://www.red-d
 
 On July 15th, 2015, Apple released iPod touch (6th generation), and it had one less button than it should.
 
-![2015 update](public/assets/2012_ipod.webp)
+![2015 update](/public/assets/2012_ipod.webp)
 
 [Goodbye, iPod touch wrist strap](https://www.theverge.com/2015/7/15/8970423/ipod-touch-loop-design-over) — The Verge.
