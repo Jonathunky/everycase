@@ -1,7 +1,7 @@
 # It's free real website!
 And it respects visitors. That's why EveryCase:
 - Does not track you in any way, shape or form
-- Does not embed tracking ads
+- Does not embed personalised ads 
 - Does not run third-party web analytics service
 
 And never ever will. It's also **dead fast** and **100% non-intrusive**.
@@ -14,7 +14,7 @@ If you like what you see, please consider supporting me through one of the optio
 	Noticeable contributions will be acknowledged in [Credits](about), if you so desire 
 
 - ##### Becoming a site sponsor
-	If whatever you're doing is cool, I'd be happy to display an ad for your business in the right sidebar of the front page.
+	If whatever you're doing is cool, I'd be happy to display a static ad for your business.
 
 
 

@@ -4,6 +4,6 @@ When the first-generation iPad was released on March 12, 2010, Apple also releas
 
 ![Intensified typing mode](/assets/2010_ipad.webp)
 
-It folds in just the right places to act as a stand that holds iPad at an ideal angle for watching videos and slideshows or for typing on the onscreen keyboard. The case closes like a book. It's not too dissimilar from the iPad Smart Cases that came out later, but the cover of this one did not fold into a triangle.
+It folds in just the right places to act as a stand that holds iPad at an ideal angle for watching videos and slideshows or for typing on the onscreen keyboard. The case closes like a book. It's not too dissimilar from the iPad Smart Cases that came out later, but the cover of this one did not fold into a triangle, and this one is noticeably bulkier.
 
 Nowadays, the iPad Case case has become somewhat of a collector's item and can fetch relatively high prices on the second-hand market.

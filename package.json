@@ -20,14 +20,14 @@
   },
   "homepage": "https://applecase.wiki",
   "dependencies": {
+    "@vercel/analytics": "^1.0.1",
     "next": "latest",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-markdown": "latest",
-    "sharp": "latest",
-    "@vercel/analytics": "latest"
+    "sharp": "latest"
   },
   "devDependencies": {
     "@napi-rs/simple-git": "latest",
