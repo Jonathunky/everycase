@@ -61,6 +61,8 @@ const config: DocsThemeConfig = {
 
     return (
       <>
+        <link rel="icon" href="/icon.png" type="image/png" sizes="64x64" />
+
         <meta name="robots" content="noindex" />
         <meta
           name="og:title"
@@ -76,6 +78,7 @@ const config: DocsThemeConfig = {
             }
           `}
         </style>
+
       </>
     );
   },
