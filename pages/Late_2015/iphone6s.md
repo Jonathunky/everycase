@@ -8,10 +8,10 @@
 
 ## Part numbers / Late 2015 collection
 
-|                  | Charcoal Gray | White     | Midnight Blue | (PRODUCT)RED | Stone     | Blue      | Orange    | Pink      | Lavender  | Turquoise | Antique White |
-|:-----------------|:--------------|:----------|:--------------|:-------------|:----------|:----------|:----------|:----------|:----------|:----------|:--------------|
-| 6s Silicone      | MKY02ZM/A     | MKY12ZM/A | MKY22ZM/A     | MKY32ZM/A    | MKY42ZM/A | MKY52ZM/A | MKY62ZM/A | MLCU2ZM/A | MLCV2ZM/A | MLCW2ZM/A | MLCX2ZM/A     |
-| 6s Plus Silicone | MKXJ2ZM/A     | MKXK2ZM/A | MKXL2ZM/A     | MKXM2ZM/A    | MKXN2ZM/A | MKXP2ZM/A | MKXQ2ZM/A | MLCY2ZM/A | MLD02ZM/A | MLD12ZM/A | MLD22ZM/A     |
+| Silicone Case  | Charcoal Gray | White     | Midnight Blue | (PRODUCT)RED | Stone     | Blue      | Orange    | Pink      | Lavender  | Turquoise | Antique White |
+|:---------------|:--------------|:----------|:--------------|:-------------|:----------|:----------|:----------|:----------|:----------|:----------|:--------------|
+| iPhone 6s      | MKY02ZM/A     | MKY12ZM/A | MKY22ZM/A     | MKY32ZM/A    | MKY42ZM/A | MKY52ZM/A | MKY62ZM/A | MLCU2ZM/A | MLCV2ZM/A | MLCW2ZM/A | MLCX2ZM/A     |
+| iPhone 6s Plus | MKXJ2ZM/A     | MKXK2ZM/A | MKXL2ZM/A     | MKXM2ZM/A    | MKXN2ZM/A | MKXP2ZM/A | MKXQ2ZM/A | MLCY2ZM/A | MLD02ZM/A | MLD12ZM/A | MLD22ZM/A     |
 
 |                      | Brown     | Saddle Brown | Midnight Blue | Rose Gray | Black     | (PRODUCT)RED |
 |:---------------------|:----------|:-------------|:--------------|:----------|:----------|:-------------|

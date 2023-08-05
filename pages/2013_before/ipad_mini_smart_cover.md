@@ -2,7 +2,6 @@
 
 The Smart Cover was one of the signature features of the usual-sized iPad, so it was no surprise that Apple decided to bring it to the smaller model. The Smart Cover for the iPad mini featured three segments instead of four, and this design was later adopted for all future iPad covers & cases from Apple.
 
-
 ## In the Wild
 Some random review of Red version: http://isource.com/2012/11/05/ipad-mini-smart-cover-review/
 
