@@ -1,17 +1,18 @@
 img {
-    max-width: 500px;
+    max-width: 700px;
     height: auto;
     display: block;
+    margin-top: 20px;
 }
 
-/* TODO fix later */
+.logo {
+    margin-top: 0px;
+}
+
 .footnotes::before {
     margin-top: 10rem;
     content: "\A\A__________________";
     white-space: pre;
     /* Use pre to preserve whitespace and line breaks */
-    /* Replace with your custom text */
-    /* Add your desired styling for the custom content here */
-    font-style: italic;
     color: #f0f0f0;
 }

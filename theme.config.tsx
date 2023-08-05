@@ -9,7 +9,10 @@ const config: DocsThemeConfig = {
       <img
         src="/icon.png"
         alt="EveryCase Logo"
-        style={{ marginRight: '8px', width: '40px', height: 'auto' }}
+        style={{
+          marginRight: '8px', width: '40px', height: 'auto'
+        }}
+        className="logo"
       />
       <span
         style={{
