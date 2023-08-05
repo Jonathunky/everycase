@@ -1,12 +1,12 @@
-def sort_table_columns_by_numbers(table):
-    # Find the indices of the columns based on the numeric values in the first non-header row
+def sort_table_columns(table):
+    # Find the indices of the columns based on alphabetical order in the first non-header row
     first_row = table[1][1:]  # Skip the first column ('Model / Color')
-    numeric_indices = sorted(range(len(first_row)), key=lambda i: int(''.join(filter(str.isdigit, first_row[i]))))
+    alpha_indices = sorted(range(len(first_row)), key=lambda i: first_row[i])
 
-    # Rearrange the table columns based on the numeric indices
+    # Rearrange the table columns based on the sorted indices
     sorted_table = []
     for row in table:
-        sorted_row = [row[0]] + [row[i + 1] for i in numeric_indices]
+        sorted_row = [row[0]] + [row[i + 1] if i + 1 < len(row) else "" for i in alpha_indices]
         sorted_table.append(sorted_row)
 
     return sorted_table
@@ -14,7 +14,7 @@ def sort_table_columns_by_numbers(table):
 
 def create_table_from_dict(data_dict):
     # Create the header row for the table
-    header_row = [1, "Model / Color"]
+    header_row = [1, "      "]
     colors = list(set(color for _, color in data_dict.values()))
     header_row.extend(colors)
     table_data = [header_row]
@@ -39,7 +39,7 @@ def create_table_from_dict(data_dict):
         print(',')
     print("]")
 
-    return
+    return table_data
 
 
 def generate_markdown_file(tables, title, filename):
@@ -51,7 +51,7 @@ def generate_markdown_file(tables, title, filename):
     markdown_content += "## Part numbers\n\n"
 
     for table in tables:
-        table_data = sort_table_columns_by_numbers(table)
+        table_data = sort_table_columns(table)
 
         # Generate the Markdown table
         table_content = "|" + "|".join(table_data[0]) + "|\n"
@@ -155,11 +155,6 @@ iphone5s = [
     ['iPhone 5s Case', 'MF046LL/A', 'MF045LL/A', 'MF043LL/A', 'MF042LL/A', 'MF044LL/A', 'MF041LL/A']
 ]
 
-tables = [ipad2013_case, ipad2013_cover]
-generate_markdown_file(tables, "iPad Air & mini 2", "ipad.md")
-generate_markdown_file([iphone5s], "iPhone 5s Leather Case", "5s.md")
-generate_markdown_file([iphone5c], "iPhone 5c Silicone Case", "5c.md")
-
 year_2014 = {
     "MF631ZM/A": ["iPod Touch Loop", "Space Gray"]
 }
@@ -188,80 +183,38 @@ ipad2014_cover = [
      'MGNN2ZM/A'],
 ]
 
-Autumn_2015 = {
-    "MKXX2ZM/A": ["iPhone 6s Leather Case", "(PRODUCT)RED"],
-    # both released a bit later in 2015
-    "MKXG2ZM/A": ["iPhone 6s Plus Leather Case", "(PRODUCT)RED"],
+iphone6s_silicone = [
+    ['Model / Color', 'Orange', 'Antique White', 'Pink', 'Turquoise', 'Lavender', '(PRODUCT)RED', 'Charcoal Gray',
+     'Blue', 'White', 'Midnight Blue', 'Stone'],
+    ['iPhone 6s Silicone Case', 'MKY62ZM/A', 'MLCX2ZM/A', 'MLCU2ZM/A', 'MLCW2ZM/A', 'MLCV2ZM/A', 'MKY32ZM/A',
+     'MKY02ZM/A', 'MKY52ZM/A', 'MKY12ZM/A', 'MKY22ZM/A', 'MKY42ZM/A'],
+    ['iPhone 6s Plus Silicone Case', 'MKXQ2ZM/A', 'MLD22ZM/A', 'MLCY2ZM/A', 'MLD12ZM/A', 'MLD02ZM/A', 'MKXM2ZM/A',
+     'MKXJ2ZM/A', 'MKXP2ZM/A', 'MKXK2ZM/A', 'MKXL2ZM/A', 'MKXN2ZM/A'],
+]
+iphone6s_leather = [
+    ['Model / Color', 'Brown', 'Rose Gray', '(PRODUCT)RED', 'Black', 'Saddle Brown', 'Midnight Blue'],
+    ['iPhone 6s Leather Case', 'MKXR2ZM/A', 'MKXV2ZM/A', 'MKXX2ZM/A', 'MKXW2ZM/A', 'MKXT2ZM/A', 'MKXU2ZM/A'],
+    ['iPhone 6s Plus Leather Case', 'MKX92ZM/A', 'MKXE2ZM/A', 'MKXG2ZM/A', 'MKXF2ZM/A', 'MKXC2ZM/A', 'MKXD2ZM/A'],
+]
+iphone6s_battery = [
+    ['Model / Color', 'White', 'Charcoal Gray'],
+    ['iPhone 6s Smart Battery Case', 'MGQM2LL/A', 'MGQL2LL/A'],
+]
+ipad_2015 = [
+    ['Model / Color', 'Orange', 'Pink', 'Turquoise', 'Lavender', '(PRODUCT)RED', 'Charcoal Gray', 'Blue', 'White',
+     'Midnight Blue', 'Stone'],
+    ['iPad mini 4 Smart Cover', 'MKM22ZM/A', 'MKM32ZM/A', 'MKM52ZM/A', 'MKM42ZM/A', 'MKLY2ZM/A', 'MKLV2ZM/A',
+     'MKM12ZM/A', 'MKLW2ZM/A', 'MKLX2ZM/A', 'MKM02ZM/A'],
+    ['iPad mini 4 Silicone Case', 'MLD42ZM/A', 'MLD52ZM/A', 'MLD72ZM/A', 'MLD62ZM/A', 'MKLN2ZM/A', 'MKLK2ZM/A',
+     'MLD32ZM/A', 'MKLL2ZM/A', 'MKLM2ZM/A', 'MKLP2ZM/A'],
+]
+ipadpro = [
+    ['Model / Color', 'White', 'Charcoal Gray'],
+    ['iPad Pro Smart Cover', 'MLJK2ZM/A', 'MK0L2ZM/A'],
+    ['iPad Pro Silicone Case', 'MK0E2ZM/A', 'MK0D2ZM/A']
+]
 
-    "MGQM2LL/A": ["iPhone 6s Smart Battery Case", "White"],
-    # first ever
-    "MGQL2LL/A": ["iPhone 6s Smart Battery Case", "Charcoal Gray"],
-
-    "MKXW2ZM/A": ["iPhone 6s Leather Case", "Black"],
-    "MKXR2ZM/A": ["iPhone 6s Leather Case", "Brown"],
-    "MKXU2ZM/A": ["iPhone 6s Leather Case", "Midnight Blue"],
-    "MKXV2ZM/A": ["iPhone 6s Leather Case", "Rose Gray"],
-    "MKXT2ZM/A": ["iPhone 6s Leather Case", "Saddle Brown"],
-
-    "MKXF2ZM/A": ["iPhone 6s Plus Leather Case", "Black"],
-    "MKX92ZM/A": ["iPhone 6s Plus Leather Case", "Brown"],
-    "MKXD2ZM/A": ["iPhone 6s Plus Leather Case", "Midnight Blue"],
-    "MKXE2ZM/A": ["iPhone 6s Plus Leather Case", "Rose Gray"],
-    "MKXC2ZM/A": ["iPhone 6s Plus Leather Case", "Saddle Brown"],
-
-    "MLCX2ZM/A": ["iPhone 6s Silicone Case", "Antique White"],
-    "MKY52ZM/A": ["iPhone 6s Silicone Case", "Blue"],
-    "MKY02ZM/A": ["iPhone 6s Silicone Case", "Charcoal Gray"],
-    "MLCV2ZM/A": ["iPhone 6s Silicone Case", "Lavender"],
-    "MKY22ZM/A": ["iPhone 6s Silicone Case", "Midnight Blue"],
-    "MKY62ZM/A": ["iPhone 6s Silicone Case", "Orange"],
-    "MLCU2ZM/A": ["iPhone 6s Silicone Case", "Pink"],
-    "MKY32ZM/A": ["iPhone 6s Silicone Case", "(PRODUCT)RED"],
-    "MKY42ZM/A": ["iPhone 6s Silicone Case", "Stone"],
-    "MLCW2ZM/A": ["iPhone 6s Silicone Case", "Turquoise"],
-    "MKY12ZM/A": ["iPhone 6s Silicone Case", "White"],
-
-    "MLD22ZM/A": ["iPhone 6s Plus Silicone Case", "Antique White"],
-    "MKXP2ZM/A": ["iPhone 6s Plus Silicone Case", "Blue"],
-    "MKXJ2ZM/A": ["iPhone 6s Plus Silicone Case", "Charcoal Gray"],
-    "MLD02ZM/A": ["iPhone 6s Plus Silicone Case", "Lavender"],
-    "MKXL2ZM/A": ["iPhone 6s Plus Silicone Case", "Midnight Blue"],
-    "MKXQ2ZM/A": ["iPhone 6s Plus Silicone Case", "Orange"],
-    "MLCY2ZM/A": ["iPhone 6s Plus Silicone Case", "Pink"],
-    "MKXM2ZM/A": ["iPhone 6s Plus Silicone Case", "(PRODUCT)RED"],
-    "MKXN2ZM/A": ["iPhone 6s Plus Silicone Case", "Stone"],
-    "MLD12ZM/A": ["iPhone 6s Plus Silicone Case", "Turquoise"],
-    "MKXK2ZM/A": ["iPhone 6s Plus Silicone Case", "White"],
-
-    "MLD32ZM/A": ["iPad mini 4 Silicone Case", "Blue"],
-    "MKLK2ZM/A": ["iPad mini 4 Silicone Case", "Charcoal Gray"],
-    "MLD62ZM/A": ["iPad mini 4 Silicone Case", "Lavender"],
-    "MKLM2ZM/A": ["iPad mini 4 Silicone Case", "Midnight Blue"],
-    "MLD42ZM/A": ["iPad mini 4 Silicone Case", "Orange"],
-    "MLD52ZM/A": ["iPad mini 4 Silicone Case", "Pink"],
-    "MKLN2ZM/A": ["iPad mini 4 Silicone Case", "(PRODUCT)RED"],
-    "MKLP2ZM/A": ["iPad mini 4 Silicone Case", "Stone"],
-    "MLD72ZM/A": ["iPad mini 4 Silicone Case", "Turquoise"],
-    "MKLL2ZM/A": ["iPad mini 4 Silicone Case", "White"],
-
-    "MKM12ZM/A": ["iPad mini 4 Smart Cover", "Blue"],
-    "MKLV2ZM/A": ["iPad mini 4 Smart Cover", "Charcoal Gray"],
-    "MKM42ZM/A": ["iPad mini 4 Smart Cover", "Lavender"],
-    "MKLX2ZM/A": ["iPad mini 4 Smart Cover", "Midnight Blue"],
-    "MKM22ZM/A": ["iPad mini 4 Smart Cover", "Orange"],
-    "MKM32ZM/A": ["iPad mini 4 Smart Cover", "Pink"],
-    "MKLY2ZM/A": ["iPad mini 4 Smart Cover", "(PRODUCT)RED"],
-    "MKM02ZM/A": ["iPad mini 4 Smart Cover", "Stone"],
-    "MKM52ZM/A": ["iPad mini 4 Smart Cover", "Turquoise"],
-    "MKLW2ZM/A": ["iPad mini 4 Smart Cover", "White"],
-
-    "MK0D2ZM/A": ["iPad Pro Silicone Case", "Charcoal Gray"],
-    "MK0E2ZM/A": ["iPad Pro Silicone Case", "White"],
-    "MK0L2ZM/A": ["iPad Pro Smart Cover", "Charcoal Gray"],
-    "MLJK2ZM/A": ["iPad Pro Smart Cover", "White"]
-}
-
-early_2016 = {  # first ever spring drop!
+iphone_early_2016 = {  # first ever spring drop!
 
     "MMM22ZM/A": ["iPhone 6s Leather Case", "Marigold"],
     "MM4G2ZM/A": ["iPhone 6s Leather Case", "Marine Blue"],
@@ -269,7 +222,10 @@ early_2016 = {  # first ever spring drop!
 
     "MMM32ZM/A": ["iPhone 6s Plus Leather Case", "Marigold"],
     "MM362ZM/A": ["iPhone 6s Plus Leather Case", "Marine Blue"],
-    "MM322ZM/A": ["iPhone 6s Plus Leather Case", "Storm Gray"],
+    "MM322ZM/A": ["iPhone 6s Plus Leather Case", "Storm Gray"]
+}
+
+iphone_early_2016_silicone = {
 
     "MM642ZM/A": ["iPhone 6s Silicone Case", "Apricot"],
     "MM622ZM/A": ["iPhone 6s Silicone Case", "Lavender"],
@@ -283,11 +239,18 @@ early_2016 = {  # first ever spring drop!
     "MM6A2ZM/A": ["iPhone 6s Plus Silicone Case", "Light Pink"],
     "MM692ZM/A": ["iPhone 6s Plus Silicone Case", "Mint"],
     "MM6E2ZM/A": ["iPhone 6s Plus Silicone Case", "Royal Blue"],
-    "MM6H2ZM/A": ["iPhone 6s Plus Silicone Case", "Yellow"],
+    "MM6H2ZM/A": ["iPhone 6s Plus Silicone Case", "Yellow"], }
+
+iphone_se = {
 
     "MMHH2ZM/A": ["iPhone SE Leather Case", "Black"],
     "MMHG2ZM/A": ["iPhone SE Leather Case", "Midnight Blue"],
 
+    "MNYV2ZM/A": ["iPhone SE Leather Case", "(PRODUCT)RED"],  # very late 2016
+    "MNYW2ZM/A": ["iPhone SE Leather Case", "Saddle Brown"],  # early 2017
+}
+
+ipad_mini_2016 = {
     "MM3L2ZM/A": ["iPad mini 4 Silicone Case", "Light Pink"],
     "MMM42ZM/A": ["iPad mini 4 Silicone Case", "Lilac"],
     "MMJY2ZM/A": ["iPad mini 4 Silicone Case", "Mint"],
@@ -301,6 +264,9 @@ early_2016 = {  # first ever spring drop!
     "MMJV2ZM/A": ["iPad mini 4 Smart Cover", "Mint"],
     "MM2U2ZM/A": ["iPad mini 4 Smart Cover", "Royal Blue"],
     "MM2X2ZM/A": ["iPad mini 4 Smart Cover", "Yellow"],
+}
+
+ipadpro97 = {
 
     "MM262AM/A": ["iPad Pro 9.7″ Silicone Case", "Apricot"],
     "MM242AM/A": ["iPad Pro 9.7″ Silicone Case", "Light Pink"],
@@ -332,6 +298,13 @@ early_2016 = {  # first ever spring drop!
 
 }
 
+table2 = [create_table_from_dict(iphone_early_2016_silicone), create_table_from_dict(iphone_early_2016)]
+generate_markdown_file([create_table_from_dict(ipad_mini_2016)], "iPad mini 4", "ipad.md")
+generate_markdown_file([create_table_from_dict(ipadpro97)], "iPad Pro 9.7", "ipadpro.md")
+generate_markdown_file(table2, "iPhone 6s and 6s Plus", "iphone6s.md")
+generate_markdown_file([create_table_from_dict(iphone_se)], "iPhone SE", "iphonese.md")
+
+# TODO all the later stuff
 Autumn_2016 = {
     "MMY62ZM/A": ["iPhone 7 Leather Case", "(PRODUCT)RED"],
     "MMY52ZM/A": ["iPhone 7 Leather Case", "Black"],
@@ -375,7 +348,6 @@ Autumn_2016 = {
     # at a bit later date
     "MN022LL/A": ["iPhone 7 Smart Battery Case", "(PRODUCT)RED"],
     # at a bit later date
-    "MNYV2ZM/A": ["iPhone SE Leather Case", "(PRODUCT)RED"],
 
     "MNNE2ZM/A": ["iPad mini 4 Silicone Case", "Cocoa"],
     "MN2N2ZM/A": ["iPad mini 4 Silicone Case", "Ocean Blue"],
@@ -415,7 +387,6 @@ early_2017 = {
     "MQ0N2ZM/A": ["iPhone 7 Plus Silicone Case", "Camellia"],
     "MQ0P2ZM/A": ["iPhone 7 Plus Silicone Case", "Pebble"],
 
-    "MNYW2ZM/A": ["iPhone SE Leather Case", "Saddle Brown"],
     # TODO check/fix color years?
     "MQ4L2ZM/A": ["iPad Smart Cover", "Charcoal Gray"],
     "MQ4P2ZM/A": ["iPad Smart Cover", "Midnight Blue"],
