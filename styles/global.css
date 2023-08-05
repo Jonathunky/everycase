@@ -3,3 +3,15 @@ img {
     height: auto;
     display: block;
 }
+
+/* TODO fix later */
+.footnotes::before {
+    margin-top: 10rem;
+    content: "\A\A__________________";
+    white-space: pre;
+    /* Use pre to preserve whitespace and line breaks */
+    /* Replace with your custom text */
+    /* Add your desired styling for the custom content here */
+    font-style: italic;
+    color: #f0f0f0;
+}
