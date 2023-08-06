@@ -3,14 +3,14 @@ import "nextra-theme-docs/style.css";
 import "styles/global.css";
 import { inject } from '@vercel/analytics';
 import { Analytics } from '@vercel/analytics/react';
- 
+
 inject();
 
 export default function Nextra({ Component, pageProps }) {
-  return (
-    <>
-      <Analytics />
-      <Component {...pageProps} />
-    </>
-  );
+return (
+<>
+<Analytics />
+<Component {...pageProps} />
+</>
+);
 }
