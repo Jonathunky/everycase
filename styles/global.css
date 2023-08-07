@@ -16,3 +16,25 @@ img {
     /* Use pre to preserve whitespace and line breaks */
     color: #f0f0f0;
 }
+
+.image-container {
+    display: inline-block;
+    /* or block, depending on your layout needs */
+    position: relative;
+    margin: 1rem 0;
+}
+
+.image-caption {
+    display: block;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* Adjust the gap between images as needed */
+}
