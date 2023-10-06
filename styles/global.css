@@ -7,9 +7,9 @@ img {
 
 .logo {
     margin-top: 0px;
-    margin-right: 8px;
-    height: 40px;
-    width: 40px;
+    margin-right: 4px;
+    height: 48px;
+    width: 48px;
 }
 
 .footnotes::before {
