@@ -23,3 +23,5 @@ packages/nextra-theme-*/style.css
 /pages/__pycache__/
 
 yarn.lock
+pnpm-lock.yaml
+package-lock.json

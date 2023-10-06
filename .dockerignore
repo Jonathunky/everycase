@@ -1,4 +1,3 @@
-fly.toml
 Dockerfile
 .dockerignore
 node_modules
@@ -7,3 +6,6 @@ README.md
 .next
 .git
 pages/.obsidian/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
