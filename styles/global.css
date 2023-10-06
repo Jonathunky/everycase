@@ -1,8 +1,10 @@
-image {
-    max-width: 700px;
+img {
     height: auto;
-    display: block;
     margin-top: 20px;
+    width: 100%;
+    /* This ensures the image takes up to 100% of its container's width */
+    max-width: 700px;
+    /* This ensures the image does not exceed 700px in width */
 }
 
 .logo {
@@ -38,9 +40,4 @@ image {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     /* Adjust the gap between images as needed */
-}
-
-.responsive {
-    max-width: 100%;
-    height: auto;
 }
