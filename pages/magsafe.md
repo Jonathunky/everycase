@@ -47,23 +47,10 @@ Find My compatible from now on!
 
 FineWoven
 
-| Color       | Product Code |
-|-------------|--------------|
-| Black       | MT2N3ZM/A    |
-| Evergreen   | MT273ZM/A    |
-| Mulberry    | MT253ZM/A    |
-| Pacific Blue| MT263ZM/A    |
-| Taupe       | MT243ZM/A    |
-
-<div>
-<img src="icon.png" alt="drawing" width="200"/>
-<img src="icon.png" alt="drawing" width="200"/>
-<img src="icon.png" alt="drawing" width="200"/>
-</div>
-
-![Image](./icon.png =300x200)
-
-<div>
-    <img src="icon.png" alt="Description 1" width="48%" style="display: inline; margin-right: 2%;">
-    <img src="icon.png" alt="Description 2" width="48%" style="display: inline;">
-</div>
+| Color        | Product Code |
+| ------------ | ------------ |
+| Black        | MT2N3ZM/A    |
+| Evergreen    | MT273ZM/A    |
+| Mulberry     | MT253ZM/A    |
+| Pacific Blue | MT263ZM/A    |
+| Taupe        | MT243ZM/A    |

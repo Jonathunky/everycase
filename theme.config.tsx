@@ -17,11 +17,9 @@ const logo = (
     />
     <span
       style={{
-        fontFamily: "Helvetica Neue",
-        //fontWeight: 'bold',
+        fontFamily: '"Helvetica Neue", "Roboto", "Arimo", sans-serif',
         fontSize: "26px",
         letterSpacing: "0px",
-        //color: '#333'
       }}
     >
       EveryCase

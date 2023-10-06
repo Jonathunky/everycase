@@ -1,4 +1,6 @@
-# Hello there
+# The site is under construction. It's ~50% ready. Stay tuned!
+
+## Hello there!
 
 So you may have heard about [EveryMac](https://everymac.com/), the old-school yet functional catalogue of Apple devices, complete with specs, order numbers, and more. You may have also used [Bandbreite](https://bandbreite.watch/), a sleek and modern app for collecting Apple Watch bands.
 
