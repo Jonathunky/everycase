@@ -51,7 +51,8 @@ const config: DocsThemeConfig = {
     };
   },
   toc: {
-    float: true
+    float: true,
+    backToTop: true
   },
   feedback: {
     content: "Have something to add?"

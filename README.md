@@ -1,23 +1,21 @@
-# Nextra Docs Template 
+# EveryCase Website
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
-
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
-
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
-
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+This is a working repo for the [EveryCase](https://applecase.wiki/).
 
 ## License
 
-This project is licensed under the MIT License.
+This project is based on Shu Ding's [Nextra](https://github.com/shuding/nextra/) / Docs template, which is licensed under the MIT License. The original content and modifications introduced by EveryCase are licensed under the Apache License, Version 2.0."
+
+## Local Deployment
+
+If you want to host this yourself for some reason...
+
+1. Clone the repo.
+2. Execute `pnpm i` to install the dependencies.
+3. Run the server with `pnpm dev` and visit [localhost:3000](http://localhost:3000/).
+
+## Docker Deployment
+
+1. Clone the repo.
+2. Use `docker build -t everycase .` to build the image.
+3. Run the container with `docker run -d -p 80:3000 everycase` and visit [localhost:80](http://localhost/).
