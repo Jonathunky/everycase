@@ -24,13 +24,6 @@ Quick review of Apple Pencil case: https://youtu.be/KVaNWcEjRRQ
 
 ## Compatibility
 
-|                               | Part numbers |
-| ----------------------------- | ------------ |
-| Apple Pencil                  | MK0C2AM/A    |
-| Apple Pencil 2                | MU8F2AM/A    |
-| Apple Pencil Tips — 4 pack    | MLUN2AM/A    |
-| USB-C to Apple Pencil Adapter | MQLU3AM/A    |
-
 ## Apple Pencil part numbers
 
 |                               | Part numbers |
@@ -41,6 +34,8 @@ Quick review of Apple Pencil case: https://youtu.be/KVaNWcEjRRQ
 | USB-C to Apple Pencil Adapter | MQLU3AM/A    |
 
 ## Apple Pencil Case part numbers // WWDC 2017
+
+![Image](/assets/2017-pencil.jpg)
 
 |               | Apple Pencil Case |
 | ------------- | ----------------- |

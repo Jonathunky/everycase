@@ -20,6 +20,8 @@ import Image from "next/image";
 | Flamingo       | MQ4U2ZM/A            |
 | Pollen         | MQ4V2ZM/A            |
 
+![Image](/assets/2017-ipad-pro.jpg)
+
 | iPad Pro 10.5″ | Leather Smart Cover | Leather Sleeve |
 | -------------- | ------------------- | -------------- |
 | Taupe          | MPU82ZM/A           | MPU02ZM/A      |

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 # iPhone X & XS cases
 
 2017 marked
@@ -118,11 +116,15 @@ These accessories are only compatible with iPhone X and XS. Even though camera b
 
 ### Spring 2019 drop
 
+![Image](/assets/2019-xs-silicone.jpg)
+
 | Silicone Case | iPhone XS | iPhone XS Max |
 | ------------- | --------- | ------------- |
 | Delft Blue    | MVF12ZM/A | MVF62ZM/A     |
 | Papaya        | MVF22ZM/A | MVF72ZM/A     |
 | Spearmint     | MVF52ZM/A | MVF82ZM/A     |
+
+![Image](/assets/2019-xs-leather.jpg)
 
 | Leather Case | iPhone XS | XS Folio  | iPhone XS Max | XS Max Folio |
 | ------------ | --------- | --------- | ------------- | ------------ |
