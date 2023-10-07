@@ -16,7 +16,7 @@ iPhone 15 models features curvier corners than previous models, so cases made fo
 
 ### Silicone Case
 
-![Image](/assets/2023_15_silicone.jpg)
+![Image](/assets/2023-15-silicone.jpg)
 
 | Silicone Case | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Pro Max |
 | ------------- | --------- | -------------- | ------------- | ----------------- |
@@ -31,7 +31,7 @@ iPhone 15 models features curvier corners than previous models, so cases made fo
 
 ### FineWoven Case
 
-![Image](/assets/2023_15_finewoven.jpg)
+![Image](/assets/2023-15-finewoven.jpg)
 
 | FineWoven Case | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Pro Max |
 | -------------- | --------- | -------------- | ------------- | ----------------- |
@@ -43,7 +43,7 @@ iPhone 15 models features curvier corners than previous models, so cases made fo
 
 ### Clear Case
 
-![Image](/assets/2023_15_clear.jpg)
+![Image](/assets/2023-15-clear.jpg)
 
 |            | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Pro Max |
 | ---------- | --------- | -------------- | ------------- | ----------------- |

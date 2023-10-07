@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-# Under construction
+# iPhone 14 case line-up
 
 ## Late 2022 collection
 
@@ -23,12 +21,12 @@ import Image from "next/image";
 | Orange       | MPP83ZM/A | MPPF3ZM/A      | MPPL3ZM/A     | MPPR3ZM/A         |
 | Umber        | MPP73ZM/A | MPPD3ZM/A      | MPPK3ZM/A     | MPPQ3ZM/A         |
 
-|                   | Clear Case |
-| ----------------- | ---------- |
-| iPhone 14         | MPU13ZM/A  |
-| iPhone 14 Plus    | MPU43ZM/A  |
-| iPhone 14 Pro     | MPU63ZM/A  |
-| iPhone 14 Pro Max | MPU73ZM/A  |
+![Image](/assets/2022-14-clear.png)
+
+|            | iPhone 14 | iPhone 14 Plus | iPhone 14 Pro | iPhone 14 Pro Max |
+| ---------- | --------- | -------------- | ------------- | ----------------- |
+| Clear Case | MPU13ZM/A | MPU43ZM/A      | MPU63ZM/A     | MPU73ZM/A         |
+
 
 ## Spring 2023
 
