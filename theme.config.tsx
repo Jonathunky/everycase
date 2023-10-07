@@ -85,8 +85,9 @@ const config: DocsThemeConfig = {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title ? title : "EveryCase"} />
         <meta property="og:description" content="Library of Apple cases for iPhone, iPad, and Mac." />
-        <meta property="og:image" content="/icons/back.jpg" />
+        <meta property="og:image" content="https://applecase.wiki/icons/back.jpg" />
         <meta property="og:url" content={currentURL} />
+        <meta property="og:locale" content="en_GB" />
 
         {/* Apple Specific Tags */}
         <meta name="apple-mobile-web-app-title" content="EveryCase" />

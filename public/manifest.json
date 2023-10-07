@@ -1,13 +1,14 @@
 {
   "theme_color": "#BF4F95",
   "background_color": "#FFE0F5",
-  "display": "standalone",
+  "display_override": ["standalone", "fullscreen"],
+  "display": "minimal-ui",
   "scope": "/",
   "start_url": "https://applecase.wiki/",
   "name": "EveryCase",
   "short_name": "EveryCase",
   "description": "Library of Apple cases for iPhone, iPad, and Mac.",
-  "orientation": "any",
+  "orientation": "natural",
   "icons": [
     {
       "src": "/icons/android-chrome-192x192.png",
@@ -28,6 +29,15 @@
       "src": "/icons/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Latest Drop",
+      "short_name": "Latest",
+      "description": "View latest collection released by Apple",
+      "url": "/iphone_15?source=pwa",
+      "icons": [{ "src": "/icons/fire.png", "sizes": "512x512" }]
     }
   ]
 }
