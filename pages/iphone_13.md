@@ -4,13 +4,13 @@
 
 | Silicone Case | iPhone 13 | iPhone 13 mini | iPhone 13 Pro | iPhone 13 Pro Max |
 | ------------- | --------- | -------------- | ------------- | ----------------- |
-| Abyss Blue    | MM293ZM/A | MM213ZM/A      | MM2J3ZM/A     | MM2T3ZM/A         |
+| Marigold      | MM243ZM/A | MM1U3ZM/A      | MM2D3ZM/A     | MM2M3ZM/A         |
+| Pink Pomelo   | MM253ZM/A | MM1V3ZM/A      | MM2E3ZM/A     | MM2N3ZM/A         |
+| Clover        | MM263ZM/A | MM1X3ZM/A      | MM2F3ZM/A     | MM2P3ZM/A         |
 | Blue Jay      | MM273ZM/A | MM1Y3ZM/A      | MM2G3ZM/A     | MM2Q3ZM/A         |
 | Chalk Pink    | MM283ZM/A | MM203ZM/A      | MM2H3ZM/A     | MM2R3ZM/A         |
-| Clover        | MM263ZM/A | MM1X3ZM/A      | MM2F3ZM/A     | MM2P3ZM/A         |
-| Marigold      | MM243ZM/A | MM1U3ZM/A      | MM2D3ZM/A     | MM2M3ZM/A         |
+| Abyss Blue    | MM293ZM/A | MM213ZM/A      | MM2J3ZM/A     | MM2T3ZM/A         |
 | Midnight      | MM2A3ZM/A | MM223ZM/A      | MM2K3ZM/A     | MM2U3ZM/A         |
-| Pink Pomelo   | MM253ZM/A | MM1V3ZM/A      | MM2E3ZM/A     | MM2N3ZM/A         |
 | (PRODUCT)RED  | MM2C3ZM/A | MM233ZM/A      | MM2L3ZM/A     | MM2V3ZM/A         |
 
 ![Image](/assets/2021-13-leather.jpg)
