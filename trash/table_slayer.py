@@ -1,63 +1,106 @@
 import os
-import re
+import sys
 
 
-def extract_tables_from_content(content):
-    """Extract markdown tables from content."""
-    tables = re.findall(
-        r"(\|.*?\|)\s*\n(\|[-:| ]+\|)(.*?)(?=\n\n|\Z)", content, re.DOTALL
-    )
-    return [table[0] + "\n" + table[1] + table[2] for table in tables]
+def append_to_models_file(sku):
+    with open("models.txt", "a") as f:
+        f.write(sku[:5] + "\n")
 
 
-def process_table(table):
-    """Convert a single markdown table into the desired format."""
-    lines = table.strip().split("\n")
-    headers = [h.strip() for h in lines[1].split("|")[1:-1]]
-    items = ['"' + h.split(" ")[1] + '"' for h in headers]
-
-    tab_templates = []
-    for idx, header in enumerate(headers, start=1):
-        tab_content = [
-            "| Color        | {} | Image                           |".format(header),
-            "| ------------ | --- | ------------------------------- |",
-        ]
-        for line in lines[2:]:
-            parts = [p.strip() for p in line.split("|")[1:-1]]
-            color = parts[0]
-            sku = parts[idx]
-            image = sku[:-4]  # Removing the "ZM/A" to get the image name
-            tab_content.append(
-                "| {} | {} | ![Image](/everyphone/{}.png) |".format(color, sku, image)
-            )
-
-        tab_template = "<Tabs.Tab>\n{}\n</Tabs.Tab>".format("\n".join(tab_content))
-        tab_templates.append(tab_template)
-
-    result = "<Tabs\n  items={[{}]}\n>\n{}\n</Tabs>".format(
-        ", ".join(items), "\n".join(tab_templates)
-    )
-    return result
+def process_sku(sku):
+    if sku.endswith(("ZM/A", "LL/A", "AM/A")):
+        short_sku = sku[:5]
+        append_to_models_file(short_sku)
+        return f"[{sku}](/everycase/{short_sku})"
+    return sku
 
 
-def convert_md_to_mdx(file_path):
-    """Convert markdown tables in a file to the desired format."""
-    with open(file_path, "r") as file:
+def split_table(table_str):
+    rows = table_str.strip().split("\n")
+    headers = rows[0].split("|")[1:-1]  # Exclude the first and last empty items
+    if len(headers) < 3:
+        return None, None  # Skip tables with only two columns
+
+    # Create tabs header with reduced redundancy
+    base_name = headers[1].strip()
+    tab_items = [base_name]  # Start with the first name
+    for h in headers[2:]:
+        tab_items.append(h.replace(base_name, "").strip())
+
+    tabs_header = f"<Tabs\n  items={{{str(tab_items)}}}\n>"
+
+    new_tables = []
+    for h in tab_items:
+        new_table_rows = [f"| {headers[0]} | {h} | Image |", "| --- | --- | --- |"]
+        for row in rows[2:]:
+            values = row.split("|")[1:-1]
+            if len(values) < 2:  # Safety check
+                continue
+            processed_sku = process_sku(values[1].strip())
+            sku_part = values[1].strip()[
+                :5
+            ]  # Extract the first 5 characters for the SKU part
+            new_row = f"| {values[0]} | {processed_sku} | ![Image](/everyphone/{sku_part}.png) |"
+            new_table_rows.append(new_row)
+        new_table_content = "\n".join(new_table_rows)
+        new_table_wrapped = f"<Tabs.Tab>\n\n{new_table_content}\n\n</Tabs.Tab>"
+        new_tables.append(new_table_wrapped)
+
+    return tabs_header, new_tables
+
+
+def process_md_file(input_file, output_folder):
+    with open(input_file, "r") as file:
         content = file.read()
 
-    tables = extract_tables_from_content(content)
+    new_content = (
+        'import { Tabs } from "nextra/components";\n\n'  # Add the import statement
+    )
 
-    for table in tables:
-        new_format = process_table(table)
-        content = content.replace(table, new_format)
+    tables = content.split("\n\n")
+    for i, table in enumerate(tables):
+        if "|" in table:
+            tabs_header, wrapped_tables = split_table(table)
+            if (
+                tabs_header and wrapped_tables
+            ):  # Check if they're not None (for skipped tables)
+                tabs_content = (
+                    tabs_header + "\n\n" + "\n\n".join(wrapped_tables) + "\n</Tabs>"
+                )
+                new_content += tabs_content + "\n\n"
+            else:
+                new_content += table + "\n\n"  # For skipped tables
+        else:
+            new_content += table + "\n\n"
 
-    new_file_path = file_path.replace(".md", ".mdx")
-    with open(new_file_path, "w") as file:
-        file.write(content)
+    output_file = os.path.join(
+        output_folder, os.path.basename(input_file).replace(".md", ".mdx")
+    )
+    with open(output_file, "w") as file:
+        file.write(new_content)
+
+
+def process_single_file(filepath):
+    print(f"Processing {filepath}...")
+    try:
+        process_md_file(filepath, os.path.dirname(filepath))
+        print(f"Processed {filepath} and saved as {filepath.replace('.md', '.mdx')}.")
+    except Exception as e:
+        print(f"Error processing {filepath}: {e}")
+
+
+def process_folder(folder_name):
+    for filename in os.listdir(folder_name):
+        if filename.endswith(".md"):
+            full_path = os.path.join(folder_name, filename)
+            process_single_file(full_path)
 
 
 if __name__ == "__main__":
-    folder_name = input("Enter folder name: ")
-    for filename in os.listdir(folder_name):
-        if filename.endswith(".md"):
-            convert_md_to_mdx(os.path.join(folder_name, filename))
+    path = input("Enter the path to the file or directory: ")
+    if os.path.isfile(path):
+        process_single_file(path)
+    elif os.path.isdir(path):
+        process_folder(path)
+    else:
+        print("Error: The provided path is neither a file nor a directory.")

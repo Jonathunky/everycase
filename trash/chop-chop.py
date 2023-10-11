@@ -87,7 +87,7 @@ def process_input_file(file_path):
         if line.endswith(":"):
             if folder_name:
                 for model in models:
-                    for img_type in ["png", "jpg"]:
+                    for img_type in ["png"]:  # , "jpg"
                         download_image(model, folder_name, img_type)
                 create_collage(folder_name)
                 models = []
@@ -97,9 +97,9 @@ def process_input_file(file_path):
 
     if folder_name:
         for model in models:
-            for img_type in ["png", "jpg"]:
+            for img_type in ["png"]:  # , "jpg"
                 download_image(model, folder_name, img_type)
-        create_collage(folder_name)
+        # create_collage(folder_name)
 
 
 if __name__ == "__main__":

@@ -15,7 +15,8 @@
       "toc": false,
       "pagination": true,
       "layout": "full"
-    }
+    },
+    "display": "hidden"
   },
   "about": {
     "title": "★ Credits",
@@ -24,10 +25,6 @@
   "support": {
     "title": "♥ Leave your mark",
     "type": "page"
-  },
-  "sep0": {
-    "title": "",
-    "type": "separator"
   },
   "sep1": {
     "title": "By device: Latest iPhone ⤵",
