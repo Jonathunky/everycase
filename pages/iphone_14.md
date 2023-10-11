@@ -1,6 +1,8 @@
 # iPhone 14 case line-up
 
-## Late 2022 collection
+## Collections
+
+### Late 2022
 
 ![Image](/assets/2022-14-silicone.jpg)
 
@@ -31,13 +33,13 @@
 | ---------- | --------- | -------------- | ------------- | ----------------- |
 | Clear Case | MPU13ZM/A | MPU43ZM/A      | MPU63ZM/A     | MPU73ZM/A         |
 
-## Spring 2023
+### Spring 2023
 
 ![Image](/assets/2023-14pro-silicone.jpg)
 
 | Silicone Case | iPhone 14 | iPhone 14 Plus | iPhone 14 Pro | iPhone 14 Pro Max |
 | ------------- | --------- | -------------- | ------------- | ----------------- |
-| Olive         | MQU83ZM/A | MQUD3ZM/A      | MQUH3ZM/A     | MQUN3ZM/A         |
-| Iris          | MQUA3ZM/A | MQUF3ZM/A      | MQUK3ZM/A     | MQUQ3ZM/A         |
-| Sky           | MQU93ZM/A | MQUE3ZM/A      | MQUJ3ZM/A     | MQUP3ZM/A         |
 | Canary Yellow | MQU73ZM/A | MQUC3ZM/A      | MQUG3ZM/A     | MQUL3ZM/A         |
+| Olive         | MQU83ZM/A | MQUD3ZM/A      | MQUH3ZM/A     | MQUN3ZM/A         |
+| Sky           | MQU93ZM/A | MQUE3ZM/A      | MQUJ3ZM/A     | MQUP3ZM/A         |
+| Iris          | MQUA3ZM/A | MQUF3ZM/A      | MQUK3ZM/A     | MQUQ3ZM/A         |

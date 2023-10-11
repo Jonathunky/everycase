@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 # iPhone 11 Pro & Pro Max cases
 
 ## In the Wild

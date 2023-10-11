@@ -12,9 +12,11 @@ iPhone 15 Silicone Case and Clear Case cost \$49, while FineWoven cases cost \$5
 
 iPhone 15 models features curvier corners than previous models, so cases made for iPhone 15 series are only compatible with corresponding iPhone 15.
 
-## Part numbers / Late 2023 drop
+## Collections
 
-### Silicone Case
+### Late 2023
+
+#### Silicone Case
 
 ![Image](/assets/2023-15-silicone.jpg)
 
@@ -29,7 +31,7 @@ iPhone 15 models features curvier corners than previous models, so cases made fo
 | Light Pink    | MT0U3ZM/A | MT143ZM/A      | MT1F3ZM/A     | MT1U3ZM/A         |
 | Black         | MT0J3ZM/A | MT103ZM/A      | MT1A3ZM/A     | MT1M3ZM/A         |
 
-### FineWoven Case
+#### FineWoven Case
 
 ![Image](/assets/2023-15-finewoven.jpg)
 
@@ -41,7 +43,7 @@ iPhone 15 models features curvier corners than previous models, so cases made fo
 | Pacific Blue   | MT3G3ZM/A | MT4D3ZM/A      | MT4Q3ZM/A     | MT4Y3ZM/A         |
 | Black          | MT393ZM/A | MT423ZM/A      | MT4H3ZM/A     | MT4V3ZM/A         |
 
-### Clear Case
+#### Clear Case
 
 ![Image](/assets/2023-15-clear.jpg)
 

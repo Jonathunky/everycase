@@ -1,10 +1,12 @@
-import Image from "next/image";
+# iPhone 12 case line-up
 
-# Under construction
-
-## Part numbers
+## Collections
 
 ### Late 2020
+
+#### Silicone Case
+
+![Image](/assets/2020-12-silicone.jpg)
 
 | Silicone Case | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | ------------- | -------------- | ------------------ | ----------------- |
@@ -17,6 +19,10 @@ import Image from "next/image";
 | (PRODUCT)RED  | MHKW3ZM/A      | MHL63ZM/A          | MHLF3ZM/A         |
 | Black         | MHKX3ZM/A      | MHL73ZM/A          | MHLG3ZM/A         |
 
+#### Leather Case
+
+![Image](/assets/2020-12-leather.jpg)
+
 | Leather Case     | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | ---------------- | -------------- | ------------------ | ----------------- |
 | California Poppy | MHK63ZM/A      | MHKC3ZM/A          | MHKH3ZM/A         |
@@ -24,6 +30,10 @@ import Image from "next/image";
 | Baltic Blue      | MHK83ZM/A      | MHKE3ZM/A          | MHKK3ZM/A         |
 | Saddle Brown     | MHK93ZM/A      | MHKF3ZM/A          | MHKL3ZM/A         |
 | Black            | MHKA3ZM/A      | MHKG3ZM/A          | MHKM3ZM/A         |
+
+#### Leather Sleeve
+
+![Image](/assets/2020-12-leather-sleeve.jpg)
 
 | Leather Sleeve | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | -------------- | -------------- | ------------------ | ----------------- |
@@ -34,12 +44,16 @@ import Image from "next/image";
 
 ### Spring 2021
 
+![Image](/assets/2021-12-silicone.jpg)
+
 | Silicone Case | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | ------------- | -------------- | ------------------ | ----------------- |
 | Capri Blue    | MJYU3ZM/A      | MJYY3ZM/A          | MK043ZM/A         |
 | Pistachio     | MJYV3ZM/A      | MK003ZM/A          | MK053ZM/A         |
 | Cantaloupe    | MJYW3ZM/A      | MK023ZM/A          | MK073ZM/A         |
 | Amethyst      | MJYX3ZM/A      | MK033ZM/A          | MK083ZM/A         |
+
+![Image](/assets/2021-12-leather.jpg)
 
 | Leather Case | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | ------------ | -------------- | ------------------ | ----------------- |
@@ -50,6 +64,8 @@ import Image from "next/image";
 | Deep Violet    | MK093ZM/A      | MK0A3ZM/A          | MK0D3ZM/A         |
 
 ### Summer 2021
+
+![Image](/assets/2021-12-summer.jpg)
 
 | Silicone Case   | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | --------------- | -------------- | ------------------ | ----------------- |
