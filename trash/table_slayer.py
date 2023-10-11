@@ -1,91 +1,50 @@
-import os
 import re
 
 
-def append_to_models_txt(sku):
-    with open("models.txt", "a+") as model_file:
-        model_file.write(sku + "\n")
+def convert_table_to_tabs(table_content):
+    # Parsing headers and rows from the table content
+    lines = table_content.strip().split("\n")
+    headers = [h.strip() for h in lines[0].split("|")[1:-1]]
+    rows = [[cell.strip() for cell in row.split("|")[1:-1]] for row in lines[2:]]
+
+    if len(headers) <= 2:
+        return table_content
+
+    # Creating Tabs
+    tabs = []
+    for index, header in enumerate(headers[1:]):
+        tab = []
+        tab.append(f"| {headers[0]} | {header} | Image |")
+        tab.append("| --- | --- | --- |")
+
+        for row in rows:
+            first_col = row[0]
+            cell_content = row[index + 1]
+            new_cell = f"[{cell_content}](/everycase/{cell_content[:5]})"
+            image_cell = f"![Image](/everyphone/{cell_content[:5]}.png)"
+            tab.append(f"| {first_col} | {new_cell} | {image_cell} |")
+
+        tabs.append("\n".join(tab))
+
+    # Formatting the output
+    header_items = ", ".join([f"'{header}'" for header in headers[1:]])
+    all_tabs = "\n\n".join([f"<Tabs.Tab>\n\n{tab}\n\n</Tabs.Tab>" for tab in tabs])
+    final_output = f"<Tabs\n  items={[{header_items}]}\n>\n\n{all_tabs}\n</Tabs>"
+
+    return final_output
 
 
-def split_table(table_str):
-    rows = table_str.strip().split("\n")
-    headers = rows[0].split("|")[1:-1]
-    if len(headers) < 3:
-        return None, None
-
-    base_name = headers[0].strip()
-    tab_items = headers[1:]
-
-    tabs_header = f"<Tabs\n  items={{{str(tab_items)}}}\n>"
-
-    new_tables = []
-    for idx, h in enumerate(tab_items):
-        new_table_rows = [f"| {base_name} | {h} | Image |", "| --- | --- | --- |"]
-        for row in rows[2:]:
-            values = row.split("|")[1:-1]
-            if idx + 1 < len(values):
-                sku_part = values[idx + 1].strip()[:5]
-                new_row = f"| {values[0]} | {values[idx+1]} | ![Image](/everyphone/{sku_part}.png) |"
-                new_table_rows.append(new_row)
-                append_to_models_txt(sku_part)
-                phone_model = values[0].strip()
-                image_link = f"/everyphone/{sku_part}.png"
-                generate_individual_md(
-                    sku_part, phone_model, h, image_link, "individual"
-                )
-
-        new_tables.append("\n".join(new_table_rows))
-
-    return tabs_header, new_tables
-
-
-def process_md_file(input_file, output_folder):
-    with open(input_file, "r") as file:
-        content = file.read()
-
-    new_content = 'import { Tabs } from "nextra/components";\n\n'
-
-    tables = content.split("\n\n")
-    for i, table in enumerate(tables):
-        if "|" in table:
-            tabs_header, wrapped_tables = split_table(table)
-            if tabs_header and wrapped_tables:
-                tabs_content = (
-                    tabs_header + "\n\n" + "\n\n".join(wrapped_tables) + "\n</Tabs>"
-                )
-                new_content += tabs_content + "\n\n"
-            else:
-                new_content += table + "\n\n"
-        else:
-            new_content += table + "\n\n"
-
-    output_file_mdx = os.path.join(
-        output_folder, os.path.basename(input_file).replace(".md", ".mdx")
-    )
-    with open(output_file_mdx, "w") as file:
-        file.write(new_content)
-
-
-def generate_individual_md(sku, phone_model, case_name, image_link, output_folder):
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
-
-    md_filename = os.path.join(output_folder, f"{sku}.md")
-    with open(md_filename, "w") as md_file:
-        md_file.write(f"# {phone_model} {case_name}\n")
-        md_file.write(f"![Image]({image_link})\n")
-
-
-def process_folder(folder_path):
-    output_folder = os.path.join(folder_path, "converted")
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
-
-    for file in os.listdir(folder_path):
-        if file.endswith(".md"):
-            process_md_file(os.path.join(folder_path, file), output_folder)
-
-
-if __name__ == "__main__":
-    folder_name = input("Enter folder path: ")
-    process_folder(folder_name)
+# Test
+table_content = """
+| Silicone Case | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Pro Max |
+| ------------- | --------- | -------------- | ------------- | ----------------- |
+| Black         | MT0J3ZM/A | MT103ZM/A      | MT1A3ZM/A     | MT1M3ZM/A         |
+| Storm Blue    | MT0N3ZM/A | MT123ZM/A      | MT1D3ZM/A     | MT1P3ZM/A         |
+| Clay          | MT0Q3ZM/A | MT133ZM/A      | MT1E3ZM/A     | MT1Q3ZM/A         |
+| Light Pink    | MT0U3ZM/A | MT143ZM/A      | MT1F3ZM/A     | MT1U3ZM/A         |
+| Guava         | MT0V3ZM/A | MT163ZM/A      | MT1G3ZM/A     | MT1V3ZM/A         |
+| Orange Sorbet | MT0W3ZM/A | MT173ZM/A      | MT1H3ZM/A     | MT1W3ZM/A         |
+| Cypress       | MT0X3ZM/A | MT183ZM/A      | MT1J3ZM/A     | MT1X3ZM/A         |
+| Winter Blue   | MT0Y3ZM/A | MT193ZM/A      | MT1L3ZM/A     | MT1Y3ZM/A         |
+"""
+print(convert_table_to_tabs(table_content))
