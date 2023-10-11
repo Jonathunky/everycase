@@ -4,7 +4,7 @@ from PIL import Image
 
 BASE_URL_PNG = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{code}?wid=4500&hei=4500&fmt=png"
 BASE_URL_JPG = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{code}?wid=1000&hei=1000&fmt=jpg&qlt=95"
-x_pixels_to_crop = 200  # Number of pixels to crop from the left and right
+x_pixels_to_crop = 100  # Number of pixels to crop from the left and right
 
 
 def download_image(code, folder, img_type):
@@ -37,7 +37,11 @@ def create_collage(folder_name):
     cropped_filenames = []
 
     for filename in sorted(os.listdir(folder_name)):
-        if filename.endswith(".jpg") and not filename.endswith("_cropped.jpg"):
+        if (
+            filename.endswith(".jpg")
+            and not filename.endswith("_cropped.jpg")
+            and not filename.startswith(folder_name)
+        ):
             image_path = os.path.join(folder_name, filename)
             with Image.open(image_path) as img:
                 width, height = img.size
@@ -61,7 +65,9 @@ def create_collage(folder_name):
         combined_img.paste(img, (x_offset, 0))
         x_offset += img.width
 
-    combined_img.save(os.path.join(folder_name, "combined_image.jpg"), quality=95)
+    combined_img_filename = f"{folder_name}.jpg"
+    combined_img.save(os.path.join(folder_name, combined_img_filename), quality=95)
+
     print(f"Combined collage saved to {folder_name}")
 
     # Clean up: Remove the cropped images
