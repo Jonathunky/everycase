@@ -82,5 +82,8 @@
   "ipad_2": "iPad 2–4",
   "iphone_4": "iPhone 4 Bumpers",
   "ipod_touch": "iPod Touch Loop",
-  "ipad_1": "Original iPad Case"
+  "ipad_1": "Original iPad Case",
+  "everycase": {
+    "title": "EveryCase"
+  }
 }
