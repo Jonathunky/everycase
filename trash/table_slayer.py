@@ -38,8 +38,10 @@ def generate_tab_or_table(
         table.append(
             f"| {headers[1]} | {headers[0]} | Image |"
         )  # "for iPhone..." could be done here
+        heading = headers[1]
     else:
         table.append(f"| {headers[0]} | {headers[1]} | Image |")
+        heading = headers[0]
 
     table.append("| --- | --- | --- |")
 
@@ -47,7 +49,7 @@ def generate_tab_or_table(
         first_col = row[0]
         cell_content = row[1]
         new_cell = f"[{cell_content}](/everycase/{cell_content[:5]})"
-        image_cell = f"![{first_col} {headers[1]}](/everyphone/{cell_content[:5]}.png)"
+        image_cell = f"![{first_col} {heading}](/everyphone/{cell_content[:5]}.png)"
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
         if generate_everycase:
