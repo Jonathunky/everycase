@@ -1,7 +1,9 @@
 import os
 
 
-def convert_table_to_tabs(table_content, file_name_without_extension):
+def convert_table_to_tabs(
+    table_content, file_name_without_extension, generate_everycase=True
+):
     lines = table_content.strip().split("\n")
     headers = [h.strip() for h in lines[0].split("|")[1:-1]]
     rows = [[cell.strip() for cell in row.split("|")[1:-1]] for row in lines[2:]]
@@ -23,18 +25,18 @@ def convert_table_to_tabs(table_content, file_name_without_extension):
             tab.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
             # Creating the everycase file for this SKU
-            with open(f"pages/everycase/{cell_content[:5]}.md", "w") as sku_file:
-                sku_file_content = (
-                    f"# {header} {headers[0]} with MagSafe - {first_col}\n\n"
-                    f"[Return to previous page](/{file_name_without_extension})\n\n"
-                    f"[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{cell_content[:5]}?wid=4500&hei=4500&fmt=png)\n\n"
-                    f'<div style="width: 500px">'
-                    f'<img src="/everyphone/{cell_content[:5]}.png" alt="{first_col}">'
-                    "</div>\n\n"
-                    "## Under construction\n"
-                )
-
-                sku_file.write(sku_file_content)
+            if generate_everycase:
+                with open(f"pages/everycase/{cell_content[:5]}.md", "w") as sku_file:
+                    sku_file_content = (
+                        f"# {header} {headers[0]} with MagSafe - {first_col}\n\n"
+                        f"[Return to previous page](/{file_name_without_extension})\n\n"
+                        f"[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{cell_content[:5]}?wid=4500&hei=4500&fmt=png)\n\n"
+                        f'<div style="width: 500px">'
+                        f'<img src="/everyphone/{cell_content[:5]}.png" alt="{first_col}">'
+                        "</div>\n\n"
+                        "## Under construction\n"
+                    )
+                    sku_file.write(sku_file_content)
 
         tabs.append("\n".join(tab))
 
@@ -91,24 +93,37 @@ def convert_and_print_tables(filename):
         print("=" * 40)
 
 
-def convert_and_save_to_mdx(input_filename, output_filename):
+def process_directory(directory_path, generate_mdx=True, generate_everycase=True):
+    for root, dirs, files in os.walk(directory_path):
+        for file in files:
+            if file.endswith(".md"):
+                input_filename = os.path.join(root, file)
+                output_filename = os.path.join("pages", file + "x")
+                convert_and_save_to_mdx(
+                    input_filename, output_filename, generate_mdx, generate_everycase
+                )
+
+
+def convert_and_save_to_mdx(
+    input_filename, output_filename, generate_mdx=True, generate_everycase=True
+):
     file_name_without_extension = os.path.basename(input_filename).replace(".md", "")
     with open(input_filename, "r") as f:
         content = f.read()
 
     tables = extract_tables_from_file(input_filename)
     for table in tables:
-        converted_table = convert_table_to_tabs(table, file_name_without_extension)
+        converted_table = convert_table_to_tabs(
+            table, file_name_without_extension, generate_everycase
+        )
         content = content.replace(table, converted_table)
 
-    content = 'import { Tabs } from "nextra/components";\n\n' + content
-
-    with open(output_filename, "w") as f:
-        f.write(content)
+    if generate_mdx:
+        content = 'import { Tabs } from "nextra/components";\n\n' + content
+        with open(output_filename, "w") as f:
+            f.write(content)
 
 
 # Test
-filename = "iphone_15.md"
-input_filename = os.path.join("trash", "pages", filename)
-output_filename = os.path.join("pages", filename + "x")
-convert_and_save_to_mdx(input_filename, output_filename)
+directory_path = "trash/pages"
+process_directory(directory_path, generate_mdx=True, generate_everycase=True)

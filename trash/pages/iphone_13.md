@@ -4,6 +4,8 @@
 
 ### Late 2021
 
+#### Silicone Case
+
 | Silicone Case | iPhone 13 | iPhone 13 mini | iPhone 13 Pro | iPhone 13 Pro Max |
 | ------------- | --------- | -------------- | ------------- | ----------------- |
 | Marigold      | MM243ZM/A | MM1U3ZM/A      | MM2D3ZM/A     | MM2M3ZM/A         |
@@ -15,6 +17,8 @@
 | Midnight      | MM2A3ZM/A | MM223ZM/A      | MM2K3ZM/A     | MM2U3ZM/A         |
 | (PRODUCT)RED  | MM2C3ZM/A | MM233ZM/A      | MM2L3ZM/A     | MM2V3ZM/A         |
 
+#### Leather Case
+
 | Leather Case  | iPhone 13 | iPhone 13 mini | iPhone 13 Pro | iPhone 13 Pro Max |
 | ------------- | --------- | -------------- | ------------- | ----------------- |
 | Dark Cherry   | MM143ZM/A | MM0G3ZM/A      | MM1A3ZM/A     | MM1M3ZM/A         |
@@ -22,6 +26,8 @@
 | Midnight      | MM183ZM/A | MM0M3ZM/A      | MM1H3ZM/A     | MM1R3ZM/A         |
 | Sequoia Green | MM173ZM/A | MM0J3ZM/A      | MM1G3ZM/A     | MM1Q3ZM/A         |
 | Wisteria      | MM163ZM/A | MM0H3ZM/A      | MM1F3ZM/A     | MM1P3ZM/A         |
+
+#### Clear Case
 
 |            | iPhone 13 | iPhone 13 mini | iPhone 13 Pro | iPhone 13 Pro Max |
 | ---------- | --------- | -------------- | ------------- | ----------------- |
