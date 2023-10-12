@@ -9,7 +9,7 @@ def replace_md_images_with_html(content):
     def repl(matchobj):
         alt_text = matchobj.group(1)
         link = matchobj.group(2)
-        return f'<img src="{link}" alt="{alt_text}">'
+        return f'<img src="{link}" alt="{alt_text}"/>'
 
     # Substitute using the pattern and replacement function
     return re.sub(pattern, repl, content)

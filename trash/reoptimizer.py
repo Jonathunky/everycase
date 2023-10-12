@@ -4,7 +4,7 @@ import re
 def replace_html_img_with_md(content):
     # Regular expression pattern to identify <img> tags
     pattern = (
-        r'<img src="([^"]+)" alt="([^"]*)">'  # Group 1: image link, Group 2: alt text
+        r'<img src="([^"]+)" alt="([^"]*)"/>'  # Group 1: image link, Group 2: alt text
     )
 
     # Function to perform replacement for each match
