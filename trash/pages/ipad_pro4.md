@@ -1,6 +1,6 @@
 # Accessories for iPad Pro, 2020 and newer
 
-## Part numbers
+## Collections
 
 ### Spring 2020
 
@@ -32,12 +32,12 @@
 
 ### Late 2021
 
-| Color            | iPad Pro 11″ | iPad Pro 12.9″ |
+| Smart Folio      | iPad Pro 11″ | iPad Pro 12.9″ |
 | ---------------- | ------------ | -------------- |
 | English Lavender | MM6N3ZM/A    | MM6P3ZM/A      |
 
 ### Late 2022
 
-| Color       | iPad Pro 11″ | iPad Pro 12.9″ |
+| Smart Folio | iPad Pro 11″ | iPad Pro 12.9″ |
 | ----------- | ------------ | -------------- |
 | Marine Blue | MQDV3ZM/A    | MQDW3ZM/A      |

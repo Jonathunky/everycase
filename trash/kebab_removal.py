@@ -12,11 +12,15 @@ def batch_resize(directory):
     for filename in os.listdir(directory):
         if filename.endswith(".png"):
             input_path = os.path.join(directory, filename)
-            output_path = os.path.join(
-                directory, os.path.splitext(filename)[0] + "" + ".png"
-            )
+
+            # Updated output path
+            output_path = os.path.join("public", "everyphone", filename)
+
             resize_image(input_path, output_path)
+
+            # Deleting the original image
+            os.remove(input_path)
 
 
 if __name__ == "__main__":
-    batch_resize("public/temp/")
+    batch_resize("trash/images")

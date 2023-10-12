@@ -18,7 +18,9 @@ def convert_table_to_tabs(
             first_col = row[0]
             cell_content = row[1]
             new_cell = f"[{cell_content}](/everycase/{cell_content[:5]})"
-            image_cell = f"![{first_col} Case](/everyphone/{cell_content[:5]}.png)"
+            image_cell = (
+                f"![{first_col} {headers[0]}](/everyphone/{cell_content[:5]}.png)"
+            )
             new_table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
             if generate_everycase:
@@ -57,7 +59,9 @@ def convert_table_to_tabs(
             first_col = row[0]
             cell_content = row[index]
             new_cell = f"[{cell_content}](/everycase/{cell_content[:5]})"
-            image_cell = f"![{first_col} Case](/everyphone/{cell_content[:5]}.png)"
+            image_cell = (
+                f"![{first_col} {headers[0]}](/everyphone/{cell_content[:5]}.png)"
+            )
             tab.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
             # Creating the everycase file for this SKU

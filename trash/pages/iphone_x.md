@@ -6,9 +6,11 @@
 
 These accessories are only compatible with iPhone X and XS. Even though camera bump on XS is slightly bigger by a millimeter or two, vast majority of iPhone X cases fit XS, and vice versa.
 
-## Part numbers
+## Collections
 
-### Late 2017 / iPhone X collection
+### Late 2017
+
+#### Silicone Case
 
 | Silicone Case | iPhone X  |
 | ------------- | --------- |
@@ -22,6 +24,8 @@ These accessories are only compatible with iPhone X and XS. Even though camera b
 | Rose Red      | MQT82ZM/A |
 | Dark Olive    | MR522ZM/A |
 
+#### Leather Case
+
 | Leather Case   | iPhone X  |
 | -------------- | --------- |
 | Taupe          | MQT92ZM/A |
@@ -34,24 +38,26 @@ These accessories are only compatible with iPhone X and XS. Even though camera b
 | Cosmos Blue    | MQTH2ZM/A |
 | Pink Fuchsia   | MQTJ2ZM/A |
 
+#### Leather Folio
+
 | Leather Folio | iPhone X  |
 | ------------- | --------- |
 | Black         | MQRV2ZM/A |
 | Cosmos Blue   | MQRW2ZM/A |
 | Berry         | MQRX2ZM/A |
 | Taupe         | MQRY2ZM/A |
-| (PRODUCT)RED  | MRQD2ZM/A |
 
-(PRODUCT)RED Folio released later, on an absolutely random date — April 9th, 2018
+### Spring 2018
 
-
-### Spring 2018 drop
+#### Silicone Case
 
 | Silicone Case | iPhone X  |
 | ------------- | --------- |
 | Red Raspberry | MRG12ZM/A |
 | Denim Blue    | MRG22ZM/A |
 | Lemonade      | MRG32ZM/A |
+
+#### Leather Case
 
 | Leather Case  | iPhone X  |
 | ------------- | --------- |
@@ -60,20 +66,27 @@ These accessories are only compatible with iPhone X and XS. Even though camera b
 | Spring Yellow | MRGJ2ZM/A |
 | Bright Orange | MRGK2ZM/A |
 
+#### Leather Folio
+
 | Leather Folio | iPhone X  |
 | ------------- | --------- |
+| (PRODUCT)RED  | MRQD2ZM/A |
 | Electric Blue | MRGE2ZM/A |
 | Soft Pink     | MRGF2ZM/A |
 
-### WWDC 2018 drop
+(PRODUCT)RED Folio released slightly later, on an absolutely random date — April 9th, 2018
 
-| iPhone X     | Silicone Case |
-| ------------ | ------------- |
-| Peach        | MRRC2ZM/A     |
-| Sky Blue     | MRRD2ZM/A     |
-| Marine Green | MRRE2ZM/A     |
+### WWDC 2018
 
-### Late 2018 / iPhone XS collection
+| Silicone Case | iPhone X  |
+| ------------- | --------- |
+| Peach         | MRRC2ZM/A |
+| Sky Blue      | MRRD2ZM/A |
+| Marine Green  | MRRE2ZM/A |
+
+### Late 2018
+
+#### Silicone Case
 
 | Silicone Case | iPhone XS | iPhone XS Max |
 | ------------- | --------- | ------------- |
@@ -87,6 +100,8 @@ These accessories are only compatible with iPhone X and XS. Even though camera b
 | Nectarine     | MTFA2ZM/A | MTFF2ZM/A     |
 | Lavender Gray | MTFC2ZM/A | MTFH2ZM/A     |
 
+#### Leather Case
+
 | Leather Case  | iPhone XS | iPhone XS Max |
 | ------------- | --------- | ------------- |
 | (PRODUCT)RED  | MRWK2ZM/A | MRWQ2ZM/A     |
@@ -98,6 +113,8 @@ These accessories are only compatible with iPhone X and XS. Even though camera b
 | Cape Cod Blue | MTET2ZM/A | MTEW2ZM/A     |
 | Peony Pink    | MTEU2ZM/A | MTEX2ZM/A     |
 
+#### Leather Folio
+
 | Leather Folio | iPhone XS | iPhone XS Max |
 | ------------- | --------- | ------------- |
 | Black         | MRWW2ZM/A | MRX22ZM/A     |
@@ -106,7 +123,7 @@ These accessories are only compatible with iPhone X and XS. Even though camera b
 | Cape Cod Blue | MRX02ZM/A | MRX52ZM/A     |
 | Peony Pink    | MRX12ZM/A | MRX62ZM/A     |
 
-### November 2018 sudden drop
+### November 2018
 
 | Silicone Case | iPhone XS | iPhone XS Max |
 | ------------- | --------- | ------------- |
@@ -124,7 +141,9 @@ These accessories are only compatible with iPhone X and XS. Even though camera b
 
 Pink Sand released as part of Spring 2019 drop
 
-### Spring 2019 drop
+### Spring 2019
+
+#### Silicone Case
 
 | Silicone Case | iPhone XS | iPhone XS Max |
 | ------------- | --------- | ------------- |
@@ -132,19 +151,23 @@ Pink Sand released as part of Spring 2019 drop
 | Papaya        | MVF22ZM/A | MVF72ZM/A     |
 | Spearmint     | MVF52ZM/A | MVF82ZM/A     |
 
+#### Leather Case
+
 | Leather Case | iPhone XS | iPhone XS Max |
 | ------------ | --------- | ------------- |
 | Cornflower   | MVFP2ZM/A | MVFX2ZM/A     |
-| Lilac        | MVFR2ZM/A | MVH02ZM/A     |
 | Sunset       | MVFQ2ZM/A | MVFY2ZM/A     |
+| Lilac        | MVFR2ZM/A | MVH02ZM/A     |
+
+#### Leather Folio
 
 | Leather Folio | iPhone XS | iPhone XS Max |
 | ------------- | --------- | ------------- |
 | Cornflower    | MVFD2ZM/A | MVFT2ZM/A     |
-| Lilac         | MVF92ZM/A | MVFV2ZM/A     |
 | Sunset        | MVFC2ZM/A | MVFU2ZM/A     |
+| Lilac         | MVF92ZM/A | MVFV2ZM/A     |
 
-### WWDC 2019 drop
+### WWDC 2019
 
 | Silicone Case | iPhone XS | iPhone XS Max |
 | ------------- | --------- | ------------- |

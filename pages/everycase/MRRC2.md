@@ -1,4 +1,4 @@
-# Silicone Case iPhone X - Peach
+# iPhone X Silicone Case - Peach
 
 [Return to previous page](/iphone_x)
 

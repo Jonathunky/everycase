@@ -1,4 +1,4 @@
-# Silicone Case iPhone X - Marine Green
+# iPhone X Silicone Case - Marine Green
 
 [Return to previous page](/iphone_x)
 

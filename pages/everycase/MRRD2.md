@@ -1,4 +1,4 @@
-# Silicone Case iPhone X - Sky Blue
+# iPhone X Silicone Case - Sky Blue
 
 [Return to previous page](/iphone_x)
 
