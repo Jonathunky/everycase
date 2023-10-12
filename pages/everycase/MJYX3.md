@@ -1,9 +1,9 @@
-# iPhone 12 mini Silicone Case with MagSafe - Amethyst
+# iPhone 12 mini with MagSafe - Amethyst
 
 [Return to previous page](/iphone_12)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MJYX3?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MJYX3.png" alt="Amethyst"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MJYX3.webp" alt="Amethyst"></div>
 
 ## Under construction

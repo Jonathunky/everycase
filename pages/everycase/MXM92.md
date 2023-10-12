@@ -1,9 +1,9 @@
-# iPhone 11 Pro Silicone Case - Beryl
+# iPhone 11 Pro Max - Beryl
 
 [Return to previous page](/iphone_11)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MXM92?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MXM92.png" alt="Beryl"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MXM92.webp" alt="Beryl"></div>
 
 ## Under construction

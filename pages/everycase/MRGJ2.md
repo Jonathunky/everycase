@@ -1,9 +1,9 @@
-# iPhone X Leather Case - Spring Yellow
+# iPhone X - Spring Yellow
 
 [Return to previous page](/iphone_x)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MRGJ2?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MRGJ2.png" alt="Spring Yellow"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MRGJ2.webp" alt="Spring Yellow"></div>
 
 ## Under construction

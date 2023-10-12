@@ -1,9 +1,9 @@
-# iPhone 13  with MagSafe - Clear Case
+# iPhone 13 mini with MagSafe - Clear Case
 
 [Return to previous page](/iphone_13)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MM2W3?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MM2W3.png" alt="Clear Case"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MM2W3.webp" alt="Clear Case"></div>
 
 ## Under construction

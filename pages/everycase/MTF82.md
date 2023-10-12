@@ -1,9 +1,9 @@
-# iPhone XS Silicone Case - Pink Sand
+# iPhone XS - Pink Sand
 
 [Return to previous page](/iphone_x)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MTF82?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MTF82.png" alt="Pink Sand"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MTF82.webp" alt="Pink Sand"></div>
 
 ## Under construction

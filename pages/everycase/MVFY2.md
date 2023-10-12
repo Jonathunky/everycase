@@ -1,9 +1,9 @@
-# iPhone XS Leather Case - Sunset
+# iPhone XS Max - Sunset
 
 [Return to previous page](/iphone_x)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MVFY2?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MVFY2.png" alt="Sunset"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MVFY2.webp" alt="Sunset"></div>
 
 ## Under construction

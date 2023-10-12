@@ -1,9 +1,9 @@
-# FineWoven Key Ring AirTag - Taupe
+# FineWoven Key Ring - Taupe
 
 [Return to previous page](/airtag)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MT2L3?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MT2L3.png" alt="Taupe"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MT2L3.webp" alt="Taupe"></div>
 
 ## Under construction

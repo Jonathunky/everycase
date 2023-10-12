@@ -1,9 +1,9 @@
-# iPhone XS Leather Case - Cornflower
+# iPhone XS - Cornflower
 
 [Return to previous page](/iphone_x)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MVFP2?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MVFP2.png" alt="Cornflower"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MVFP2.webp" alt="Cornflower"></div>
 
 ## Under construction

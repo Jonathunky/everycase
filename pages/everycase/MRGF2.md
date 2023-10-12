@@ -1,9 +1,9 @@
-# iPhone X Leather Folio - Soft Pink
+# iPhone X - Soft Pink
 
 [Return to previous page](/iphone_x)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MRGF2?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MRGF2.png" alt="Soft Pink"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MRGF2.webp" alt="Soft Pink"></div>
 
 ## Under construction

@@ -1,9 +1,9 @@
-# iPhone 14 Silicone Case with MagSafe - Sunglow
+# iPhone 14 Plus with MagSafe - Sunglow
 
 [Return to previous page](/iphone_14)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MPTD3?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MPTD3.png" alt="Sunglow"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MPTD3.webp" alt="Sunglow"></div>
 
 ## Under construction

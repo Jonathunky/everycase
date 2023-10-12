@@ -1,9 +1,9 @@
-# iPad Pro 11″ Smart Folio - Cyprus Green
+# iPad Pro 11″ - Cyprus Green
 
 [Return to previous page](/ipad_pro4)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MGYY3?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MGYY3.png" alt="Cyprus Green"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MGYY3.webp" alt="Cyprus Green"></div>
 
 ## Under construction

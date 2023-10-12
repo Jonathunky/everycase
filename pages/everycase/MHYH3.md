@@ -1,9 +1,9 @@
-# iPhone 12 mini Leather Sleeve with MagSafe - Baltic Blue
+# iPhone 12 Pro Max with MagSafe - Baltic Blue
 
 [Return to previous page](/iphone_12)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MHYH3?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MHYH3.png" alt="Baltic Blue"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MHYH3.webp" alt="Baltic Blue"></div>
 
 ## Under construction

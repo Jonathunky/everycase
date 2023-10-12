@@ -1,9 +1,9 @@
-# iPhone XS Silicone Case - Blue Horizon
+# iPhone XS - Blue Horizon
 
 [Return to previous page](/iphone_x)
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MTF92?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 500px"><img src="/everyphone/MTF92.png" alt="Blue Horizon"></div>
+<div style="width: 500px"><img src="/almost_uncompressed/MTF92.webp" alt="Blue Horizon"></div>
 
 ## Under construction
