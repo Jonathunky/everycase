@@ -189,5 +189,5 @@ def convert_and_save_to_mdx(
 
 
 # Test
-directory_path = "trash/pages"
+directory_path = "trash/pages/a"
 process_directory(directory_path, generate_mdx=True, generate_everycase=True)

@@ -36,6 +36,12 @@
 | Baltic Blue    | MHMQ3ZM/A      | MHYD3ZM/A          | MHYH3ZM/A         |
 | (PRODUCT)RED   | MHMR3ZM/A      | MHYE3ZM/A          | MHYJ3ZM/A         |
 
+#### Clear Case
+
+|            | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
+| ---------- | -------------- | ------------------ | ----------------- |
+| Clear Case | MHLL3ZM/A      | MHLM3ZM/A          | MHLN3ZM/A         |
+
 ### Spring 2021
 
 | Silicone Case | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
