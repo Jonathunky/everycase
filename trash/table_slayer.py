@@ -1,5 +1,6 @@
 import os
 import re
+import json
 
 
 def generate_sku_file_content(
@@ -24,6 +25,32 @@ def generate_sku_file_content(
         "</div>\n\n"
         "## Under construction\n"
     )
+
+
+def write_meta_to_file(folder_path):
+    data = {
+        "*": {
+            "theme": {
+                "pagination": False,
+                "toc": True,
+                "breadcrumb": True,
+                "typesetting": "article",
+                "footer": False,
+                "sidebar": True,
+                "layout": "full",
+            },
+            "display": "hidden",
+        }
+    }
+
+    # Ensure the folder exists
+    os.makedirs(folder_path, exist_ok=True)
+
+    # Create the full path to the _meta.json file
+    file_path = os.path.join(folder_path, "_meta.json")
+
+    with open(file_path, "w") as file:
+        json.dump(data, file, indent=2)
 
 
 KEYWORDS = ["iPhone", "iPad", "AirTag", "Apple Pencil", "MacBook"]
@@ -56,6 +83,7 @@ def generate_tab_or_table(
 
         if generate_everycase:
             directory = f"pages/{file_name_without_extension}"
+            write_meta_to_file(directory)
 
             # Create directory if it doesn't exist
             if not os.path.exists(directory):
