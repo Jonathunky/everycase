@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMM32?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 512px"><img src="/almost_uncompressed/MMM32.webp" alt="Marigold"></div>
+<div style="width: 384px"><img src="/everyphone/MMM32.png" alt="Marigold"></div>
 
-## Under construction
+### Under construction

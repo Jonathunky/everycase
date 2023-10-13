@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MM2E3?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 512px"><img src="/almost_uncompressed/MM2E3.webp" alt="Pink Pomelo"></div>
+<div style="width: 384px"><img src="/everyphone/MM2E3.png" alt="Pink Pomelo"></div>
 
-## Under construction
+### Under construction

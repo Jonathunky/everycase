@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MRG82?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 512px"><img src="/almost_uncompressed/MRG82.webp" alt="Bright Orange"></div>
+<div style="width: 384px"><img src="/everyphone/MRG82.png" alt="Bright Orange"></div>
 
-## Under construction
+### Under construction

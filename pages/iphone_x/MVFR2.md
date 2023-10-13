@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MVFR2?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 512px"><img src="/almost_uncompressed/MVFR2.webp" alt="Lilac"></div>
+<div style="width: 384px"><img src="/everyphone/MVFR2.png" alt="Lilac"></div>
 
-## Under construction
+### Under construction

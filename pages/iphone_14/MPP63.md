@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MPP63?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 512px"><img src="/almost_uncompressed/MPP63.webp" alt="Ink"></div>
+<div style="width: 384px"><img src="/everyphone/MPP63.png" alt="Ink"></div>
 
-## Under construction
+### Under construction

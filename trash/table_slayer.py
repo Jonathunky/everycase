@@ -20,10 +20,10 @@ def generate_sku_file_content(
         f"{new_header}"
         f"[Return to previous page](/{file_name_without_extension})\n\n"
         f"[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{cell_content[:5]}?wid=4500&hei=4500&fmt=png)\n\n"
-        f'<div style="width: 512px">'
-        f'<img src="/almost_uncompressed/{cell_content[:5]}.webp" alt="{first_col}">'
+        f'<div style="width: 384px">'
+        f'<img src="/everyphone/{cell_content[:5]}.png" alt="{first_col}">'  # almost_uncompressed
         "</div>\n\n"
-        "## Under construction\n"
+        "### Under construction\n"
     )
 
 
