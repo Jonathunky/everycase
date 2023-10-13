@@ -17,11 +17,3 @@ These are not exactly hot items, so it's still reasonably easy to find them even
 Everything fits if you are brave enough… except for the MacBook in Leather Sleeve; these sleeves are perfectly aligned for the respective MacBook models, so they are highly unlikely to fit, say, the latest 14-inch and 16-inch MacBook Pros.
 
 Guess that's why they still sell M2 13-inch MacBook Pro…
-
-## Part numbers
-
-| Leather Sleeve | MacBook 12″ | MacBook Pro 13″ | MacBook Pro 15″ | MacBook Pro 16″ |
-| -------------- | ----------- | --------------- | --------------- | --------------- |
-| Black          | MTEG2ZM/A   | MTEH2ZM/A       | MTEJ2ZM/A       | MWVA2ZM/A       |
-| Midnight Blue  | MQG02ZM/A   | MRQL2ZM/A       | MRQU2ZM/A       | MWVC2ZM/A       |
-| Saddle Brown   | MQG12ZM/A   | MRQM2ZM/A       | MRQV2ZM/A       | MWV92ZM/A       |

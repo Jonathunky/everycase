@@ -219,11 +219,19 @@ def convert_and_save_to_mdx(
         content = content.replace(table, converted_table)
 
     if generate_mdx:
-        content = 'import { Tabs } from "nextra/components";\n\n' + content
+        with open(
+            input_filename.replace("trash/layout/", "trash/pages/"), "r"
+        ) as md_file:
+            content = (
+                'import { Tabs } from "nextra/components";\n\n'
+                + md_file.read()
+                + "\n"
+                + content
+            )
         with open(output_filename, "w") as f:
             f.write(content)
 
 
 # Test
-directory_path = "trash/pages"
+directory_path = "trash/layout"
 process_directory(directory_path, generate_mdx=True, generate_everycase=True)
