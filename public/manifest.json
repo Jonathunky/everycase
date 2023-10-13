@@ -3,7 +3,7 @@
   "background_color": "#FFE0F5",
   "display_override": ["window-controls-overlay", "standalone", "fullscreen"],
   "display": "minimal-ui",
-  "scope": "/",
+  "scope": "https://applecase.wiki/",
   "start_url": "https://applecase.wiki/",
   "name": "EveryCase",
   "short_name": "EveryCase",
