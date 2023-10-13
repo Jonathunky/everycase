@@ -1,13 +1,4 @@
 {
-  "edgeFunctions": {
-    "directory": "edge-functions"
-  },
-  "routes": [
-    {
-      "src": "/csp-report",
-      "dest": "/_edge-function/csp-report"
-    }
-  ],
   "headers": [
     {
       "source": "/sw.js",

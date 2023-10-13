@@ -1,11 +1,12 @@
 .DS_Store
 
-# Editors
+# Editing
 .idea/
 .vscode/
 .obsidian/
+.prettierrc
 
-# Build & Deploy
+# Building & Deploying
 .next/
 .eslintcache
 .env
