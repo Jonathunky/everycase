@@ -48,12 +48,20 @@ def generate_tab_or_table(
     for row in rows:
         first_col = row[0]
         cell_content = row[1]
-        new_cell = f"[{cell_content}](/everycase/{cell_content[:5]})"
+        new_cell = (
+            f"[{cell_content}](/{file_name_without_extension}/{cell_content[:5]})"
+        )
         image_cell = f"![{first_col} {heading}](/everyphone/{cell_content[:5]}.png)"
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
         if generate_everycase:
-            with open(f"pages/everycase/{cell_content[:5]}.md", "w") as sku_file:
+            directory = f"pages/{file_name_without_extension}"
+
+            # Create directory if it doesn't exist
+            if not os.path.exists(directory):
+                os.makedirs(directory, exist_ok=True)
+
+            with open(f"{directory}/{cell_content[:5]}.md", "w") as sku_file:
                 if any(keyword in headers[0].strip() for keyword in KEYWORDS):
                     sku_file_content = generate_sku_file_content(
                         headers[0],
@@ -189,5 +197,5 @@ def convert_and_save_to_mdx(
 
 
 # Test
-directory_path = "trash/pages/a"
+directory_path = "trash/pages"
 process_directory(directory_path, generate_mdx=True, generate_everycase=True)

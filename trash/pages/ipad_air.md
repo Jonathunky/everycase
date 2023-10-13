@@ -9,15 +9,15 @@ In 2017, Apple came out with a new budget tablet: just iPad (5th generation). It
 
 ## In the Wild
 
-An incredibly detailed review of Brown Smart Case for Air: https://gadgetmac.com/reviews/apple-ipad-air-smart-case-review.html
+An incredibly detailed [review](https://gadgetmac.com/reviews/apple-ipad-air-smart-case-review.html) of Brown Smart Case for Air
 
-Video review of Red Smart Case for Air: https://youtu.be/yZ1oOarWv9s
+Video [review](https://youtu.be/yZ1oOarWv9s) of Red Smart Case for Air
 
-Text review of Blue Smart Case for Air: https://www.imore.com/ipad-air-smart-case-review
+Text [review](https://www.imore.com/ipad-air-smart-case-review) of Blue Smart Case for Air
 
 ## Pricing & Compatibility
 
-Smart Covers retailed for $39; Smart Case costs $79.
+Smart Covers retailed for \$39; Smart Case costs \$79.
 
 All Smart Covers are compatible with iPad Air, Air 2, iPad 5 and iPad 6. They [won't work](https://www.businessinsider.com/old-apple-smart-covers-wont-work-with-new-ipads-because-of-magnets-2016-4) with [iPad Pro 9.7″](/ipad_pro97).
 

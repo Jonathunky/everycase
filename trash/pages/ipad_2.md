@@ -6,7 +6,7 @@ March 25th, 2011, marked the release of iPad 2, which was tremendously improved 
 
 Here's the part about Smart Covers in AnandTech review: https://www.anandtech.com/show/4225/the-ipad-2-review/10. A “really neat accessory” indeed!
 
-Apple offered two types of Smart Covers: Polyurethane covers for $39.00, and for those seeking a touch of luxury, leather covers were available for a nice premium of \$69.00. Both types were compatible with the iPad 2, “the new iPad”, and iPad 4.
+Apple offered two types of Smart Covers: Polyurethane covers for \$39.00, and for those seeking a touch of luxury, leather covers were available for a nice premium of \$69.00. Both types were compatible with the iPad 2, “the new iPad”, and iPad 4.
 
 Apple came up with these incredibly cool posters to promote this accessory: https://www.oneclub.org/awards/theoneshow/-award/18010/ipad-smart-cover-launch-posters
 
