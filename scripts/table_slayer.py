@@ -81,20 +81,22 @@ def generate_tab_or_table(
 
     if any(keyword in headers[0].strip() for keyword in KEYWORDS):
         table.append(
-            f"| {headers[1]} | {headers[0]} | Image |"
+            f"| {headers[1]} | {headers[0]} | Tap for more: |"
         )  # "for iPhone..." could be done here
         heading = headers[1]
     else:
-        table.append(f"| {headers[0]} | {headers[1]} | Image |")
+        table.append(f"| {headers[0]} | {headers[1]} | Tap for more: |")
         heading = headers[0]
 
     table.append("| --- | --- | --- |")
 
+    # <a href="linkURL" target="_blank" rel="noopener noreferrer">![alt text](imageURL)</a>
+
     for row in rows:
         first_col = row[0]
         cell_content = row[1]
-        new_cell = f"[{cell_content[:5]}<wbr/>{cell_content[5:]}](/{file_name_without_extension}/{cell_content[:5]})"
-        image_cell = f"![{first_col} {heading}](/everypreview/{cell_content[:5]}.png)"
+        new_cell = f"{cell_content[:5]}<wbr/>{cell_content[5:]}"
+        image_cell = f'<a href="/{file_name_without_extension}/{cell_content[:5]}" target="_blank">![{first_col} {heading}](/everypreview/{cell_content[:5]}.png)</a>'
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
         if generate_everycase:
@@ -105,7 +107,7 @@ def generate_tab_or_table(
             if not os.path.exists(directory):
                 os.makedirs(directory, exist_ok=True)
 
-            if cell_content[:5].strip():  # suspicious check
+            if cell_content[:5].strip():
                 with open(f"{directory}/{cell_content[:5]}.md", "w") as sku_file:
                     if any(keyword in headers[0].strip() for keyword in KEYWORDS):
                         sku_file_content = generate_sku_file_content(
