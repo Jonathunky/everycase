@@ -30,7 +30,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' https://static.cloudflareinsights.com 'sha256-iX9LRPdLBV4jlGfQ+1qGl2+8iQlVITwJKum0Gqg4bTQ=' 'sha256-eMuh8xiwcX72rRYNAGENurQBAcH7kLlAUQcoOri3BIo='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://vitals.vercel-insights.com/v1/vitals https://cloudflareinsights.com/cdn-cgi/rum; object-src 'none'; report-uri https://o4506045274849280.ingest.sentry.io/api/4506045276815360/security/?sentry_key=96512e27888b7f1f228c790256cc8136"
+          "value": "default-src 'self'; script-src 'self' https://static.cloudflareinsights.com 'sha256-iX9LRPdLBV4jlGfQ+1qGl2+8iQlVITwJKum0Gqg4bTQ=' 'sha256-eMuh8xiwcX72rRYNAGENurQBAcH7kLlAUQcoOri3BIo='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://vitals.vercel-insights.com/v1/vitals https://cloudflareinsights.com/cdn-cgi/rum; object-src 'none'; report-uri /api/csp-report"
         }
       ]
     }

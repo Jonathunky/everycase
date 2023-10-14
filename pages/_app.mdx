@@ -1,42 +1,13 @@
 import "nextra-theme-docs/style.css";
 import "styles/global.css";
 import { Analytics } from "@vercel/analytics/react";
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
 
 export default function Nextra({ Component, pageProps }) {
-  const router = useRouter();
-
-  useEffect(() => {
-    // Before navigating away from this page, save the current scroll position
-    const saveScrollPosition = () => {
-      sessionStorage.setItem(
-        `scroll-${router.pathname}`,
-        JSON.stringify(window.scrollY)
-      );
-    };
-
-    window.addEventListener('beforeunload', saveScrollPosition);
-
-    // Restore the scroll position if it was saved into the session
-    const savedScrollPosition = sessionStorage.getItem(`scroll-${router.pathname}`);
-
-    if (savedScrollPosition) {
-      window.scrollTo(0, JSON.parse(savedScrollPosition));
-    }
-
-    return () => {
-      window.removeEventListener('beforeunload', saveScrollPosition);
-      // If you want to remove the saved scroll position after returning to the page, uncomment below:
-      // sessionStorage.removeItem(`scroll-${router.pathname}`);
-    };
-  }, [router.pathname]);
-
   return (
     <>
       <Analytics />
       <Component {...pageProps} />
-      <script // Cloudflare Web Analytics snippet
+      <script //Cloudflare Web Analytics snippet
         defer
         src='https://static.cloudflareinsights.com/beacon.min.js'
         data-cf-beacon='{"token": "755b62bedd4b45898e824b980a5cad7b"}'

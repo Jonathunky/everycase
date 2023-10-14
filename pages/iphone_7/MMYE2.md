@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MMYE2?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 384px"><img src="/everypreview/MMYE2.png" alt="Storm Gray"></div>
+<div style="width: 384px"><img src="/everysource/MMYE2.png" alt="Storm Gray"></div>
 
 ### Under construction

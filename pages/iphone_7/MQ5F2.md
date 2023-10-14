@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQ5F2?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 384px"><img src="/everypreview/MQ5F2.png" alt="Geranium"></div>
+<div style="width: 384px"><img src="/everysource/MQ5F2.png" alt="Geranium"></div>
 
 ### Under construction

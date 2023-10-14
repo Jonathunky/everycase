@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQH02?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 384px"><img src="/everypreview/MQH02.png" alt="Blue Cobalt"></div>
+<div style="width: 384px"><img src="/everysource/MQH02.png" alt="Blue Cobalt"></div>
 
 ### Under construction

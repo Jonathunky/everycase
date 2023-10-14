@@ -39,7 +39,7 @@ def generate_sku_file_content(
         f"[Return to previous page](/{file_name_without_extension})\n\n"
         f"[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{cell_content[:5]}?wid=4500&hei=4500&fmt=png)\n\n"
         f'<div style="width: 384px">'
-        f'<img src="/everypreview/{cell_content[:5]}.png" alt="{first_col}">'  # almost_uncompressed
+        f'<img src="/everysource/{get_extended_sku(cell_content[:5])}.png" alt="{first_col}">'  # almost_uncompressed
         "</div>\n\n"
         "### Under construction\n"
     )
@@ -94,7 +94,7 @@ def generate_tab_or_table(
         first_col = row[0]
         cell_content = row[1]
         new_cell = f"[{cell_content[:5]}<wbr/>{cell_content[5:]}](/{file_name_without_extension}/{cell_content[:5]})"
-        image_cell = f"![{first_col} {heading}](/everypreview/{get_extended_sku(cell_content[:5])}.png)"
+        image_cell = f"![{first_col} {heading}](/everypreview/{cell_content[:5]}.png)"
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
         if generate_everycase:

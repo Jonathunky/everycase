@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MT1M3?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 384px"><img src="/everypreview/MT1M3.png" alt="Black"></div>
+<div style="width: 384px"><img src="/everysource/MT1M3.png" alt="Black"></div>
 
 ### Under construction

@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MPU63?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 384px"><img src="/everypreview/MPU63.png" alt="Clear Case"></div>
+<div style="width: 384px"><img src="/everysource/MPU63.png" alt="Clear Case"></div>
 
 ### Under construction

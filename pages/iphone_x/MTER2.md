@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MTER2?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 384px"><img src="/everypreview/MTER2.png" alt="Forest Green"></div>
+<div style="width: 384px"><img src="/everysource/MTER2.png" alt="Forest Green"></div>
 
 ### Under construction

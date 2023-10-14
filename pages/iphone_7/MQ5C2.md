@@ -4,6 +4,6 @@
 
 [High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQ5C2?wid=4500&hei=4500&fmt=png)
 
-<div style="width: 384px"><img src="/everypreview/MQ5C2.png" alt="Mist Blue"></div>
+<div style="width: 384px"><img src="/everysource/MQ5C2.png" alt="Mist Blue"></div>
 
 ### Under construction
