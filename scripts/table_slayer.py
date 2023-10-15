@@ -33,7 +33,7 @@ def generate_jsx(filenames):
     )
 
     jsx = (
-        '<div style={{ width: "768px" }}>\n  '
+        "<div style={{ width: '100%', maxWidth: '768px' }}>\n"
         + "<GalleryComponent\n    images={[\n      "
         + image_entries
         + "\n    ]}\n  />\n"
