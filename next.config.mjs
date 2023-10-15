@@ -1,6 +1,6 @@
-import nextra from "nextra";
-import remarkMdxDisableExplicitJsx from "remark-mdx-disable-explicit-jsx";
-import withPWA from "next-pwa";
+import nextra from "nextra"
+import remarkMdxDisableExplicitJsx from "remark-mdx-disable-explicit-jsx"
+import withPWA from "next-pwa"
 
 const withNextra = nextra({
   theme: "nextra-theme-docs",
@@ -18,14 +18,14 @@ const withNextra = nextra({
     codeblocks: false,
   },
   defaultShowCopyCode: true,
-});
+})
 
 const baseConfig = {
   output: "export",
   distDir: "dist",
   images: {
     domains: ["applecase.wiki"],
-    unoptimized: false,
+    unoptimized: true,
     quality: 99,
     formats: ["image/avif", "image/webp"],
     imageSizes: [512, 1024, 1536, 2048, 3840],
@@ -51,9 +51,9 @@ const baseConfig = {
     },
   ],
   webpack(config) {
-    return config;
+    return config
   },
-};
+}
 
 const pwaConfig = {
   pwa: {
@@ -72,6 +72,6 @@ const pwaConfig = {
       },
     ],
   },
-};
+}
 
-export default withNextra(withPWA({ ...baseConfig, ...pwaConfig }));
+export default withNextra(withPWA({ ...baseConfig, ...pwaConfig }))

@@ -21,6 +21,40 @@ def get_extended_sku(original_sku):
     return original_sku
 
 
+def generate_jsx(filenames):
+    image_entries = ",\n      ".join(
+        [
+            f"""{{
+        original: "/everysource/{filename}",
+        thumbnail: "/everypreview/{filename}",
+      }}"""
+            for filename in filenames
+        ]
+    )
+
+    jsx = (
+        '<div style={{ width: "768px" }}>\n  '
+        + "<GalleryComponent\n    images={[\n      "
+        + image_entries
+        + "\n    ]}\n  />\n"
+        + "</div>"
+    )
+
+    return jsx
+
+
+def grep_sku_from_file(sku, file_path):
+    matches = []
+
+    with open(file_path, "r") as file:
+        for line in file:
+            if sku in line:
+                # Remove extension and strip the line to remove any extra spaces or newlines
+                matches.append(line.rsplit(".", 1)[0].strip())
+
+    return matches
+
+
 def generate_sku_file_content(
     header, head, first_col, cell_content, file_name_without_extension
 ):
@@ -36,12 +70,9 @@ def generate_sku_file_content(
 
     return (
         f"{new_header}"
-        f"[Return to previous page](/{file_name_without_extension})\n\n"
-        f"[High-resolution image from Apple](https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{cell_content[:5]}?wid=4500&hei=4500&fmt=png)\n\n"
-        f'<div style="width: 384px">'
-        f'<img src="/everysource/{get_extended_sku(cell_content[:5])}.png" alt="{first_col}">'  # almost_uncompressed
-        "</div>\n\n"
-        "### Under construction\n"
+        f"Part number, for search engines, auction websites and such: {cell_content}\n\n"
+        f"## Image gallery\n\n"
+        f"{generate_jsx(grep_sku_from_file(cell_content[:5], 'trash/ls.txt'))}"
     )
 
 
@@ -96,7 +127,7 @@ def generate_tab_or_table(
         first_col = row[0]
         cell_content = row[1]
         new_cell = f"{cell_content[:5]}<wbr/>{cell_content[5:]}"
-        image_cell = f'<a href="/{file_name_without_extension}/{cell_content[:5]}" target="_blank">![{first_col} {heading}](/everypreview/{cell_content[:5]}.png)</a>'
+        image_cell = f'<a href="/{file_name_without_extension}/{cell_content[:5]}" target="_blank">![{first_col} {heading}](/everypreview/{get_extended_sku(cell_content[:5])}.webp)</a>'
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
         if generate_everycase:
@@ -108,7 +139,7 @@ def generate_tab_or_table(
                 os.makedirs(directory, exist_ok=True)
 
             if cell_content[:5].strip():
-                with open(f"{directory}/{cell_content[:5]}.md", "w") as sku_file:
+                with open(f"{directory}/{cell_content[:5]}.mdx", "w") as sku_file:
                     if any(keyword in headers[0].strip() for keyword in KEYWORDS):
                         sku_file_content = generate_sku_file_content(
                             headers[0],

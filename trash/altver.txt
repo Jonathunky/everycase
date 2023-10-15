@@ -1,0 +1,112 @@
+Alt versions
+
+Violet iPhone 12:
+> MHKY3_AV01.png
+171a181
+> MHL03_AV01.png
+172a183
+> MHL23_AV01.png
+173a185
+> MHL33_AV01.png
+174a187
+> MHL43_AV01.png
+175a189
+> MHL53_AV01.png
+176a191
+> MHL63_AV01.png
+177a193
+> MHL73_AV01.png
+186a203
+
+iPhone 12 Clear Case:
+> MHLL3_AV1.png
+187a205
+> MHLM3_AV02.png
+193a212
+
+iPhone 12 Leather Sleeve:
+> MHMN3_cut.png
+194a214
+> MHMP3_cut.png
+195a216
+> MHMQ3_cut.png
+196a218
+> MHMR3_cut.png
+197a220
+> MHYA3_cut.png
+198a222
+> MHYC3_cut.png
+199a224
+> MHYD3_cut.png
+200a226
+> MHYE3_cut.png
+201a228
+> MHYF3_cut.png
+202a230
+> MHYG3_cut.png
+203a232
+> MHYH3_cut.png
+204a234
+> MHYJ3_cut.png
+350d379
+
+iPad 9.7":
+> MQ4L2_AV1_SILVER.png
+634a665
+> MQ4M2_AV1_SILVER.png
+635a667
+> MQ4N2_AV1_SILVER.png
+636a669
+> MQ4P2_AV1_SILVER.png
+637a671
+> MQ4Q2_AV1_SILVER.png
+651a686
+
+iPad 10th:
+> MQDQ3_AV4.png
+652a688
+> MQDR3_AV4.png
+653a690
+> MQDT3_AV4.png
+654a692
+> MQDU3_AV4.png
+792a831
+
+XR Clear:
+> MRW62_AV4.png
+869a909
+
+15 Clear:
+> MT223_AV2.png
+870a911
+> MT233_AV1.png
+923a965
+
+iPad Pro 10.5":
+> MU7R2_AV1_SILVER.png
+972a1015
+
+11 Clear:
+> MWVG2_AV4.png
+1034a1078
+
+iPad Pro 2020:
+> MXT32_AV4.png
+1035a1080
+> MXT42_AV4.png
+1036a1082
+> MXT52_AV4.png
+1037a1084
+> MXT62_AV4.png
+1038a1086
+> MXT72_AV4.png
+1039a1088
+> MXT82_AV4.png
+1040a1090
+> MXT92_AV4.png
+1041a1092
+> MXTA2_AV4.png
+1042a1094
+> MXTD2_AV4.png
+1043a1096
+> MXTE2_AV4.png
