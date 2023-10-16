@@ -210,6 +210,8 @@ def convert_table_to_tabs(
             formatted_headers.append(header.replace("iPhone ", ""))
         elif "iPad" in header and "iPad" in previous_headers and len(headers) > 3:
             formatted_headers.append(header.replace("iPad ", ""))
+        elif "MacBook" in header and "MacBook" in previous_headers and len(headers) > 3:
+            formatted_headers.append(header.replace("MacBook ", ""))
         else:
             formatted_headers.append(header)
             previous_headers += header + " "
