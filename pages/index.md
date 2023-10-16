@@ -1,4 +1,4 @@
-# The site is under construction. It's ~69% ready. Stay tuned!
+# The site is under construction. It's ~75% ready. Stay tuned!
 
 ## Hello there!
 
