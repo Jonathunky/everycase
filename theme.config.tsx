@@ -58,7 +58,7 @@ const config: DocsThemeConfig = {
     },
     defaultMenuCollapseLevel: 2,
     toggleButton: true,
-    autoCollapse: true
+    autoCollapse: false
   },
   //gitTimestamp: () => <></>,
   darkMode: true,

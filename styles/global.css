@@ -17,6 +17,11 @@ table img {
     font-weight: 500;
 }
 
+[role="tab"]:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 .image-gallery-thumbnails .image-gallery-thumbnail {
     width: 100px;
     height: 100px;

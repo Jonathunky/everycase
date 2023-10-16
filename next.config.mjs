@@ -53,6 +53,9 @@ const baseConfig = {
   webpack(config) {
     return config
   },
+  experimental: {
+    scrollRestoration: true,
+  },
 }
 
 const pwaConfig = {

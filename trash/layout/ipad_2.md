@@ -16,11 +16,11 @@ Apple came up with these incredibly cool posters to promote this accessory: http
 
 | iPad   | Smart Cover |
 | ------ | ----------- |
-| Blue   | MC942LL/A   |
 | Gray   | MC939LL/A   |
+| Pink   | MC941LL/A   |
+| Blue   | MC942LL/A   |
 | Green  | MC944LL/A   |
 | Orange | MC945LL/A   |
-| Pink   | MC941LL/A   |
 
 The first generation of Polyurethane Smart Covers had a grey interior that did not match the exterior colour.
 
@@ -29,33 +29,33 @@ The first generation of Polyurethane Smart Covers had a grey interior that did n
 | iPad  | Leather Smart Cover |
 | ----- | ------------------- |
 | Black | MC947LL/A           |
-| Cream | MC952LL/A           |
-| Navy  | MC949LL/A           |
 | Tan   | MC948LL/A           |
+| Navy  | MC949LL/A           |
+| Cream | MC952LL/A           |
 
 ## Autumn Refresh
 
-On October 24, 2011, Apple refreshed the Smart Cover lineup with new models and colours. The Orange polyurethane model was discontinued, and the Gray cover was replaced with two new shades of gray. The interior lining of Polyurethane models now matched the exterior colour. Here are the order numbers for the new covers:
+On October 24, 2011, Apple refreshed the Smart Cover line-up with new models and colours. The Orange polyurethane model was discontinued, and the Gray cover was replaced with two new shades of gray. The interior lining of Polyurethane models now matched the exterior colour. Here are the order numbers for the new covers:
 
 ### iPad Smart Cover
 
 | iPad       | Smart Cover |
 | ---------- | ----------- |
-| Blue       | MD310LL/A   |
 | Dark Gray  | MD306LL/A   |
-| Green      | MD309LL/A   |
 | Light Gray | MD307LL/A   |
 | Pink       | MD308LL/A   |
+| Green      | MD309LL/A   |
+| Blue       | MD310LL/A   |
 
 ### iPad Leather Smart Cover
 
 | iPad  | Leather Smart Cover |
 | ----- | ------------------- |
 | Black | MD301LL/A           |
-| Cream | MD305LL/A           |
+| Tan   | MD302LL/A           |
 | Navy  | MD303LL/A           |
 | Red   | MD304LL/A           |
-| Tan   | MD302LL/A           |
+| Cream | MD305LL/A           |
 
 # Smart Case for iPad
 
@@ -81,9 +81,9 @@ The Smart Case was compatible with iPad 2, iPad 3 'the new iPad', and iPad 4.
 
 | iPad       | Smart Case |
 | ---------- | ---------- |
-| Blue       | MD458LL/A  |
 | Dark Gray  | MD454LL/A  |
-| Green      | MD457LL/A  |
 | Light Gray | MD455LL/A  |
 | Pink       | MD456LL/A  |
+| Green      | MD457LL/A  |
+| Blue       | MD458LL/A  |
 | Red        | MD579LL/A  |

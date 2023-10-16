@@ -194,7 +194,7 @@ def generate_tab_or_table(
         cell_content = row[1]
         new_cell = f"{cell_content[:5]}<wbr/>{cell_content[5:]}"
         # image_cell = f'<a href="/{file_name_without_extension}/{cell_content[:5]}" target="_blank">![{first_col} {heading}](/everypreview/{get_extended_sku(cell_content[:5])}.webp)</a>'
-        image_cell = f'<a href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}" target="_blank"><img src="/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></a>'
+        image_cell = f'<Link href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}"><img src="/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></Link>'
 
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
@@ -401,7 +401,7 @@ def convert_and_save_to_mdx(
             input_filename.replace("trash/layout/", "trash/pages/"), "r"
         ) as md_file:
             content = (
-                'import { Tabs } from "nextra/components";\n\n'
+                'import { Tabs } from "nextra/components";\nimport Link from "next/link"\n\n'
                 + md_file.read()
                 + "\n"
                 + content

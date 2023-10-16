@@ -17,17 +17,17 @@
 | AirTag           | Leather Key Ring | Leather Loop |
 | ---------------- | ---------------- | ------------ |
 | (PRODUCT)RED     | MK103ZM/A        | MK0V3ZM/A    |
-| Baltic Blue      | MHJ23ZM/A        | MM043ZM/A    |
-| California Poppy | MM083ZM/A        | MM023ZM/A    |
 | Forest Green     | MM073ZM/A        | MM013ZM/A    |
+| California Poppy | MM083ZM/A        | MM023ZM/A    |
+| Baltic Blue      | MHJ23ZM/A        | MM043ZM/A    |
 | Saddle Brown     | MX4M2ZM/A        | MX4A2ZM/A    |
 
 ### Late 2021
 
 | AirTag       | Leather Key Ring |
 | ------------ | ---------------- |
-| Golden Brown | MMFA3ZM/A        |
 | Midnight     | MMF93ZM/A        |
+| Golden Brown | MMFA3ZM/A        |
 | Wisteria     | MMFC3ZM/A        |
 
 ### Late 2023
