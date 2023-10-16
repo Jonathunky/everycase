@@ -5,6 +5,7 @@
 .vscode/
 .obsidian/
 .prettierrc
+.prettierignore
 
 # Building & Deploying
 .next/

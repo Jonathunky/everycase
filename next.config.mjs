@@ -26,9 +26,9 @@ const baseConfig = {
   images: {
     domains: ["applecase.wiki"],
     unoptimized: true,
-    quality: 99,
+    quality: 100,
     formats: ["image/avif", "image/webp"],
-    imageSizes: [512, 1024, 1536, 2048, 3840],
+    imageSizes: [512, 1536],
   },
   swcMinify: true,
   reactStrictMode: true,
