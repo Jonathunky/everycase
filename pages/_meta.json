@@ -26,65 +26,25 @@
     "title": "♥ Leave your mark",
     "type": "page"
   },
-  "sep1": {
-    "title": "By device: Latest iPhone ⤵",
-    "type": "separator"
+  "latest-iphone": {
+    "title": "By device: Latest iPhone ⤵"
   },
-  "iphone_15": "iPhone 15, Plus, Pro, Max",
-  "iphone_14": "iPhone 14, Plus, Pro, Max",
-  "iphone_13": "iPhone 13, mini, Pro, Max",
-  "iphone_12": "iPhone 12, mini, Pro, Max",
-  "sep6": {
-    "title": "Latest iPad ⤵",
-    "type": "separator"
+  "latest-ipad": {
+    "title": "Latest iPad ⤵"
   },
-  "ipad_10": "iPad 10.9″",
-  "ipad_mini6": "iPad mini 6",
-  "ipad_pro4": "iPad Pro 11″ & 12.9″ 2020+",
-  "ipad_pro2": "iPad Pro 2018, Air 4–5",
-  "sep7": {
-    "title": "Other stuff ⤵",
-    "type": "separator"
+  "others": {
+    "title": "Other stuff ⤵"
   },
-  "airtag": "AirTag",
-  "wallet": "MagSafe Wallet",
-  "pencil": "Apple Pencil & Case",
-  "macbook": "MacBook Leather Sleeve",
-  "sep2": {
-    "title": "Pre-MagSafe iPhone ⤵",
-    "type": "separator"
+  "pre-magsafe-iphone": {
+    "title": "Pre-MagSafe iPhone ⤵"
   },
-  "iphone_11": "iPhone 11 Pro, Max",
-  "iphone_xr": "iPhone XR, 11",
-  "iphone_x": "iPhone X, XS, Max",
-  "sep3": {
-    "title": "Pre-notch iPhone ⤵",
-    "type": "separator"
+  "pre-notch-iphone": {
+    "title": "Pre-notch iPhone ⤵"
   },
-  "iphone_7": "iPhone 7, 8, Plus & SE",
-  "iphone_6": "iPhone 6, 6s, Plus",
-  "iphone_5s": "iPhone 5, 5s, SE",
-  "sep4": {
-    "title": "Pre-Liquid iPad ⤵",
-    "type": "separator"
+  "pre-liquid-ipad": {
+    "title": "Pre-Liquid iPad ⤵"
   },
-  "ipad_pro105": "iPad Pro 10.5″, Air 3, iPad 7–9",
-  "ipad_pro129": "iPad Pro 12.9″",
-  "ipad_pro97": "iPad Pro 9.7″",
-  "ipad_mini4": "iPad mini 4–5",
-  "ipad_air": "iPad Air 1–2 & iPad 5–6",
-  "sep5": {
-    "title": "Ancient History ⤵",
-    "type": "separator"
-  },
-  "ipad_mini": "iPad Mini 1–3",
-  "iphone_5c": "iPhone 5c",
-  "ipad_2": "iPad 2–4",
-  "iphone_4": "iPhone 4 Bumpers",
-  "ipod_touch": "iPod Touch Loop",
-  "ipad_1": "Original iPad Case",
-  "everycase": {
-    "title": "EveryCase",
-    "display": "hidden"
+  "ancient": {
+    "title": "Ancient History ⤵"
   }
 }

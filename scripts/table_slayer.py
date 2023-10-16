@@ -2,15 +2,23 @@ import os
 import re
 import json
 import concurrent.futures
+from functools import lru_cache
+
+
+@lru_cache(maxsize=None)
+def list_directory_contents(file_path):
+    """grep of images folder"""
+    return os.listdir(file_path)
+
 
 # Read the SKUs from the file and store them in a set
 with open("trash/skus.txt", "r") as file:
+    """previews to replace with better-looking ones"""
     extended_skus = set(file.read().splitlines())
 
 
 def get_extended_sku(original_sku):
-    """Searches for the extended SKU in the cache and returns it.
-    If not found, returns the original SKU."""
+    """check is preview needs to be replaced"""
 
     # Search for a SKU that starts with the original SKU
     for sku in extended_skus:
@@ -22,8 +30,9 @@ def get_extended_sku(original_sku):
 
 
 def generate_jsx(filenames):
+    """returns Image Gallery"""
     image_entries = ",\n      ".join(
-        [  # replace with webp later!
+        [
             f"""{{
         original: "/everysource/{filename}.webp",
         thumbnail: "/everypreview/{filename}.webp",
@@ -43,14 +52,16 @@ def generate_jsx(filenames):
     return jsx
 
 
-def grep_sku_from_file(sku, file_path):
+def grep_sku_from_folder(sku, folder_path):
+    """checks how many images are there for a single model"""
     matches = []
 
-    with open(file_path, "r") as file:
-        for line in file:
-            if sku in line:
-                # Remove extension and strip the line to remove any extra spaces or newlines
-                matches.append(line.rsplit(".", 1)[0].strip())
+    # Get folder contents. This will be cached after the first call.
+    folder_contents = list_directory_contents(folder_path)
+
+    for item in folder_contents:
+        if sku in item:
+            matches.append(item.rsplit(".", 1)[0].strip())
 
     return matches
 
@@ -58,6 +69,7 @@ def grep_sku_from_file(sku, file_path):
 def generate_sku_file_content(
     header, head, first_col, cell_content, file_name_without_extension
 ):
+    """returns full contents of SKU.mdx files"""
     match = re.search(r"iPhone (\d+)", header)
     if match:
         iphone_number = int(match.group(1))
@@ -68,18 +80,32 @@ def generate_sku_file_content(
     else:
         new_header = f"# {header} {head} - {first_col}\n\n"
 
-    return (
-        f"import GalleryComponent from '/components/GalleryComponent'\n"
-        f"import {{ Callout }} from 'nextra/components'\n\n"
-        f"{new_header}"
-        f"<Callout type='info' emoji='👉🏻'>**{cell_content}** is an order number of this case, used for search engines, auction websites and such."
-        f"</Callout>\n\n"
-        f"## Image gallery\n\n"
-        f"{generate_jsx(grep_sku_from_file(cell_content[:5], 'trash/ls.txt'))}"
-    )
+    matches = grep_sku_from_folder(cell_content[:5], "public/everypreview")
+
+    if len(matches) > 1:
+        return (
+            f"import GalleryComponent from '/components/GalleryComponent'\n"
+            f"import {{ Callout }} from 'nextra/components'\n\n"
+            f"{new_header}"
+            f"<Callout type='info' emoji='👉🏻'>**{cell_content[:7]}** is an order number for this product, used for search engines, auction websites and such."
+            f"</Callout>\n\n"
+            f"## Image gallery\n\n"
+            f"{generate_jsx(matches)}"
+        )
+    else:
+        return (
+            f"import GalleryComponent from '/components/GalleryComponent'\n"
+            f"import {{ Callout }} from 'nextra/components'\n\n"
+            f"{new_header}"
+            f"<Callout type='info' emoji='👉🏻'>**{cell_content[:7]}** is an order number for this product, used for search engines, auction websites and such."
+            f"</Callout>\n\n"
+            f"## Image\n\n"
+            f"![Image](/everysource/{cell_content[:5]}.webp)"
+        )
 
 
 def write_meta_to_file(folder_path):
+    """creates _meta.json in given folder to hide all the entries"""
     data = {
         "*": {
             "theme": {
@@ -105,36 +131,75 @@ def write_meta_to_file(folder_path):
         json.dump(data, file, indent=2)
 
 
+def get_mapped_name(name, config_file_path="trash/folders.txt"):
+    """
+    Given a name, return its mapping based on a hardcoded file. If no mapping found, return the original name.
+
+    Parameters:
+    - name: str
+        The name to look up in the mapping file.
+
+    - config_file_path: str
+        Path to the config file containing mapping rules.
+
+    Returns:
+    - str
+        The mapped name or the original name if no mapping found.
+    """
+
+    # Load the mappings from the config file
+    with open(config_file_path, "r") as f:
+        mappings = {}
+        for line in f.readlines():
+            # Ignore comments and empty lines
+            if line.strip().startswith("#") or not line.strip():
+                continue
+            old, new = line.strip().split("=>")
+            mappings[old.strip()] = new.strip()
+
+    # Return the mapped name + original name or just the original name if no mapping found
+    if name in mappings:
+        return f"{mappings[name]}/{name}"
+    else:
+        return name
+
+
 KEYWORDS = ["iPhone", "iPad", "AirTag", "Apple Pencil", "MacBook"]
 
 
 def generate_tab_or_table(
     headers, rows, generate_everycase, file_name_without_extension
 ):
+    """table generation for level one docs + call to generate SKU docs using table data"""
     table = []
 
     if any(keyword in headers[0].strip() for keyword in KEYWORDS):
         table.append(
-            f"| {headers[1]} | {headers[0]} | Tap for more: |"
+            # f"| {headers[1]} | {headers[0]} | Tap for more: |"
+            f"| Color | SKU | Tap for more: |"
         )  # "for iPhone..." could be done here
         heading = headers[1]
     else:
-        table.append(f"| {headers[0]} | {headers[1]} | Tap for more: |")
+        # table.append(f"| {headers[0]} | {headers[1]} | Tap for more: |")
+        table.append(f"| Color | SKU | Tap for more: |")
         heading = headers[0]
 
     table.append("| --- | --- | --- |")
 
     # <a href="linkURL" target="_blank" rel="noopener noreferrer">![alt text](imageURL)</a>
+    # <img src="/everypreview/" alt=""/
 
     for row in rows:
         first_col = row[0]
         cell_content = row[1]
         new_cell = f"{cell_content[:5]}<wbr/>{cell_content[5:]}"
-        image_cell = f'<a href="/{file_name_without_extension}/{cell_content[:5]}" target="_blank">![{first_col} {heading}](/everypreview/{get_extended_sku(cell_content[:5])}.webp)</a>'
+        # image_cell = f'<a href="/{file_name_without_extension}/{cell_content[:5]}" target="_blank">![{first_col} {heading}](/everypreview/{get_extended_sku(cell_content[:5])}.webp)</a>'
+        image_cell = f'<a href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}" target="_blank"><img src="/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></a>'
+
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
         if generate_everycase:
-            directory = f"pages/{file_name_without_extension}"
+            directory = f"pages/{get_mapped_name(file_name_without_extension)}"
             write_meta_to_file(directory)
 
             # Create directory if it doesn't exist
@@ -168,6 +233,7 @@ def generate_tab_or_table(
 def convert_table_to_tabs(
     table_content, file_name_without_extension, generate_everycase=True
 ):
+    """receives table, returns tables in tabs"""
     lines = table_content.strip().split("\n")
 
     headers = [h.strip() for h in lines[0].split("|")[1:-1]]
@@ -251,13 +317,14 @@ def process_single_file(file_info):
     root, file, generate_mdx, generate_everycase = file_info
     if file.endswith(".md"):
         input_filename = os.path.join(root, file)
-        output_filename = os.path.join("pages", file + "x")
+        output_filename = os.path.join("pages", get_mapped_name(file[:-3]) + ".mdx")
         convert_and_save_to_mdx(
             input_filename, output_filename, generate_mdx, generate_everycase
         )
 
 
 def replace_mdx_content(filename):
+    """mash Split Tables into tabs"""
     with open(filename, "r") as file:
         content = file.read()
 
