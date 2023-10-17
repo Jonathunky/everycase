@@ -199,7 +199,8 @@ def generate_tab_or_table(
         if get_mapped_name(file_name_without_extension).find("ancient"):
             image_cell = f'<Link href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}"><img src="https://cloudfront.everycase.org/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></Link>'
         else:
-            image_cell = f'<Link href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}"><img src="https://gcore.everycase.org/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></Link>'
+            image_cell = f'<Link href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}"><img src="https://cloudfront.everycase.org/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></Link>'
+            # image_cell = f'<Link href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}"><img src="https://gcore.everycase.org/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></Link>'
 
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
