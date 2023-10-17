@@ -92,23 +92,8 @@ td:nth-child(3) {
     font-family: 'Tofino Variable';
     src: url('/fonts/TofinoVariable.woff2') format('woff2-variations');
 
-    /* Axes Declarations */
     font-weight: 100 900;
-    /* Weight axis ranges from 100 to 900 */
     font-stretch: 50% 125%;
-    /* Width axis ranges from 50% (condensed) to 125% (expanded) */
-    font-style: oblique 0deg 1deg;
-    /* Italic axis is represented with oblique here, ranging from 0deg (no slant) to 1deg (full italic) */
-
-    font-display: swap;
-    /* Optional, but recommended for performance */
-}
-
-
-@font-face {
-    font-family: 'Tofino Text';
-    src: url('/fonts/TofinoTextVar.woff2') format('woff2-variations');
-    font-weight: 300 700;
     font-style: oblique 0deg 1deg;
     /* Italic axis is represented with oblique here, ranging from 0deg (no slant) to 1deg (full italic) */
     font-display: swap;
@@ -117,19 +102,22 @@ td:nth-child(3) {
 @font-face {
     font-family: 'Quicksand';
     src: url('/fonts/Quicksand.woff2') format('woff2-variations');
-    font-weight: 300 700;
     font-display: swap;
 }
 
 body {
     font-family: 'Tofino Variable', system-ui;
-    /* sans-serif; */
     font-stretch: 101%;
-    /* Less than normal width */
     font-weight: 320;
-    /* Regular weight as an example */
     font-display: swap;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
 
 .footnotes::before {
     margin-top: 10rem;
@@ -141,7 +129,7 @@ body {
 
 .image-container {
     display: inline-block;
-    /* or block, depending on your layout needs */
+    /* or block? */
     position: relative;
     margin: 1rem 0;
 }
@@ -152,31 +140,4 @@ body {
     text-align: center;
     color: #666;
     margin-top: 0.5rem;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    /* Adjust the gap between images as needed */
-}
-
-.video-container {
-    position: relative;
-    width: 100%;
-    min-width: 100px;
-    max-width: 500px;
-}
-
-.video-ratio {
-    width: 100%;
-    height: auto;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }

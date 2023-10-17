@@ -26,6 +26,10 @@ const logo = (
 );
 
 const config: DocsThemeConfig = {
+  i18n: [
+    // { locale: 'en-GB', text: 'English' },
+    // { locale: 'ar-SA', text: 'العربية', direction: 'rtl' }
+  ],
   project: {
     // GitHub link; will spawn it in the title bar
     // link: 'https://github.com/JonathanX64/everyfruitcase',
@@ -100,6 +104,7 @@ const config: DocsThemeConfig = {
 
     return (
       <>
+        <link rel="preload” href=”/fonts/TofinoVariable.woff2" as="font” type=”font/woff2" />
         {/* Basic Information */}
         <link rel="icon" href="/icons/android-chrome-512x512.png" type="image/png" sizes="512x512" />
         <link rel="manifest" href="/manifest.json" />
