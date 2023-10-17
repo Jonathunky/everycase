@@ -34,8 +34,8 @@ def generate_jsx(filenames):
     image_entries = ",\n      ".join(
         [
             f"""{{
-        original: "/everysource/{filename}.webp",
-        thumbnail: "/everypreview/{filename}.webp",
+        original: "https://cloudfront.everycase.org/everysource/{filename}.webp",
+        thumbnail: "https://cloudfront.everycase.org/everypreview/{filename}.webp",
       }}"""
             for filename in filenames
         ]
@@ -62,6 +62,8 @@ def grep_sku_from_folder(sku, folder_path):
     for item in folder_contents:
         if sku in item:
             matches.append(item.rsplit(".", 1)[0].strip())
+
+    matches = sorted(matches)
 
     return matches
 
@@ -114,7 +116,7 @@ def write_meta_to_file(folder_path):
                 "breadcrumb": True,
                 "typesetting": "article",
                 "footer": False,
-                "sidebar": False,
+                "sidebar": True,
                 "layout": "full",
             },
             "display": "hidden",
@@ -194,7 +196,10 @@ def generate_tab_or_table(
         cell_content = row[1]
         new_cell = f"{cell_content[:5]}<wbr/>{cell_content[5:]}"
         # image_cell = f'<a href="/{file_name_without_extension}/{cell_content[:5]}" target="_blank">![{first_col} {heading}](/everypreview/{get_extended_sku(cell_content[:5])}.webp)</a>'
-        image_cell = f'<Link href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}"><img src="/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></Link>'
+        if get_mapped_name(file_name_without_extension).find("ancient"):
+            image_cell = f'<Link href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}"><img src="https://cloudfront.everycase.org/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></Link>'
+        else:
+            image_cell = f'<Link href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}"><img src="https://gcore.everycase.org/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></Link>'
 
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
