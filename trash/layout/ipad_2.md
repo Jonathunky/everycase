@@ -1,5 +1,7 @@
 # iPad Smart Cover
 
+TODO mash together
+
 Now that was some seriously revolutionary stuff.
 
 March 25th, 2011, marked the release of iPad 2, which was tremendously improved on its predecessor in every meaningful way. Among these improvements was the introduction of Smart Covers, which enabled the iPad to be put into sleep mode when the cover was closed and to wake up when the cover was opened.
@@ -69,7 +71,7 @@ A very detailed review of the Dark Grey model: https://the-gadgeteer.com/2012/06
 
 ## Pricing / Availability
 
-The iPad Smart Case was sold for \$49 — just \$10 more than Polyurethane Smart Cover, and $20 less than Leather Smart Cover.
+The iPad Smart Case was sold for \$49 — just \$10 more than Polyurethane Smart Cover, and \$20 less than Leather Smart Cover.
 
 By the year 2015, Apple continued to produce and sell the Dark Grey version, while other colour options had been phased out and were no longer available for purchase.
 

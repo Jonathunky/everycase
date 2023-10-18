@@ -1,0 +1,4 @@
+ipad_pro105
+ipad_mini4
+ipad_10
+ipad_mini6

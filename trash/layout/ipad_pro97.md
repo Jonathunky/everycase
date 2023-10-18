@@ -23,7 +23,7 @@
 | Mint          | MMG62AM/A   | MMG42AM/A     |
 | Lilac         | MMG72AM/A   | MMG52AM/A     |
 
-## Late 2016
+### Late 2016
 
 | iPad Pro 9.7″ | Smart Cover | Silicone Case |
 | ------------- | ----------- | ------------- |

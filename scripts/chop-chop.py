@@ -5,7 +5,7 @@ import multiprocessing
 from PIL import Image
 from multiprocessing import Pool, cpu_count
 
-BASE_URL_PNG = "https://store.storeimages.cdn-apple.com/8755/as-images.apple.com/is/{code}?wid=2560&hei=2560&fmt=png"
+BASE_URL_PNG = "https://store.storeimages.cdn-apple.com/8755/as-images.apple.com/is/{code}?wid=4608&hei=4608&fmt=png"
 BASE_URL_JPG = "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/{code}?wid=1024&hei=1024&fmt=jpg&qlt=95"
 
 

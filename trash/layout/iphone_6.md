@@ -61,6 +61,8 @@
 
 ### Spring 2016
 
+#### Silicone Case
+
 | Silicone Case | iPhone 6s | iPhone 6s Plus |
 | ------------- | --------- | -------------- |
 | Mint          | MM672ZM/A | MM692ZM/A      |
@@ -69,6 +71,8 @@
 | Royal Blue    | MM632ZM/A | MM6E2ZM/A      |
 | Apricot       | MM642ZM/A | MM6F2ZM/A      |
 | Yellow        | MM662ZM/A | MM6H2ZM/A      |
+
+#### Leather Case
 
 | Leather Case | iPhone 6s | iPhone 6s Plus |
 | ------------ | --------- | -------------- |

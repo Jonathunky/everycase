@@ -38,6 +38,7 @@ def generate_jsx(filenames):
         thumbnail: "https://cloudfront.everycase.org/everypreview/{filename}.webp",
       }}"""
             for filename in filenames
+            if "_cut" not in filename
         ]
     )
 
@@ -73,12 +74,19 @@ def generate_sku_file_content(
 ):
     """returns full contents of SKU.mdx files"""
     match = re.search(r"iPhone (\d+)", header)
+
     if match:
         iphone_number = int(match.group(1))
-        if iphone_number >= 12:
-            new_header = f"# {header} {head} with MagSafe - {first_col}\n\n"
+        if "Clear Case" in first_col:
+            if iphone_number >= 12:
+                new_header = f"# {header} Clear Case with MagSafe\n\n"
+            else:
+                new_header = f"# {header} Clear Case\n\n"
         else:
-            new_header = f"# {header} {head} - {first_col}\n\n"
+            if iphone_number >= 12:
+                new_header = f"# {header} {head} with MagSafe - {first_col}\n\n"
+            else:
+                new_header = f"# {header} {head} - {first_col}\n\n"
     else:
         new_header = f"# {header} {head} - {first_col}\n\n"
 
@@ -177,32 +185,36 @@ def generate_tab_or_table(
     """table generation for level one docs + call to generate SKU docs using table data"""
     table = []
 
+    with open("trash/hide_material.txt", "r") as file:
+        hide_material_list = [line.strip() for line in file.readlines()]
+
     if any(keyword in headers[0].strip() for keyword in KEYWORDS):
-        table.append(
-            # f"| {headers[1]} | {headers[0]} | Tap for more: |"
-            f"| Color | SKU | Tap for more: |"
-        )  # "for iPhone..." could be done here
-        heading = headers[1]
+        if file_name_without_extension in hide_material_list:
+            table.append(f"| {headers[1]} | SKU | Tap for more: |")
+            heading = headers[1]
+        else:
+            table.append(f"| Color | SKU | Tap for more: |")
+            heading = headers[1]
     else:
-        # table.append(f"| {headers[0]} | {headers[1]} | Tap for more: |")
-        table.append(f"| Color | SKU | Tap for more: |")
-        heading = headers[0]
+        if file_name_without_extension in hide_material_list:
+            table.append(f"| {headers[0]} | SKU | Tap for more: |")
+            heading = headers[0]
+        else:
+            table.append(f"| Color | SKU | Tap for more: |")
+            heading = headers[1]
 
     table.append("| --- | --- | --- |")
 
-    # <a href="linkURL" target="_blank" rel="noopener noreferrer">![alt text](imageURL)</a>
-    # <img src="/everypreview/" alt=""/
+    sorted_rows = sorted(rows, key=lambda x: ord(x[1][0]))
 
-    for row in rows:
+    for row in sorted_rows:
         first_col = row[0]
         cell_content = row[1]
         new_cell = f"{cell_content[:5]}<wbr/>{cell_content[5:]}"
-        # image_cell = f'<a href="/{file_name_without_extension}/{cell_content[:5]}" target="_blank">![{first_col} {heading}](/everypreview/{get_extended_sku(cell_content[:5])}.webp)</a>'
         if get_mapped_name(file_name_without_extension).find("ancient"):
             image_cell = f'<Link href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}"><img src="https://cloudfront.everycase.org/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></Link>'
         else:
             image_cell = f'<Link href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}"><img src="https://everycase.imgix.net/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></Link>'
-            # image_cell = f'<Link href="/{get_mapped_name(file_name_without_extension)}/{cell_content[:5]}"><img src="https://gcore.everycase.org/everypreview/{get_extended_sku(cell_content[:5])}.webp" alt="{first_col} {heading}"/></Link>'
 
         table.append(f"| {first_col} | {new_cell} | {image_cell} |")
 
@@ -333,44 +345,37 @@ def process_single_file(file_info):
 
 def replace_mdx_content(filename):
     """mash Split Tables into tabs"""
+
     with open(filename, "r") as file:
         content = file.read()
 
-        # Check if the patterns are present
-        if (
-            "SPLIT_TABLE_1" in content
-            and "SPLIT_TABLE_2" in content
-            and "SPLIT_TABLE_END" in content
-        ):
-            # Extract the blocks of content
-            split_table_1_content = re.search(
-                'SPLIT_TABLE_1 = "(.*?)"\n\n(.*?)\n\nSPLIT_TABLE_2', content, re.DOTALL
-            ).group(2)
-            split_table_2_content = re.search(
-                'SPLIT_TABLE_2 = "(.*?)"\n\n(.*?)\n\nSPLIT_TABLE_END',
-                content,
-                re.DOTALL,
-            ).group(2)
-            table_1_title = re.search('SPLIT_TABLE_1 = "(.*?)"', content).group(1)
-            table_2_title = re.search('SPLIT_TABLE_2 = "(.*?)"', content).group(1)
+    def replace_single_mdx(match_obj):
+        # Extract the blocks of content
+        split_table_1_content = match_obj.group(2)
+        split_table_2_content = match_obj.group(4)
+        table_1_title = match_obj.group(1)
+        table_2_title = match_obj.group(3)
 
-            new_content = f"""<Tabs items={{['{table_1_title}', '{table_2_title}']}}>
-              <Tabs.Tab>
-            {split_table_1_content}
-            </Tabs.Tab>
-              <Tabs.Tab>
-            {split_table_2_content}
-            </Tabs.Tab>
-            </Tabs>"""
+        return f"""<Tabs items={{['{table_1_title}', '{table_2_title}']}}>
+  <Tabs.Tab>
+{split_table_1_content}
+  </Tabs.Tab>
+  <Tabs.Tab>
+{split_table_2_content}
+  </Tabs.Tab>
+</Tabs>"""
 
-            # Replace the old block with the new Tabs syntax
-            content = re.sub(
-                "SPLIT_TABLE_1.*?SPLIT_TABLE_END", new_content, content, flags=re.DOTALL
-            )
+    # Using a regex to extract and replace split tables
+    content = re.sub(
+        r'SPLIT_TABLE_1 = "(.*?)"\n\n(.*?)\n\nSPLIT_TABLE_2 = "(.*?)"\n\n(.*?)\n\nSPLIT_TABLE_END',
+        replace_single_mdx,
+        content,
+        flags=re.DOTALL,
+    )
 
-            # Save the changes
-            with open(filename, "w") as file:
-                file.write(content)
+    # Save the changes
+    with open(filename, "w") as file:
+        file.write(content)
 
 
 def process_directory(directory_path, generate_mdx=True, generate_everycase=True):

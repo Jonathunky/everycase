@@ -1,11 +1,12 @@
-## Collections
-
-### Late 2018
+## Smart Keyboard Folio
 
 | Keyboard Folio | iPad Pro 11″ 1st gen | iPad Pro 12.9″ 3rd gen |
-| ——————— | —————————— | ——————————— |
+| -------------- | -------------------- | ---------------------- |
 | Black          | MU8G2ZM/A            | MU8H2ZM/A              |
 
+## Smart Folio
+
+### Late 2018
 
 | Smart Folio   | iPad Pro 11″ 1st gen | iPad Pro 12.9″ 3rd gen |
 | ------------- | -------------------- | ---------------------- |
@@ -13,7 +14,7 @@
 | Pink Sand     | MRX92ZM/A            | MVQN2ZM/A              |
 | White         | MRX82ZM/A            | MRXE2ZM/A              |
 
-12.9″ Pink Sand came as part of the Spring 2019 drop
+12.9″ Pink Sand came later, as part of the Spring 2019 drop
 
 ### Late 2019
 
@@ -48,8 +49,8 @@
 
 ### Late 2022
 
+This color was discontinued rather quickly, making this Smart Folio relatively rare.
+
 | Smart Folio  | iPad Air 5 |
 | ------------ | ---------- |
 | Cyprus Green | MH083ZM/A  |
-
-Very rare?? Quickly discontinued?

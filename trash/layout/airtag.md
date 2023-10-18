@@ -1,8 +1,8 @@
 ## Collections
 
-### Spring 2021
+### Silicone & Leather Loops — Spring 2021
 
-#### Silicone Loop
+SPLIT_TABLE_1 = "Silicone Loop"
 
 | AirTag          | Silicone Loop |
 | --------------- | ------------- |
@@ -12,17 +12,31 @@
 | White           | MX4F2ZM/A     |
 | Pink Citrus     | MLYY3ZM/A     |
 
-#### Leather Accessories
+SPLIT_TABLE_2 = "Leather Loop"
 
-| AirTag           | Leather Key Ring | Leather Loop |
-| ---------------- | ---------------- | ------------ |
-| (PRODUCT)RED     | MK103ZM/A        | MK0V3ZM/A    |
-| Forest Green     | MM073ZM/A        | MM013ZM/A    |
-| California Poppy | MM083ZM/A        | MM023ZM/A    |
-| Baltic Blue      | MHJ23ZM/A        | MM043ZM/A    |
-| Saddle Brown     | MX4M2ZM/A        | MX4A2ZM/A    |
+| AirTag           | Leather Loop |
+| ---------------- | ------------ |
+| (PRODUCT)RED     | MK0V3ZM/A    |
+| Forest Green     | MM013ZM/A    |
+| California Poppy | MM023ZM/A    |
+| Baltic Blue      | MM043ZM/A    |
+| Saddle Brown     | MX4A2ZM/A    |
 
-### Late 2021
+SPLIT_TABLE_END
+
+### Leather Key Ring
+
+SPLIT_TABLE_1 = "Spring 2021"
+
+| AirTag           | Leather Key Ring |
+| ---------------- | ---------------- |
+| (PRODUCT)RED     | MK103ZM/A        |
+| Forest Green     | MM073ZM/A        |
+| California Poppy | MM083ZM/A        |
+| Baltic Blue      | MHJ23ZM/A        |
+| Saddle Brown     | MX4M2ZM/A        |
+
+SPLIT_TABLE_2 = "Late 2021"
 
 | AirTag       | Leather Key Ring |
 | ------------ | ---------------- |
@@ -30,7 +44,9 @@
 | Golden Brown | MMFA3ZM/A        |
 | Wisteria     | MMFC3ZM/A        |
 
-### Late 2023
+SPLIT_TABLE_END
+
+### FineWoven Key Ring — Late 2023
 
 | AirTag       | FineWoven Key Ring |
 | ------------ | ------------------ |

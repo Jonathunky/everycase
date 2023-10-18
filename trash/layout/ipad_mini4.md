@@ -35,28 +35,30 @@
 | Pink Sand   | MNN32ZM/A   | MNND2ZM/A     |
 | Cocoa       | MNN52ZM/A   | MNNE2ZM/A     |
 
-### Spring 2019
+### Smart Cover
+
+#### Spring 2019
 
 | iPad mini     | Smart Cover |
 | ------------- | ----------- |
-| White         | MVQE2ZM/A   |
 | Charcoal Gray | MVQD2ZM/A   |
-| Papaya        | MVQG2ZM/A   |
+| White         | MVQE2ZM/A   |
 | Pink Sand     | MVQF2ZM/A   |
+| Papaya        | MVQG2ZM/A   |
 
-### Summer 2019
+#### Summer 2019
 
 | iPad mini  | Smart Cover |
 | ---------- | ----------- |
 | Cornflower | MWV02ZM/A   |
 
-### Late 2019
+#### Late 2019
 
 | iPad mini    | Smart Cover |
 | ------------ | ----------- |
 | Alaskan Blue | MX4T2ZM/A   |
 
-### Spring 2020
+#### Spring 2020
 
 | iPad mini | Smart Cover |
 | --------- | ----------- |
@@ -64,7 +66,7 @@
 | Cactus    | MXTG2ZM/A   |
 | Surf Blue | MY1V2ZM/A   |
 
-### Late 2020
+#### Late 2020
 
 | iPad mini    | Smart Cover |
 | ------------ | ----------- |
@@ -72,7 +74,7 @@
 | Deep Navy    | MGYU3ZM/A   |
 | Pink Citrus  | MGYW3ZM/A   |
 
-### Spring 2021
+#### Spring 2021
 
 | iPad mini       | Smart Cover |
 | --------------- | ----------- |

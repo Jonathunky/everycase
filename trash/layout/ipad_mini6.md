@@ -1,6 +1,4 @@
-## Collections
-
-### Late 2021
+## Late 2021 Collection
 
 | Smart Folio      | iPad mini 6 |
 | ---------------- | ----------- |

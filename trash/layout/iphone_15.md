@@ -1,8 +1,6 @@
-## Collections
+## Late 2023 Collection
 
-### Late 2023
-
-#### Silicone Case
+### Silicone Case
 
 | Silicone Case | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Pro Max |
 | ------------- | --------- | -------------- | ------------- | ----------------- |
@@ -20,7 +18,7 @@
 | Cypress       | MT0X3ZM/A | MT183ZM/A      | MT1J3ZM/A     | MT1X3ZM/A         |
 | Winter Blue   | MT0Y3ZM/A | MT193ZM/A      | MT1L3ZM/A     | MT1Y3ZM/A         |
 
-#### FineWoven Case
+### FineWoven Case
 
 | FineWoven Case | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Pro Max |
 | -------------- | --------- | -------------- | ------------- | ----------------- |
@@ -30,7 +28,7 @@
 | Pacific Blue   | MT3G3ZM/A | MT4D3ZM/A      | MT4Q3ZM/A     | MT4Y3ZM/A         |
 | Evergreen      | MT3J3ZM/A | MT4F3ZM/A      | MT4U3ZM/A     | MT503ZM/A         |
 
-#### Clear Case
+### Clear Case
 
 |            | iPhone 15 | iPhone 15 Plus | iPhone 15 Pro | iPhone 15 Pro Max |
 | ---------- | --------- | -------------- | ------------- | ----------------- |

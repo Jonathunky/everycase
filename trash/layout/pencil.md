@@ -1,15 +1,20 @@
-## Apple Pencil part numbers
+## Apple Pencil models
 
-| Item                          | Order number |
-| ----------------------------- | ------------ |
-| Apple Pencil                  | MK0C2AM/A    |
-| Apple Pencil 2                | MU8F2AM/A    |
-| Apple Pencil Tips — 4 pack    | MLUN2AM/A    |
-| USB-C to Apple Pencil Adapter | MQLU3AM/A    |
+<div class="no-style-marker"></div>
 
-## Apple Pencil Case part numbers // WWDC 2017
+| Item                          | SKU                                                        | Price |
+| ----------------------------- | ---------------------------------------------------------- | ----- |
+| Apple Pencil 2                | [MU8F2AM/A](https://www.apple.com/shop/product/MU8F2AM/A/) | \$129 |
+| Apple Pencil                  | [MK0C2AM/A](https://www.apple.com/shop/product/MK0C2AM/A/) | \$99  |
+| Apple Pencil (USB-C)          | [MUWA3AM/A](https://www.apple.com/shop/product/MUWA3AM/A/) | \$79  |
+| Apple Pencil Tips — 4 pack    | [MLUN2AM/A](https://www.apple.com/shop/product/MLUN2AM/A/) | \$19  |
+| USB-C to Apple Pencil Adapter | [MQLU3AM/A](https://www.apple.com/shop/product/MUWA3AM/A/) | \$9   |
+
+## Apple Pencil Case — Collections
 
 ![Image](/assets/2017-pencil.jpg)
+
+### WWDC 2017
 
 | Apple Pencil  | Leather Case |
 | ------------- | ------------ |
@@ -18,14 +23,14 @@
 | Midnight Blue | MQ0W2ZM/A    |
 | Black         | MQ0X2ZM/A    |
 
-## Part numbers // Late 2017 drop
+### Late 2017
 
 | Apple Pencil | Leather Case |
 | ------------ | ------------ |
 | Red          | MR552FE/A    |
 | Fuchsia      | MR582FE/A    |
 
-## Part numbers // Spring 2018
+### Spring 2018
 
 | Apple Pencil  | Leather Case |
 | ------------- | ------------ |

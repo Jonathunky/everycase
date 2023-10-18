@@ -76,6 +76,8 @@
 
 ### Summer 2020
 
+#### Silicone Case
+
 | Silicone Case | iPhone 11 Pro Max | iPhone 11 Pro |
 | ------------- | ----------------- | ------------- |
 | Seafoam       | MY102ZM/A         | MY152ZM/A     |

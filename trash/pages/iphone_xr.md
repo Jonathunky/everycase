@@ -16,4 +16,4 @@ It was also used by technicians to repair charging boards on MacBooks. Please su
 
 Cases made for iPhone XR are exclusive to iPhone XR.
 
-Cases for iPhone 11 can be used with both iPhone 11 and iPhone XR, though they will look weird on XR because of the different camera cutouts.
+Cases designed for the iPhone 11 are compatible with both the iPhone 11 and iPhone XR. However, due to the differences in camera cutouts, they might look a bit odd on the XR.

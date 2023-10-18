@@ -1,15 +1,15 @@
 ## Collections
 
-### Late 2012
+### Late 2012 — Smart Cover
 
 | iPad mini  | Smart Cover |
 | ---------- | ----------- |
-| Blue       | MD970LL/A   |
+| Red        | MD828LL/A   |
 | Dark Gray  | MD963LL/A   |
-| Green      | MD969LL/A   |
 | Light Gray | MD967LL/A   |
 | Pink       | MD968LL/A   |
-| Red        | MD828LL/A   |
+| Green      | MD969LL/A   |
+| Blue       | MD970LL/A   |
 
 ### Late 2013
 
@@ -39,20 +39,26 @@ SPLIT_TABLE_END
 
 ### Late 2014
 
+SPLIT_TABLE_1 = "Smart Cover"
+
 | Smart Cover  | iPad mini |
 | ------------ | --------- |
 | Black        | MGNC2ZM/A |
-| Green        | MGNQ2ZM/A |
-| Yellow       | MGNT2ZM/A |
 | White        | MGNK2ZM/A |
 | (PRODUCT)RED | MGNL2ZM/A |
 | Blue         | MGNM2ZM/A |
 | Pink         | MGNN2ZM/A |
+| Green        | MGNQ2ZM/A |
+| Yellow       | MGNT2ZM/A |
+
+SPLIT_TABLE_2 = "Smart Case"
 
 | Smart Case    | iPad mini |
 | ------------- | --------- |
-| Black         | MGN62ZM/A |
-| Olive Brown   | MGMN2ZM/A |
 | Soft Pink     | MGN32ZM/A |
+| Black         | MGN62ZM/A |
 | (PRODUCT)RED  | MGND2ZM/A |
+| Olive Brown   | MGMN2ZM/A |
 | Midnight Blue | MGMW2ZM/A |
+
+SPLIT_TABLE_END

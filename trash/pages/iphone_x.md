@@ -1,7 +1,7 @@
 # iPhone X & XS cases
 
-2017 marked...
+Contents under ~~pressure~~ development…
 
-## Pricing & Compatibility
+## Compatibility
 
-These accessories are only compatible with iPhone X and XS. Even though camera bump on XS is slightly bigger by a millimeter or two, vast majority of iPhone X cases fit XS, and vice versa.
+These accessories are only compatible with iPhone X and XS. Even though camera bump on XS is slightly bigger by a millimetre or two, it fits if you are brave enough.

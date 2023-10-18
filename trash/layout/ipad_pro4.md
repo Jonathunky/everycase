@@ -1,4 +1,4 @@
-## Collections
+## Keyboards
 
 ### Smart Keyboard Folio
 
@@ -12,18 +12,24 @@ SPLIT_TABLE_1 = "iPad 10.9″ / 11″"
 
 | Magic Keyboard | iPad 10.9″ / 11″ |
 | -------------- | ---------------- |
-| Black          | MXQT2LL/A        |
 | White          | MJQJ3LL/A        |
+| Black          | MXQT2LL/A        |
 
 SPLIT_TABLE_2 = "iPad Pro 12.9″"
 
-| Magic Keyboard               | iPad Pro 12.9″ |
-| ---------------------------- | -------------- |
-| Black - initial model        | MXQU2LL/A      |
-| White                        | MJQL3LL/A      |
-| Black - for thicker M1 model | MJQK3LL/A      |
+| Magic Keyboard  | iPad Pro 12.9″ |
+| --------------- | -------------- |
+| White           | MJQL3LL/A      |
+| Black - initial | MXQU2LL/A      |
+| Black - updated | MJQK3LL/A      |
+
+iPad Pro 12.9″ 4th gen and 5th gen are 0.5 mm thicker than the first generation, so Apple had to release an updated keyboard with slightly different dimensions.
 
 SPLIT_TABLE_END
+
+The USB-C port on iPad Magic Keyboard only transmits power, not data.
+
+## Smart Folio Collections
 
 ### Spring 2020
 

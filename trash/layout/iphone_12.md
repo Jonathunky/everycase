@@ -42,6 +42,8 @@
 
 ### Spring 2021
 
+#### Silicone Case
+
 | Silicone Case | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | ------------- | -------------- | ------------------ | ----------------- |
 | Capri Blue    | MJYU3ZM/A      | MJYY3ZM/A          | MK043ZM/A         |
@@ -49,15 +51,21 @@
 | Cantaloupe    | MJYW3ZM/A      | MK023ZM/A          | MK073ZM/A         |
 | Amethyst      | MJYX3ZM/A      | MK033ZM/A          | MK083ZM/A         |
 
+#### Leather Case
+
 | Leather Case | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | ------------ | -------------- | ------------------ | ----------------- |
 | Deep Violet  | MJYQ3ZM/A      | MJYR3ZM/A          | MJYT3ZM/A         |
+
+#### Leather Sleeve
 
 | Leather Sleeve | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | -------------- | -------------- | ------------------ | ----------------- |
 | Deep Violet    | MK093ZM/A      | MK0A3ZM/A          | MK0D3ZM/A         |
 
 ### Summer 2021
+
+#### Silicone Case
 
 | Silicone Case   | iPhone 12 mini | iPhone 12 & 12 Pro | iPhone 12 Pro Max |
 | --------------- | -------------- | ------------------ | ----------------- |

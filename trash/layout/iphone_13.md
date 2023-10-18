@@ -33,6 +33,8 @@
 
 ### Spring 2022
 
+#### Silicone Case
+
 | Silicone Case | iPhone 13 mini | iPhone 13 Pro | iPhone 13 | iPhone 13 Pro Max |
 | ------------- | -------------- | ------------- | --------- | ----------------- |
 | Blue Fog      | MN5W3ZM/A      | MN653ZM/A     | MN613ZM/A | MN693ZM/A         |

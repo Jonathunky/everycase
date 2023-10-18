@@ -161,6 +161,8 @@ Pink Sand released as part of Spring 2019 drop
 
 ### WWDC 2019
 
+#### Silicone Case
+
 | Silicone Case | iPhone XS | iPhone XS Max |
 | ------------- | --------- | ------------- |
 | Cornflower    | MW982ZM/A | MW952ZM/A     |
