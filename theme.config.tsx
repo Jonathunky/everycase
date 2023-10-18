@@ -75,10 +75,8 @@ const config: DocsThemeConfig = {
     const titleTemplate = asPath !== "/" ? "%s – EveryCase" : "EveryCase";
     return {
       titleTemplate,
-      noindex: true,
-      nofollow: true,
-      dangerouslySetAllPagesToNoFollow: true,
-      dangerouslySetAllPagesToNoIndex: true
+      noindex: false,
+      nofollow: false
     };
   },
   toc: {

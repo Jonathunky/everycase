@@ -1,13 +1,11 @@
-# The site is under construction. It's ~75% ready. Stay tuned!
+# Hello there!
 
-## Hello there!
+You may have heard about [EveryMac](https://everymac.com/), the old-school yet functional catalogue of Apple devices, complete with specs, order numbers, and more. You may have also used [Bandbreite](https://bandbreite.watch/), a sleek and modern app for collecting Apple Watch bands.
 
-So you may have heard about [EveryMac](https://everymac.com/), the old-school yet functional catalogue of Apple devices, complete with specs, order numbers, and more. You may have also used [Bandbreite](https://bandbreite.watch/), a sleek and modern app for collecting Apple Watch bands.
+And you might have wondered: shouldn't there be at least one resource dedicated to device cases manufactured by Apple? Describing that [Pink Citrus Leather Sleeve](latest-iphone/iphone_12#leather-sleeve) you slide your iPhone 12 mini into every day?
 
-And you kept wondering: shouldn't there be at least one resource dedicated to device cases manufactured by Apple? About that [Pink Citrus Leather Sleeve](iphone_12#Late_2020) you slide your iPhone 12 mini into every day?
+Perhaps a website designed for people who have never lost a thing in their lives yet still bought an AirTag 4-pack with a bunch of [Loops](others/airtag) just to show off their love for California Poppy? For people who know that Apple is primarily a fashion house and only secondly a tech company?
 
-A website designed for people who have never lost a thing in their life yet still bought an [AirTag 4-pack](airtag#Late_2021) with a bunch of accessories just to show off their love for Wisteria?
+I wondered too. Then I've decided to never wonder again and to build such a website; problem solved!
 
-Here's the thing: Apple is primarily a fashion house, and secondly a tech company. So yeah, I kept wondering, too. Then I've decided to never wonder again and to build such a website. The problem is solved now.
-
-Welcome!
+Welcome (:
