@@ -30,7 +30,8 @@ export default async function Page(props) {
   return (
     <Wrapper toc={toc} metadata={metadata}>
       {/* Output the URL path as the title */}
-      <h1>{`/case/${params.model}`}</h1>
+      <h1 className="_mt-2 _text-4xl _font-bold _tracking-tight _text-slate-900 dark:_text-slate-100">{`/case/${params.model}`}</h1>
+      # this should be the title
     </Wrapper>
   );
 }
