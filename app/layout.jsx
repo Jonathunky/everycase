@@ -3,8 +3,21 @@ import { Banner, Head } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
 import { Quicksand } from "next/font/google";
 import "nextra-theme-docs/style.css";
+import "./globals.css";
+import localFont from "next/font/local";
 
 const quicksand = Quicksand({ subsets: ["latin"], weight: ["300", "400"] });
+const tofino = localFont({
+  src: [
+    {
+      path: "../public/fonts/TofinoVariable.woff2",
+      weight: "100 800",
+      style: "oblique 0deg 1deg",
+    },
+  ],
+  display: "swap",
+  variable: "--font-tofino", // Define a custom CSS variable for easy usage
+});
 
 const logo = (
   <>
@@ -116,7 +129,7 @@ export default async function RootLayout({ children }) {
         {/* Your additional tags should be passed as `children` of `<Head>` element */}
       </Head>
 
-      <body>
+      <body className={tofino.className}>
         <Layout
           //banner={banner}
           navbar={navbar}

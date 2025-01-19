@@ -34,4 +34,8 @@ export default {
     title: "Leave your mark ♥",
     type: "page",
   },
+  case: {
+    title: "case",
+    display: "hidden",
+  },
 };
